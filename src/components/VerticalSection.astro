@@ -1,0 +1,18 @@
+---
+interface Props {
+	leftContent: any;
+	rightContent: any;
+}
+
+const { leftContent ,rightContent} = Astro.props;
+---
+
+
+<section class="flex flex-col md:flex-row">
+    <div class="md:w-1/2 p-4">
+      {leftContent}
+    </div>
+    <div class="md:w-1/2 p-4">
+      {rightContent}
+    </div>
+</section>

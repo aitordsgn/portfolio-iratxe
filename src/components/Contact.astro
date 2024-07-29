@@ -1,0 +1,68 @@
+<style>
+    .bg-custom-image {
+        background-image: url('https://iratxeconde.wordpress.com/wp-content/uploads/2021/04/pexels-photo-2693212.jpg?w=1024&h=768');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+</style>
+ 
+<section class="relative bg-custom-image py-8">
+    <!-- Superposición oscura -->
+    <div class="absolute inset-0 bg-black opacity-25"></div>
+    
+    <div class="relative container mx-auto flex flex-col md:flex-row justify-between items-start px-4 md:px-0">
+        <!-- Lado Izquierdo -->
+        <div class="md:w-1/2 pr-4 text-center md:text-left">
+            <div class="text-lg font-semibold text-white mb-4">
+                ¿Hablamos?
+            </div>
+            <p class="text-white mb-4">
+                No dudes en ponerte en contacto conmigo mediante el siguiente formulario o enviándome un mensaje directamente al email. A continuación también puedes encontrar mis redes sociales.
+            </p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://www.instagram.com/iratxe_design/" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
+                    <img src="../../src/icons/instagram.svg" alt="Instagram logo" class="size-6 fill-background">
+                </a>
+                <a href="https://www.linkedin.com/in/iratxeconde" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
+                    <img src="../../src/icons/Linkedin.svg" alt="Linkedin logo" class="size-6 fill-background">
+                </a>
+                <a href="https://www.behance.net/iratxeconde" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
+                    <img src="../../src/icons/behance.svg" alt="Behance logo" class="size-6 fill-background">
+                </a>
+                <a href="mailto:iratxedesign@gmail.com" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
+                    <img src="../../src/icons/mail.svg" alt="Email connection" class="size-6 fill-background">
+                </a>
+            </div>
+        </div>
+        <!-- Lado Derecho -->
+        <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center w-full">
+            <form class="space-y-4 w-full max-w-md">
+                <div>
+                    <label for="nombre" class="block text-white font-bold">Nombre <span class="font-thin">(obligatorio)</span></label>
+                    <input type="text" id="nombre" name="nombre" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce tu nombre" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-white font-bold">Email <span class="font-thin">(obligatorio)</span></label>
+                    <input type="email" id="email" name="email" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce tu email" required>
+                </div>
+                <div>
+                    <label for="telefono" class="block text-white font-bold">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce tu teléfono">
+                </div>
+                <div>
+                    <label for="asunto" class="block text-white font-bold">Asunto <span class="font-thin">(obligatorio)</span></label>
+                    <input type="text" id="asunto" name="asunto" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce el asunto" required>
+                </div>
+                <div>
+                    <label for="mensaje" class="block text-white font-bold">Mensaje <span class="font-thin">(obligatorio)</span></label>
+                    <textarea id="mensaje" name="mensaje" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" rows="5" placeholder="Introduce tu mensaje" required></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="bg-primary px-4 py-2 rounded w-[50%]">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

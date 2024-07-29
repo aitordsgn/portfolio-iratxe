@@ -1,0 +1,20 @@
+---
+// Supports weights 100-900
+import Layout from '../layouts/Layout.astro';
+import Heading from '../components/Heading.astro';
+
+
+
+const {frontmatter} = Astro.props;
+console.log(frontmatter);
+
+const {title,description,date,category,author,image} = frontmatter;
+---
+
+<Layout {title} {description} >
+	<header>
+		<Heading title={frontmatter.title}>
+	</header>
+	
+</Layout>
+
