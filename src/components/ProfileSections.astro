@@ -1,0 +1,47 @@
+---
+import profileData from "@/IratxeCV.json"
+
+const { skills, tools, certificates, languages } = profileData
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-4">
+  <div class="p-4 flex flex-col items-center">
+    <h3 class="text-xl font-bold mb-2 mx-auto">Aptitudes y Habilidades</h3>
+    <ul class="list-disc list-inside">
+      {skills.map(skill => (
+        <li>{skill}</li>
+      ))}
+    </ul>
+  </div>
+  
+  <div class="p-4 flex flex-col items-center">
+    <h3 class="text-xl font-bold mb-2 mx-auto">Herramientas</h3>
+    <ul class="list-disc list-inside">
+      {tools.map(tool => (
+        <li>{tool}</li>
+      ))}
+    </ul>
+  </div>
+  
+  <div class="p-4 flex flex-col items-center">
+    <h3 class="text-xl font-bold mb-2 mx-auto">Certificados</h3>
+    <ul class="list-disc list-inside">
+      {certificates.map(cert => (
+        <li>
+          {cert.name} - {cert.issuer} ({new Date(cert.date).toLocaleDateString()})
+        </li>
+      ))}
+    </ul>
+  </div>
+  
+  <div class="p-4 flex flex-col items-center">
+    <h3 class="text-xl font-bold mb-2 mx-auto">Idiomas</h3>
+    <ul class="list-disc list-inside">
+      {languages.map(language => (
+        <li>
+          {language.language} - {language.fluency} {language.title && `(${language.title})`}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>

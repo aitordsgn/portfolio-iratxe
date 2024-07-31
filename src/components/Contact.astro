@@ -1,3 +1,7 @@
+---
+import SocialPills from './SocialPills.astro'
+---
+
 <style>
     .bg-custom-image {
         background-image: url('https://iratxeconde.wordpress.com/wp-content/uploads/2021/04/pexels-photo-2693212.jpg?w=1024&h=768');
@@ -21,20 +25,7 @@
             <p class="text-white mb-4">
                 No dudes en ponerte en contacto conmigo mediante el siguiente formulario o enviándome un mensaje directamente al email. A continuación también puedes encontrar mis redes sociales.
             </p>
-            <div class="flex justify-center space-x-4 mt-4">
-                <a href="https://www.instagram.com/iratxe_design/" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
-                    <img src="../../src/icons/instagram.svg" alt="Instagram logo" class="size-6 fill-background">
-                </a>
-                <a href="https://www.linkedin.com/in/iratxeconde" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
-                    <img src="../../src/icons/Linkedin.svg" alt="Linkedin logo" class="size-6 fill-background">
-                </a>
-                <a href="https://www.behance.net/iratxeconde" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
-                    <img src="../../src/icons/behance.svg" alt="Behance logo" class="size-6 fill-background">
-                </a>
-                <a href="mailto:iratxedesign@gmail.com" class="text-white bg-primary hover:bg-primaryHover focus:ring-4 rounded-full text-sm p-2" target="_blank" rel="noopener noreferrer">
-                    <img src="../../src/icons/mail.svg" alt="Email connection" class="size-6 fill-background">
-                </a>
-            </div>
+            <SocialPills/>
         </div>
         <!-- Lado Derecho -->
         <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center w-full">

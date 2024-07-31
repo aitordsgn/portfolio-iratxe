@@ -11,7 +11,7 @@ console.log(frontmatter);
 const {title,description,date,category,author,image} = frontmatter;
 ---
 
-<Layout {title}>
+<Layout {title} {description}>
 	<header>
 		<Heading title={frontmatter.title}>
 	</header>
