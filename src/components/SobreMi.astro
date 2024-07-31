@@ -5,13 +5,13 @@ import { Image } from 'astro:assets'
 
 
 <section class="to-background py-8">
-    <div class="container mx-auto flex flex-col md:flex-row items-center px-4 justify-center">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-4 justify-center md:gap-10">
         <!-- Mitad Izquierda -->
-        <div class="md:w-1/2 flex justify-center mb-8 md:mb-0  max-w-sm">
+        <div class="md:w-1/2 flex justify-center md:mb-0  max-w-sm ">
             <Image src={about} alt="Primer plano de Iratxe Conde Turón" class="rounded-full aspect-square shadow-lg object-cover" width={500} quality={"high"}>
         </div>
         <!-- Mitad Derecha -->
-        <div class="md:w-1/2 text-center md:text-left px-4 mx-[5rem]">           
+        <div class="md:w-1/2 text-center md:text-left px-2 mx-auto sm:w-full sm:px-1 sm:mx-0">           
                 <h1 class="text-primary text-3xl md:text-5xl font-bold mb-4">
                     Iratxe Conde Turón
                 </h1>
@@ -24,7 +24,7 @@ import { Image } from 'astro:assets'
                 <a href="https://www.linkedin.com/in/iratxeconde" target="_blank"
                 rel="noopener" class="bg-blue-100 hover:bg-blue-200 text-blue-800 text-xs font-semibold me-2 px-2.5 py-0.5 rounded border border-blue-400 inline-flex items-center justify-center">Disponible para trabajar</a>
 
-            <p class="text-foreground mb-4 max-w-[60ch] text-xl">
+            <p class="text-foreground mb-4 max-w-[60ch] text-xl sm:w-full">
                 Soy graduada en Publicidad y Relaciones Públicas por la UPV/EHU con Mención en Realización Multimedia. Igualmente, me he especializado en diseño gráfico a través del Máster de Diseño, Identidad Visual y Construcción de Marca en la UOC.
             </p>
             <p class="text-foreground mb-4 max-w-[60ch] text-xl">

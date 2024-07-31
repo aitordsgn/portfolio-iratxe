@@ -2,6 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import Heading from '../components/Heading.astro';
 
+import Image from 'astro/components/Image.astro';
+//Imagenes
+import camuflajedef from '@/images/camuflaje-def.png';
+import camuflajeinspo from '@/images/camuflaje-inspo.jpg';
 ---
 
 
@@ -18,16 +22,30 @@ import Heading from '../components/Heading.astro';
     //Massonry grid con imagenes
 
 
-    <two-up-element>
-        <div class="relative w-full h-64 overflow-hidden">
-          <img src="/assets/camuflaje-def-5.webp" alt="First Image" class="absolute inset-0 w-full h-full object-cover z-10" />
-          <img src="/assets/camuflaje-inspo.webp" alt="Second Image" class="absolute inset-0 w-full h-full object-cover z-20 opacity-70 mix-blend-multiply" />
+    
+    <two-up class="w-1/2 mx-auto">
+        <div class="flex-1 h-full">
+            <Image 
+                src={camuflajedef} 
+                alt="Camuflaje ilustración"
+                class="w-full h-full object-cover" 
+                format="webp" 
+                width={1000} 
+                quality={"high"}
+            />
         </div>
-    </two-up-element>
-    <two-up class="w-">
-        <img src="/imgs/camuflaje-def-5.webp"  class="w-full"/>
-        <img src="/imgs/camuflaje-inspo.webp"  class="w-full"/>
+        <div class="flex-1 h-full">
+            <Image 
+                src={camuflajeinspo} 
+                alt="Camuflaje inspiración"
+                class="w-full h-full object-cover" 
+                format="webp" 
+                width={1000} 
+                quality={"high"}
+            />
+        </div>
     </two-up>
+    
     <script type="module" src="https://unpkg.com/two-up-element"></script>
 
 </Layout>

@@ -28,7 +28,7 @@ const { skills, tools, certificates, languages } = profileData
     <ul class="list-disc list-inside">
       {certificates.map(cert => (
         <li>
-          {cert.name} - {cert.issuer} ({new Date(cert.date).toLocaleDateString()})
+          <span class="text-primary font-bold">{cert.name}</span> - <span class="italic">{cert.issuer}</span> | <span class="text-foreground opacity-50 italic">{cert.date}</span>
         </li>
       ))}
     </ul>
@@ -39,7 +39,7 @@ const { skills, tools, certificates, languages } = profileData
     <ul class="list-disc list-inside">
       {languages.map(language => (
         <li>
-          {language.language} - {language.fluency} {language.title && `(${language.title})`}
+            {language.language} - {language.fluency} <span class="text-foreground opacity-50 italic">{language.title && `(${language.title})`}</span>
         </li>
       ))}
     </ul>
