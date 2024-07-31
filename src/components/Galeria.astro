@@ -1,0 +1,43 @@
+---
+import 'photoswipe/style.css';
+
+interface ImageData {
+  src: Promise<string>;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+
+const { images } = Astro.props as { images: ImageData[] };
+---
+
+<div class="grid grid-cols-4 gap-2 mx-auto max-w-6xl" id="gallery">
+  {images.map(async (image, i: number) => {
+    const src = await image.src;
+    return (
+      <a href={src} 
+         target="_blank"
+         data-pswp-width={image.width} 
+         data-pswp-height={image.height} 
+         class="relative w-full pt-[100%] rounded-xl overflow-hidden hover:scale-105 transition-transform">
+        <Image src={src} 
+               width={image.width} 
+               height={image.height} 
+               alt={image.alt} 
+               class="absolute top-0 left-0 w-full h-full object-cover" />
+      </a>
+    );
+  })}
+</div>
+
+<script>
+  import PhotoSwipeLightbox from 'photoswipe/lightbox';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('photoswipe')
+  });
+  lightbox.init();
+</script>

@@ -1,0 +1,137 @@
+{
+    "basics": {
+      "name": "Iratxe Conde Turón",
+      "label": "Publicidad y Diseño Gráfico",
+      "email": "iratxee1219@gmail.com",
+      "phone": "+34 123 456 789",
+      "description": "Profesional en diseño gráfico y branding con experiencia en creación de contenidos digitales, marketing y comunicación. Capacitada en el uso de herramientas de diseño y marketing digital, con habilidades en la gestión de campañas y planificación de comunicación."
+    },
+    "experience": [
+      {
+        "company": "Grupo Albor Cohs (GAC)",
+        "position": "Ayudante de oficios varios",
+        "startDate": "2023-05-01",
+        "description":["Área de servicios y actividades auxiliares: ejecución de campañas de comunicación, diseño, atención a clientes y proveedores, maquetación, asistencia a profesionales…"]
+        ,
+        "link": "https://www.grupoalborcohs.com/"
+
+      },
+      {
+        "company": "Ercisa y Athletic Club",
+        "position": "Azafata de eventos",
+        "startDate": "2023-04-01",
+        "description": ["Azafata en la zona VIP de San Mamés, asesorando, ayudando e informando a los asistentes."]
+      },
+      {
+        "company": "NorayBio (Histocell)",
+        "position": "Creadora de contenidos digitales (prácticas)",
+        "startDate": "2020-02-01",
+        "endDate": "2020-05-01",
+        "description": ["Diseñar y redactar contenidos digitales para web y redes sociales","Mejorar el posicionamiento en los buscadores (SEO)."]
+        
+      },
+      {
+        "company": "Servyrest (Kirikiño Ikastola)",
+        "position": "Profesora de baile moderno",
+        "startDate": "2015-09-01",
+        "endDate": "2017-06-01",
+        "description":["Crear y enseñar coreografías a niños/as de Educación Primaria en Kirikiño Ikastola.","Acompañar a los/as alumnos/as en las exhibiciones de baile."]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Universitat Oberta de Catalunya (UOC)",
+        "area": "Diseño, Identidad Visual y Construcción de Marca",
+        "degree": "Máster",
+        "startDate": "2021-01-01",
+        "endDate": "2023-12-31",
+        "courses": [
+          "Diseño gráfico y branding: identidad visual, packaging, diseño publicitario, animación, branding sonoro, diseño ux/ui, estrategia y conceptualización de marcas…"
+        ]
+      },
+      {
+        "institution": "Universidad del País Vasco (UPV/EHU)",
+        "area": "Publicidad y Relaciones Públicas",
+        "degree": "Grado",
+        "startDate": "2016-01-01",
+        "endDate": "2020-12-31",
+        "courses": [
+          "Mención en Realización Multimedia en Publicidad",
+          "TFG: Plan de Comunicación de Dukier (marca de accesorios para mascotas)"
+        ]
+      }
+    ],
+    "skills": [
+        "Diseño gráfico y creación de contenidos.",
+        "Especialidad en branding y publicidad.",
+        "Conocimiento en marketing digital y redes sociales.",
+        "Planes de comunicación."
+    ],
+    "tools": [
+        "Adobe: Illustrator, Photoshop, InDesign, Premiere Pro, After Effects.",
+        "Office 365: Word, Power Point, Excel…",
+        "Otros: Canva, WordPress, Mailchimp, Figma."
+    ],
+    "certificates": [
+      {
+        "name": "Creación de Campañas de Publicidad en RRSS",
+        "issuer": "Formación Al Cuadrado",
+        "date": "2023-01-01"
+      },
+      {
+        "name": "Email Marketing con Mailchimp",
+        "issuer": "Fundación EDE",
+        "date": "2022-01-01"
+      },
+      {
+        "name": "Introducción al Community Management",
+        "issuer": "Domestika",
+        "date": "2022-01-01"
+      },
+      {
+        "name": "Marketing de Contenidos para Redes Sociales",
+        "issuer": "Domestika",
+        "date": "2021-01-01"
+      },
+      {
+        "name": "Fundamentos de Marketing Digital",
+        "issuer": "Google Actívate",
+        "date": "2021-01-01"
+      },
+      {
+        "name": "Marketing Cultural",
+        "issuer": "Formación Al Cuadrado",
+        "date": "2020-01-01"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Castellano",
+        "fluency": "Nativo"
+      },
+      {
+        "language": "Euskera",
+        "fluency": "Nativo",
+        "title":"EGA – C1."
+      },
+      {
+        "language": "Inglés",
+        "fluency": "Nivel B2"
+      },
+      {
+        "language": "Francés",
+        "fluency": "Nivel B1",
+        "title": "DELF – B1."
+      }
+    ],
+    "awards": [],
+    "volunteer": [],
+    "projects": [],
+    "publications": [],
+    "interests": [],
+    "references": [],
+    "meta": {
+      "version": "1.0.0"
+    }
+  }
+  

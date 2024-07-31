@@ -1,10 +1,33 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Heading from '../components/Heading.astro';
+
 ---
 
 
-<Layout title="Proyectos - Iratxe Conde">
+<Layout title="Portfolio de diseño - Iratxe Conde" description=''>
     <Heading title="Proyectos"/>
-    <h2 class="relative my-8 text-primary font-bold text-4xl text-center leading-tight">Branding</h2>
+    <h2>Branding</h2>
+    // Triple columna de las marcas
+
+    <h2>Diseños e ilustraciones</h2>
+    // Grid de diseños e ilustraciones
+    <h2>Publicidad</h2>
+    // Grid de publicidad
+    <h2>Ilustraciones de retratos</h2>
+    //Massonry grid con imagenes
+
+
+    <two-up-element>
+        <div class="relative w-full h-64 overflow-hidden">
+          <img src="/assets/camuflaje-def-5.webp" alt="First Image" class="absolute inset-0 w-full h-full object-cover z-10" />
+          <img src="/assets/camuflaje-inspo.webp" alt="Second Image" class="absolute inset-0 w-full h-full object-cover z-20 opacity-70 mix-blend-multiply" />
+        </div>
+    </two-up-element>
+    <two-up class="w-">
+        <img src="/imgs/camuflaje-def-5.webp"  class="w-full"/>
+        <img src="/imgs/camuflaje-inspo.webp"  class="w-full"/>
+    </two-up>
+    <script type="module" src="https://unpkg.com/two-up-element"></script>
+
 </Layout>

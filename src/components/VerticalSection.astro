@@ -1,18 +1,17 @@
 ---
 interface Props {
-	leftContent: any;
-	rightContent: any;
+  leftContent?: any;
+  rightContent?: any;
 }
 
-const { leftContent ,rightContent} = Astro.props;
+const { leftContent, rightContent } = Astro.props as Props;
 ---
 
-
-<section class="flex flex-col md:flex-row">
-    <div class="md:w-1/2 p-4">
-      {leftContent}
-    </div>
-    <div class="md:w-1/2 p-4">
-      {rightContent}
-    </div>
+<section class="flex flex-col md:flex-row gap-2">
+  <div class="flex items-center justify-center md:w-1/2 py-4 flex-col">
+    <slot name="leftContent" />
+  </div>
+  <div class="flex items-center justify-center md:w-1/2 py-4 flex-col">
+    <slot name="rightContent" />
+  </div>
 </section>

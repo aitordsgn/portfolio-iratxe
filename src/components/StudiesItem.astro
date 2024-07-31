@@ -1,0 +1,45 @@
+---
+interface Props {
+  institution: string
+  area: string
+  degree: string
+  startDate: string
+  endDate: string
+  courses: string[]
+}
+
+const { institution, area, degree, startDate, endDate, courses } = Astro.props
+
+// Definir el texto a convertir en enlace y la URL correspondiente
+const linkText = "TFG: Plan de Comunicación de Dukier (marca de accesorios para mascotas)"
+const linkUrl = "https://addi.ehu.es/handle/10810/52070"
+---
+
+<div class="education-item relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4">
+  <div class="relative pb-12 md:col-span-2">
+    <div class="sticky top-0">
+      <span class="text-primary -left-[42px] absolute rounded-full text-5xl">&bull;</span>
+
+      <h3 class="text-xl font-bold text-primary">{degree} en {area}</h3>
+      <h4 class="font-semibold text-xl text-foreground">{institution}</h4>
+      <time class="p-0 m-0 text-sm text-gray-600/80">
+        {new Date(startDate).toLocaleDateString()} - {new Date(endDate).toLocaleDateString()}
+      </time>
+    </div>
+  </div>
+  <div class="relative flex flex-col gap-2 pb-4 text-gray-600 md:col-span-3">
+    <ul class="list-disc list-inside">
+      {courses.map(course => (
+        <li>
+          {course === linkText ? (
+            <a href={linkUrl} target="_blank" rel="noopener noreferrer" class="text-primary underline font-semibold">
+              {course}
+            </a>
+          ) : (
+            course
+          )}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>

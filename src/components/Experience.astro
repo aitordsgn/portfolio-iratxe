@@ -1,0 +1,20 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+import resume from "@/IratxeCV.json"
+
+const { experience } = resume
+---
+
+<ol class="relative mt-16">
+  {experience.map((experiencie) => (
+    <li>
+      <ExperienceItem
+        title={experiencie.position}
+        company={experiencie.company}
+        description={experiencie.description}
+        link={experiencie.link}
+        date={`${new Date(experiencie.startDate).toLocaleDateString()} - ${experiencie.endDate ? new Date(experiencie.endDate).toLocaleDateString() : 'Actualidad'}`}
+      />
+    </li>
+  ))}
+</ol>

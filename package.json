@@ -16,7 +16,11 @@
     "@fontsource/pt-sans": "^5.0.13",
     "@fontsource/source-sans-pro": "^5.0.8",
     "astro": "^4.12.2",
+    "fs-extra": "^11.2.0",
+    "photoswipe": "^5.4.4",
+    "sharp": "^0.33.4",
     "tailwindcss": "^3.4.6",
+    "two-up-element": "^1.0.1",
     "typescript": "^5.5.3"
   }
 }

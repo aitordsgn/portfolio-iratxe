@@ -1,0 +1,21 @@
+---
+import StudiesItem from "./StudiesItem.astro"
+import resume from "@/IratxeCV.json"
+
+const { education } = resume
+---
+
+<ol class="relative mt-16">
+  {education.map((edu) => (
+    <li>
+      <StudiesItem
+        institution={edu.institution}
+        area={edu.area}
+        degree={edu.degree}
+        startDate={edu.startDate}
+        endDate={edu.endDate}
+        courses={edu.courses}
+      />
+    </li>
+  ))}
+</ol>
