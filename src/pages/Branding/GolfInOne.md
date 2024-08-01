@@ -1,3 +1,15 @@
+---
+layout: ../../layouts/BlogLayout.astro
+title: 'Charlotte Tilbury – Maquillaje de lujo – Iratxe Conde'
+pubDate: 2022-07-01
+description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
+author: "Iratxe Conde Turón"
+image:
+  url: "https://docs.astro.build/assets/full-logo-light.png"
+  alt: "The Astro logo with the word One."
+titulo: 'Charlotte Tilbury - Maquillaje de lujo'
+---
+
 # Golf In One – Aplicación – Iratxe Conde
 _Juego de golf arcade para dispositivos móviles (disponible en [**Google Play**](https://play.google.com/store/apps/details?id=com.aitordsgn.GolfInOne))_.
 

@@ -7,14 +7,13 @@ author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-tags: ["astro", "blogging", "learning in public"]
+titulo: 'Charlotte Tilbury - Maquillaje de lujo'
 ---
 
-
-# Charlotte Tilbury – Maquillaje de lujo – Iratxe Conde
 _La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores._
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/mesa-de-trabajo-1-8.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/mesa-de-trabajo-1-8.png)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-77.webp "Nuevo logo de Charlotter Tilbury")]()
+
 
 **Producto:** maquillaje y cosmética natural de alta gama que busca adaptarse a las necesidades emergentes, por lo que quiere ser una marca respetuosa con el medio ambiente. Ofrece una gran variedad de productos de consumo diario, maquillaje de diversos tonos y una gama de artículos para el cuidado de la piel. Busca utilizar nuevos envases que sean más sostenibles e incorporar procesos naturales en sus artículos.
 
@@ -26,9 +25,9 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
 
 **Valores:** calidad, compromiso, cuidado, responsabilidad, innovación, lujo.
 
-##### Construcción del logotipo
+## Construcción del logotipo
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/2-e1661521729858.png?w=851)
+[![Transformación del logo Charlotte Tilbury](/imgs/img-2.webp "Transformación del logo Charlotte Tilbury")]()
 
 La identidad visual está compuesta por el nombre de la marca y por un símbolo creado a partir de líneas finas, comunicando su propósito ambienta. Era fundamental que el nuevo logotipo mantuviera el aspecto radiante y sofisticado con el que siempre se ha identificado la marca. De este modo, los consumidores la reconocerán fácilmente y percibirán que Charlotte Tilbury no solo ofrece maquillaje de alta gama, sino que también se preocupa por el medio ambiente.
 
@@ -36,15 +35,17 @@ El objetivo era transmitir sus atributos diferenciales, esencia y gran calidad, 
 
 Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logrado que la identidad visual de Charlotte Tilbury adquiera un aspecto moderno, glamuroso, exclusivo y diferencial.
 
-##### Diseño del packaging
+## Diseño del packaging
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/4.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/4.png)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-5.webp "Nuevo logo de Charlotter Tilbury")]()
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/3.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/3.png)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-6.webp "Nuevo logo de Charlotter Tilbury")]()
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/5.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/5.png)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-250.webp "Nuevo logo de Charlotter Tilbury")]()
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/fondo-simbolo.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/fondo-simbolo.png)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-22.webp "Nuevo logo de Charlotter Tilbury")]()
+
+
 
 Navegación de entradas
 ----------------------
