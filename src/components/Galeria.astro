@@ -8,7 +8,6 @@ interface ImageData {
   height: number;
 }
 
-// Define el número de columnas como un prop opcional
 interface Props {
   images: ImageData[];
   columns?: number;
@@ -17,6 +16,7 @@ interface Props {
 const { images, columns = 4 } = Astro.props as Props;
 ---
 
+<!-- Usa Grid para las columnas -->
 <div class={`grid grid-cols-${columns} gap-2 mx-auto max-w-6xl pb-10`} id="gallery">
   {images.map((image, i: number) => (
     <a href={`/imgs/${image.src}`}

@@ -1,0 +1,115 @@
+---
+import 'photoswipe/style.css';
+
+interface ImageData {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+interface Props {
+  images: ImageData[];
+  columns?: number;
+}
+
+const { images, columns = 4 } = Astro.props as Props;
+
+
+---
+<style>
+    .masonry {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        -webkit-column-gap: 0.5rem; /* Espacio entre columnas */
+        -moz-column-gap: 0.5rem; 
+        column-gap: 0.5rem; /* Espacio entre columnas */
+        padding: 0;
+        background: transparent; /* Asegúrate de que el fondo sea transparente */
+    }
+    
+    .item {
+        display: inline-block;
+        background: #fff;
+        padding: 0; /* Elimina el padding interno */
+        margin: 0 0 0.5rem; /* Ajusta el margen inferior para mantener el espaciado uniforme */
+        width: 100%;
+        box-sizing: border-box; /* Asegúrate de que el box-sizing esté correcto */
+        box-shadow: none; /* Elimina el box-shadow si no lo necesitas */
+        border: none; /* Elimina cualquier borde si es necesario */
+        border-radius: 0.75rem;
+        transition: transform 0.1s ease; /* Añade una transición suave para el efecto de escalado */
+}
+
+.item:hover {
+    transform: scale(1.05); /* Escala el elemento al 105% en hover */
+}
+    
+    .item img {
+        max-width: 100%;
+        display: block; /* Asegúrate de que las imágenes no tengan espacio alrededor */
+        margin: 0; /* Elimina el margen alrededor de la imagen */
+        padding: 0; /* Elimina el padding alrededor de la imagen */
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .masonry {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+        }
+    }
+    
+    @media only screen and (min-width: 321px) and (max-width: 768px){
+        .masonry {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+        }
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 1200px){
+        .masonry {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+        }
+    }
+    
+    @media only screen and (min-width: 1201px) {
+        .masonry {
+            -moz-column-count: 4;
+            -webkit-column-count: 4;
+            column-count: 4;
+        }
+    }
+    </style>
+    
+    
+<div id="gallery" class="masonry mx-auto max-w-6xl pb-10">
+    {images.map((image, i: number) => (
+        <a href={`/imgs/${image.src}`}
+           target="_blank"
+           data-pswp-width={image.width} 
+           data-pswp-height={image.height} 
+           class="item">
+          <img 
+            src={`/imgs/${image.src}`} 
+            alt={image.alt}
+            class="item"
+            loading="lazy" />
+        </a>
+    ))}
+</div>
+
+<script>
+  import PhotoSwipeLightbox from 'photoswipe/lightbox';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',  // Asegúrate de que el selector coincide con el ID en el HTML
+    children: 'a',
+    pswpModule: () => import('photoswipe')
+  });
+  lightbox.init();
+</script>
