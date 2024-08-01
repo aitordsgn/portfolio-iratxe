@@ -6,6 +6,20 @@ import Image from 'astro/components/Image.astro';
 //Imagenes
 import camuflajedef from '@/images/camuflaje-def.png';
 import camuflajeinspo from '@/images/camuflaje-inspo.jpg';
+import Galeria from '@/components/Galeria.astro';
+import images from '@/images.json';
+
+const Galeria1 =  [93, 94, 96];
+const Galeria2= [167, 168, 169];
+const Galeria3= [224, 225, 226, 227];
+const Galeria4= [17, 18, 19, 20];
+const Galeria5= [207];
+
+const filteredGalery1 = images.filter(image => Galeria1.includes(image.id));
+const filteredGalery2 = images.filter(image => Galeria2.includes(image.id));
+const filteredGalery3 = images.filter(image => Galeria3.includes(image.id));
+const filteredGalery4 = images.filter(image => Galeria4.includes(image.id));
+const filteredGalery5 = images.filter(image => Galeria5.includes(image.id));
 ---
 
 
@@ -14,12 +28,13 @@ import camuflajeinspo from '@/images/camuflaje-inspo.jpg';
     <h2>Branding</h2>
     // Triple columna de las marcas
 
-    <h2>Diseños e ilustraciones</h2>
-    // Grid de diseños e ilustraciones
-    <h2>Publicidad</h2>
-    // Grid de publicidad
-    <h2>Ilustraciones de retratos</h2>
-    //Massonry grid con imagenes
+        <h2>Diseños e ilustraciones</h2>
+        <Galeria images={filteredGalery1} columns={3} />
+        <Galeria images={filteredGalery2} columns={3} />
+        <Galeria images={filteredGalery3} columns={4} />
+        <Galeria images={filteredGalery4} columns={4} />
+        
+        <h2>Publicidad</h2>
 
 
     

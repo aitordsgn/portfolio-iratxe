@@ -1,0 +1,100 @@
+{
+    "Galeria1": [ 
+        {
+            "src": "img-93.webp",
+            "alt": "",
+            "width": 900,
+            "height": 960
+          },
+          {
+            "src": "img-94.webp",
+            "alt": "",
+            "width": 900,
+            "height": 960
+          },{
+            "src": "img-96.webp",
+            "alt": "",
+            "width": 900,
+            "height": 960
+          }
+
+    ],
+    "Galeria2": [
+        {
+            "src": "img-167.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 1467
+          },
+          {
+            "src": "img-168.webp",
+            "alt": "",
+            "width": 1415,
+            "height": 2000
+          },
+          {
+            "src": "img-169.webp",
+            "alt": "",
+            "width": 1720,
+            "height": 2000
+          }
+    ],
+    "Galeria3": [
+        {
+            "src": "img-224.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "src": "img-225.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "src": "img-226.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "src": "img-227.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          }
+    ],
+    "Galeria4": [
+        {
+            "src": "img-17.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          },
+          {
+            "src": "img-18.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          },{
+            "src": "img-19.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          },{
+            "src": "img-20.webp",
+            "alt": "",
+            "width": 2000,
+            "height": 2000
+          }
+    ],
+    "Galeria5":[{
+        "src": "img-207.webp",
+        "alt": "",
+        "width": 1703,
+        "height": 2000
+      },
+    ]
+  }
+  

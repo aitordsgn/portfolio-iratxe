@@ -3,43 +3,49 @@ import VerticalSection from '@/components/VerticalSection.astro';
 import Layout from '../layouts/Layout.astro';
 import Galeria from '@/components/Galeria.astro';
 
-import {GaleriaPrincipal} from '@/GaleriaPrincipal.js';
+
+import images from '@/images.json';
 import { Image } from 'astro:assets';
+
+//Imagenes
 import Titulos from '@/images/Titulos.png';
 import Frontal from '@/images/Frontal.jpg';
 import AtardecerPuente from "@/images/AtardecerPuente.jpg";
 import atardecer from "@/images/atardecer.jpg";
+
+const GaleriaPrincipal = [57,207,18,62,227,168,239,230,63,144,96,107];
+const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id));
 
 ---
 
 <Layout title="Portfolio de diseño - Iratxe Conde" description ="Contrata a Iratxe para el rediseño o diseño inicial de tu marca. Publicista y diseñadora gráfica.">
   <!-- Renderizar la imagen para obtener la URL optimizada -->
   <Image 
-  src={atardecer} 
-  alt="Atardecer" 
-  class="hidden"
-  format="webp" 
-  width={1000} 
-  quality={"high"}
+    src={atardecer} 
+    alt="Atardecer" 
+    class="hidden"
+    format="webp" 
+    width={1000} 
+    quality="high"
   />
 
   <!-- Contenedor con el fondo fijo -->
   <section class="relative h-screen max-h-[600px] overflow-hidden">
-  <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={`background-image: url(${atardecer.src})`}>
-  </div>
-  <div class="flex items-center justify-center h-full relative z-10 bg-black bg-opacity-50 ">
-    <h1 class="text-white text-3xl lg:text-4xl font-bold text-center px-10 text-pretty max-w-xl">
-      La pasión, la constancia y la dedicación como motores principales de mis trabajos
-    </h1>
-  </div>
+    <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={`background-image: url(${atardecer.src})`}>
+    </div>
+    <div class="flex items-center justify-center h-full relative z-10 bg-black bg-opacity-50 ">
+      <h1 class="text-white text-3xl lg:text-4xl font-bold text-center px-10 text-pretty max-w-xl">
+        La pasión, la constancia y la dedicación como motores principales de mis trabajos
+      </h1>
+    </div>
   </section>
     
   <VerticalSection>
-    <Image src={Frontal} alt="Primer plano de iratxe" class="w-full h-auto object-cover" slot="leftContent" format="webp"  width={1000} quality={"high"}/>
+    <Image src={Frontal} alt="Primer plano de iratxe" class="w-full h-auto object-cover" slot="leftContent" format="webp" width={1000} quality="high" loading="eager"/>
     <section class="px-10 flex flex-col items-center justify-center" slot="rightContent">
         <h5 class="font-bold pb-4 mx-auto items-center text-2xl">¡Bienvenidos/as a mi web personal!</h5>
-        <p>Soy Iratxe Conde Turón, publicista y diseñadora gráfica. He creado este espacio para hacer llegar mis proyectos a todas aquellas personas interesadas. Por tanto, esta web funcionará como mi <a href="#" class="font-bold text-primary hover:underline">portfolio digital</a>.</p>
-      </section>
+        <p>Soy Iratxe Conde Turón, publicista y diseñadora gráfica. He creado este espacio para hacer llegar mis proyectos a todas aquellas personas interesadas. Por tanto, esta web funcionará como mi <a href="/portfolio/" class="font-bold text-primary hover:underline">portfolio digital</a>.</p>
+    </section>
   </VerticalSection>
 
   <VerticalSection>
@@ -50,23 +56,21 @@ import atardecer from "@/images/atardecer.jpg";
   
       <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/about/"> Saber más </a> 
     </section>
-    <Image src={AtardecerPuente} alt="Imagen con atardecer en un puente de fondo" class="w-full h-auto object-cover" slot="rightContent" format="webp" 
-    width={1000} 
-    quality={"high"} />      
+    <Image src={AtardecerPuente} alt="Imagen con atardecer en un puente de fondo" class="w-full h-auto object-cover" slot="rightContent" format="webp" width={1000} quality="high"/>      
   </VerticalSection>
 
   <Image 
-  src={Titulos} 
-  alt="Listado de cosas que puedo hacer" 
-  class="w-full h-auto max-h-14 object-cover lg:max-h-60" 
-  format="webp" 
-  width={2000} 
-  quality={"high"}>
-  
+    src={Titulos} 
+    alt="Listado de cosas que puedo hacer" 
+    class="w-full h-auto max-h-14 object-cover lg:max-h-60 md:h-" 
+    format="webp" 
+    width={2000} 
+    quality="high"
+  />
+
   <section class="flex flex-col items-center justify-center">
     <h2> Galería de proyectos</h2>
-    <Galeria images={GaleriaPrincipal}/>
+    <Galeria images={filteredImages} columns={4}/>
     <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/proyectos/">Ver portfolio</a> 
   </section>
 </Layout>
-

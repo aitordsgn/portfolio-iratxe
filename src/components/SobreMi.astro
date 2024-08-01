@@ -8,7 +8,7 @@ import { Image } from 'astro:assets'
     <div class="container mx-auto flex flex-col md:flex-row items-center px-4 justify-center md:gap-10">
         <!-- Mitad Izquierda -->
         <div class="md:w-1/2 flex justify-center md:mb-0  max-w-sm ">
-            <Image src={about} alt="Primer plano de Iratxe Conde Turón" class="rounded-full aspect-square shadow-lg object-cover" width={500} quality={"high"}>
+            <Image src={about} alt="Primer plano de Iratxe Conde Turón" class="rounded-full aspect-square shadow-lg object-cover" width={500} quality={"high"} loading="eager">
         </div>
         <!-- Mitad Derecha -->
         <div class="md:w-1/2 text-center md:text-left px-2 mx-auto sm:w-full sm:px-1 sm:mx-0">           
