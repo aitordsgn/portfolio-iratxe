@@ -3,7 +3,7 @@ const { backgroundImage } = Astro.props;
 ---
 
 <div class={`relative w-full overflow-hidden ${Astro.props.class}`}>
-    <div class="absolute inset-0 bg-cover bg-center bg-fixed opacity-25" style={`background-image: url(${backgroundImage})`}></div>
+    <div class="absolute inset-0 bg-cover bg-center bg-fixed opacity-15" style={`background-image: url(${backgroundImage})`}></div>
     <section class="relative w-full mx-auto px-4 lg:max-w-4xl md:max-w-2xl">
         <slot/>
     </section>

@@ -8,13 +8,18 @@ import Heading from '../components/Heading.astro';
 const {frontmatter} = Astro.props;
 console.log(frontmatter);
 
-const {title,description,date,category,author,image} = frontmatter;
+const {title,description,date,category,author,image,titulo} = frontmatter;
 ---
 
 <Layout {title} {description}>
-	<header>
-		<Heading title={frontmatter.title}>
-	</header>
 	
+	<header class="flex flex-col gap-1 justify-center">
+		<Heading title={titulo}>
+	</header>
+	<div class="post-content max-w-3xl mx-auto w-[80%]">
+		<div class="content">
+			<slot/>
+		</div>
+	</div>
 </Layout>
 
