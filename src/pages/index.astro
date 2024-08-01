@@ -8,10 +8,9 @@ import images from '@/images.json';
 import { Image } from 'astro:assets';
 
 //Imagenes
-import Titulos from '@/images/Titulos.png';
+import Titulos from '@/images/Titulos.webp';
 import Frontal from '@/images/Frontal.jpg';
 import AtardecerPuente from "@/images/AtardecerPuente.jpg";
-import atardecer from "@/images/atardecer.jpg";
 
 const GaleriaPrincipal = [57,207,18,62,227,168,239,230,63,144,96,107];
 const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id));
@@ -19,19 +18,9 @@ const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id
 ---
 
 <Layout title="Portfolio de diseño - Iratxe Conde" description ="Contrata a Iratxe para el rediseño o diseño inicial de tu marca. Publicista y diseñadora gráfica.">
-  <!-- Renderizar la imagen para obtener la URL optimizada -->
-  <Image 
-    src={atardecer} 
-    alt="Atardecer" 
-    class="hidden"
-    format="webp" 
-    width={1000} 
-    quality="high"
-  />
-
   <!-- Contenedor con el fondo fijo -->
   <section class="relative h-screen max-h-[600px] overflow-hidden">
-    <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={`background-image: url(${atardecer.src})`}>
+    <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={`background-image: url(/atardecer.webp)`}>
     </div>
     <div class="flex items-center justify-center h-full relative z-10 bg-black bg-opacity-50 ">
       <h1 class="text-white text-3xl lg:text-4xl font-bold text-center px-10 text-pretty max-w-xl">
@@ -54,7 +43,7 @@ const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id
   
       <p>Gracias a mis estudios y habilidades, soy capaz de aportar soluciones creativas adaptadas a las necesidades de cada cliente. Igualmente, domino múltiples herramientas y plataformas digitales, aprendo con especial facilidad y tengo una visión estratégica y operativa.</p>
   
-      <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/about/"> Saber más </a> 
+      <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/about/"> Saber más</a> 
     </section>
     <Image src={AtardecerPuente} alt="Imagen con atardecer en un puente de fondo" class="w-full h-auto object-cover" slot="rightContent" format="webp" width={1000} quality="high"/>      
   </VerticalSection>
@@ -64,7 +53,6 @@ const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id
     alt="Listado de cosas que puedo hacer" 
     class="w-full h-auto max-h-14 object-cover lg:max-h-60 md:h-" 
     format="webp" 
-    width={2000} 
     quality="high"
   />
 
