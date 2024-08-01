@@ -64,7 +64,7 @@ const Branding = [
 <Layout title="Portfolio de diseño - Iratxe Conde" description=''>
     <Heading title="Proyectos"/>
     <h2>Branding</h2>
-    <div class={`grid grid-cols-3 gap-2 mx-auto max-w-6xl pb-10`}>
+    <div class={`grid grid-cols-3 gap-2 mx-auto max-w-6xl pb-10 px-2`}>
         {Branding.map((image, i: number) => (
           <a href={`/Branding/${image.link}`}
              class="relative rounded-xl overflow-hidden hover:scale-105 transition-transform aspect-square">
@@ -72,7 +72,7 @@ const Branding = [
               src={`/imgs/${image.image}`} 
               alt={image.alt}
               class="object-cover w-full h-full"
-              loading="lazy" />
+              loading="eager" />
           </a>
         ))}
     </div>
@@ -97,7 +97,7 @@ const Branding = [
 
 
     
-    <two-up class="w-[80%] mx-auto">
+    <two-up class="w-[80%] mx-auto px-2">
         <div class="flex-1 h-full">
             <Image 
                 src={camuflajedef} 

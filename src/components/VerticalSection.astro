@@ -2,12 +2,13 @@
 interface Props {
   leftContent?: any;
   rightContent?: any;
+  reverseOnSmall?: boolean;
 }
 
-const { leftContent, rightContent } = Astro.props as Props;
+const { leftContent, rightContent, reverseOnSmall } = Astro.props as Props;
 ---
 
-<section class="flex flex-col md:flex-row gap-2">
+<section class={`flex flex-col md:flex-row gap-2 ${reverseOnSmall ? 'flex-col-reverse' : ''}`}>
   <div class="flex items-center justify-center md:w-1/2 py-4 flex-col">
     <slot name="leftContent" />
   </div>

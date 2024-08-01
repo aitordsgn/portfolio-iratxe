@@ -17,7 +17,7 @@ const { images, columns = 4 } = Astro.props as Props;
 ---
 
 <!-- Usa Grid para las columnas -->
-<div class={`grid grid-cols-${columns} gap-2 mx-auto max-w-6xl pb-10`} id="gallery">
+<div class={`grid grid-cols-${columns} gap-2 mx-auto max-w-6xl pb-10 px-2`} id="gallery">
   {images.map((image, i: number) => (
     <a href={`/imgs/${image.src}`}
        target="_blank"

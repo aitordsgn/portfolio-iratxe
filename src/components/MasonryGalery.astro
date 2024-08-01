@@ -25,7 +25,6 @@ const { images, columns = 4 } = Astro.props as Props;
         -webkit-column-gap: 0.5rem; /* Espacio entre columnas */
         -moz-column-gap: 0.5rem; 
         column-gap: 0.5rem; /* Espacio entre columnas */
-        padding: 0;
         background: transparent; /* Asegúrate de que el fondo sea transparente */
     }
     
@@ -40,11 +39,11 @@ const { images, columns = 4 } = Astro.props as Props;
         border: none; /* Elimina cualquier borde si es necesario */
         border-radius: 0.75rem;
         transition: transform 0.1s ease; /* Añade una transición suave para el efecto de escalado */
-}
+    }
 
-.item:hover {
-    transform: scale(1.05); /* Escala el elemento al 105% en hover */
-}
+    .item:hover {
+        transform: scale(1.05); /* Escala el elemento al 105% en hover */
+    }
     
     .item img {
         max-width: 100%;
@@ -87,7 +86,7 @@ const { images, columns = 4 } = Astro.props as Props;
     </style>
     
     
-<div id="gallery" class="masonry mx-auto max-w-6xl pb-10">
+<div id="gallery" class="masonry mx-auto max-w-6xl pb-10 px-2">
     {images.map((image, i: number) => (
         <a href={`/imgs/${image.src}`}
            target="_blank"
