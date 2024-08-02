@@ -18,8 +18,12 @@ titulo: 'Tierra Madre (Oxfam Intermón)'
 
 **Target:** personas preocupadas por el origen y la calidad de lo que consumen, que están al tanto de las tendencias y que buscan sabores que los sorprendan. No encuentran chocolates que se ajusten a sus gustos o necesidades, y desean descubrir marcas con las que sentirse identificados.
 
+<div class="flex-container">
+  <div class="flex-item">
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-202.webp "Nuevo logo de Charlotter Tilbury")]()
+  </div>
+  <div class="flex-item">
 
 **Misión:** ofrecer chocolates veganos de máxima calidad, responsables y honestos, con sabores sorprendentes para los paladares más exigentes.
 
@@ -27,17 +31,83 @@ titulo: 'Tierra Madre (Oxfam Intermón)'
 
 **Valores:** compromiso, calidad, responsabilidad, pasión, innovación, transparencia.
 
+  </div>
+</div>
+
+<div class="flex-container">
+  <div class="flex-item">
+
 La identidad visual está compuesta por el nombre de la marca y por las características diferenciales de la nueva línea: chocolate gourmet y vegano.
 
 El objetivo principal era transmitir los atributos de la nueva gama de Tierra Madre, su esencia y gran calidad a través de su logotipo. Se buscaba tanto la sencillez como la elegancia, de tal forma que el logo se pudiera adecuar a los diferentes soportes de la entidad y que estuviera, a su vez, en consonancia con los valores de Oxfam.
 
 Se han empelado el negro y el blanco como colores principales, así como la tipografía serif _Minion Variable Concept_ en mayúscula y con diferentes grosores. Con ello, se ha conseguido que la identidad visual de Tierra Madre adquiera el aspecto impactante, moderno y glamuroso que se buscaba; transmitiendo sus valores y atributos, así como logrando una mayor identificación y diferenciación de marca.
 
+  </div>
+  <div class="flex-item">
+
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-223.webp "Nuevo logo de Charlotter Tilbury")]()
+
+  </div>
+</div>
+
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")]()
 
 ## Diseño de packaging
+
+<div class="grid-4-container">
+  <div class="grid-item">
+    <img src="/imgs/img-190.webp" alt="Imagen 1">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-191.webp" alt="Imagen 2">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-192.webp" alt="Imagen 3">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-193.webp" alt="Imagen 4">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-194.webp" alt="Imagen 5">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-195.webp" alt="Imagen 6">
+  </div>
+
+  <div class="grid-item">
+    <img src="/imgs/img-196.webp" alt="Imagen 5">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-197.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-198.webp" alt="Imagen 5">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-199.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-200.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-201.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-90.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-129.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-128.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-91.webp" alt="Imagen 6">
+  </div>
+  
+</div>
 
 Navegación de entradas
 ----------------------

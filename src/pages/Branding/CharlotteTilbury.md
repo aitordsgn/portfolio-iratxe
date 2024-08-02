@@ -62,7 +62,7 @@ titulo: 'Charlotte Tilbury - Maquillaje de lujo'
 ## Diseño del packaging
 
 
-<div class="grid-container">
+<div class="grid-3-container">
   <div class="grid-item">
     <img src="/imgs/img-9.webp" alt="Imagen 1">
   </div>
