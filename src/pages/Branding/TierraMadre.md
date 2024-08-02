@@ -7,7 +7,7 @@ author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Charlotte Tilbury - Maquillaje de lujo'
+titulo: 'Tierra Madre (Oxfam Intermón)'
 ---
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")]()

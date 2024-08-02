@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Charlotte Tilbury – Maquillaje de lujo – Iratxe Conde'
+title: 'Goxo – Izozki naturalak – Iratxe Conde'
 pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Charlotte Tilbury - Maquillaje de lujo'
+titulo: 'Goxo – Izozki naturalak'
 ---
 
 # Goxo – Izozki naturalak – Iratxe Conde
