@@ -35,8 +35,18 @@ _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 
 ##### Construcción del logotipo
 
+<div style="display: flex; width: 100%;">
+  <div style="flex: 1; padding: 10px;">
+
 [![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/goxo-logo-1.png?w=1005)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/goxo-logo-1.png)
 
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <!-- Contenido de la segunda sección -->
+    <h2>Sección 2</h2>
+    <p>Contenido de la segunda sección.</p>
+  </div>
+</div>
 El logo se basa en el naming Goxo (dulce y sabroso en euskera) y en «izozki naturalak» (helados naturales). Hemos empleado fuentes de aspecto elegante (New York y Butler) y, para que el logo se viera más radiante hemos aumentado el grosor de los trazos del naming.
 
 Para darle mayor dinamismo hemos incluido gotas en la «g» y en la «x», simulando la forma en la que se derriten los helados, con el objetivo de llamar la atención del público y darle una apariencia deliciosa.

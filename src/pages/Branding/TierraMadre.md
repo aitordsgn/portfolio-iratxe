@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Charlotte Tilbury – Maquillaje de lujo – Iratxe Conde'
+title: 'Tierra Madre (Oxfam Intermón) – Iratxe Conde'
 pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
@@ -10,8 +10,7 @@ image:
 titulo: 'Charlotte Tilbury - Maquillaje de lujo'
 ---
 
-# Tierra Madre (Oxfam Intermón) – Iratxe Conde
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/packaging-doc_pagina_01.png?w=1024)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")]()
 
 **Contexto:** entidad que comercializa productos derivados del cacao, del café y del azúcar, acreditando un cultivo, una recogida y una manipulación sostenible y acorde con unas condiciones de trabajo dignas. Actualmente, está interesada en crear una línea de chocolates gourmet, honestos y de calidad, para lo cual requiere de una nueva identidad visual bajo el mismo _naming_.
 
@@ -19,7 +18,8 @@ titulo: 'Charlotte Tilbury - Maquillaje de lujo'
 
 **Target:** personas preocupadas por el origen y la calidad de lo que consumen, que están al tanto de las tendencias y que buscan sabores que los sorprendan. No encuentran chocolates que se ajusten a sus gustos o necesidades, y desean descubrir marcas con las que sentirse identificados.
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/cacao-e1661339188863.jpg?w=750)
+
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-202.webp "Nuevo logo de Charlotter Tilbury")]()
 
 **Misión:** ofrecer chocolates veganos de máxima calidad, responsables y honestos, con sabores sorprendentes para los paladares más exigentes.
 
@@ -33,11 +33,11 @@ El objetivo principal era transmitir los atributos de la nueva gama de Tierra Ma
 
 Se han empelado el negro y el blanco como colores principales, así como la tipografía serif _Minion Variable Concept_ en mayúscula y con diferentes grosores. Con ello, se ha conseguido que la identidad visual de Tierra Madre adquiera el aspecto impactante, moderno y glamuroso que se buscaba; transmitiendo sus valores y atributos, así como logrando una mayor identificación y diferenciación de marca.
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/construccion-logo-1-e1661338588377.png?w=907)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-223.webp "Nuevo logo de Charlotter Tilbury")]()
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/packaging-doc_pagina_04.png?w=1024)
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")]()
 
-##### Diseño de packaging
+## Diseño de packaging
 
 Navegación de entradas
 ----------------------

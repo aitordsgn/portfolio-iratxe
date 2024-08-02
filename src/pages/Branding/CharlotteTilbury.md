@@ -27,13 +27,19 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
 
 ## Construcción del logotipo
 
-[![Transformación del logo Charlotte Tilbury](/imgs/img-2.webp "Transformación del logo Charlotte Tilbury")]()
-
+<div style="display: flex; width: 100%;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="/imgs/img-2.webp">
+  </div>
+  <div style="flex: 1; padding: 10px;">
 La identidad visual está compuesta por el nombre de la marca y por un símbolo creado a partir de líneas finas, comunicando su propósito ambienta. Era fundamental que el nuevo logotipo mantuviera el aspecto radiante y sofisticado con el que siempre se ha identificado la marca. De este modo, los consumidores la reconocerán fácilmente y percibirán que Charlotte Tilbury no solo ofrece maquillaje de alta gama, sino que también se preocupa por el medio ambiente.
 
 El objetivo era transmitir sus atributos diferenciales, esencia y gran calidad, así como su evolución a hacia cosméticos naturales y sostenibles. Se quería buscar tanto la sencillez como la elegancia, de tal forma que se pudiera adecuar a los diferentes soportes y que estuviera en consonancia con los valores de la entidad.
 
 Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logrado que la identidad visual de Charlotte Tilbury adquiera un aspecto moderno, glamuroso, exclusivo y diferencial.
+  </div>
+</div>
+
 
 ## Diseño del packaging
 

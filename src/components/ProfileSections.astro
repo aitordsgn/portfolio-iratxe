@@ -6,42 +6,60 @@ const { skills, tools, certificates, languages } = profileData
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-4">
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto">Aptitudes y Habilidades</h3>
-    <ul class="list-disc list-inside">
-      {skills.map(skill => (
-        <li>{skill}</li>
-      ))}
-    </ul>
+    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Aptitudes y Habilidades</h3>
+    <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
+      <div class="relative pb-2">
+        <div class="sticky top-0">
+          {skills.map(skill => (
+            <span class="text-primary -left-[42px] absolute rounded-full text-5xl">&bull;</span>
+            <li class="list-none pb-3">{skill}</li>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-4 flex flex-col items-center">
+    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Herramientas</h3>
+    <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
+      <div class="relative pb-2">
+        <div class="sticky top-0">
+          {tools.map(tool => (
+            <span class="text-primary -left-[42px] absolute rounded-full text-5xl">&bull;</span>
+            <li class="list-none pb-3">{tool}</li>
+          ))}
+        </div>
+      </div>
+    </div>
   </div>
   
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto">Herramientas</h3>
-    <ul class="list-disc list-inside">
-      {tools.map(tool => (
-        <li>{tool}</li>
-      ))}
-    </ul>
+    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Certificados</h3>
+    <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
+      <div class="relative pb-2">
+        <div class="sticky top-0">
+          {certificates.map(cert => (
+            <span class="text-primary -left-[42px] absolute rounded-full text-5xl">&bull;</span>
+            <li class="list-none pb-3">
+              <span class="text-primary font-bold">{cert.name}</span> - <span class="italic">{cert.issuer}</span> | <span class="text-foreground opacity-50 italic">{cert.date}</span>
+            </li>
+          ))}
+        </div>
+      </div>
+    </div>
   </div>
   
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto">Certificados</h3>
-    <ul class="list-disc list-inside">
-      {certificates.map(cert => (
-        <li>
-          <span class="text-primary font-bold">{cert.name}</span> - <span class="italic">{cert.issuer}</span> | <span class="text-foreground opacity-50 italic">{cert.date}</span>
-        </li>
-      ))}
-    </ul>
-  </div>
-  
-  <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto">Idiomas</h3>
-    <ul class="list-disc list-inside">
-      {languages.map(language => (
-        <li>
-            {language.language} - {language.fluency} <span class="text-foreground opacity-50 italic">{language.title && `(${language.title})`}</span>
-        </li>
-      ))}
-    </ul>
+    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Idiomas</h3>
+    <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
+      <div class="relative pb-2">
+        <div class="sticky top-0">
+          {languages.map(language => (
+            <span class="text-primary -left-[42px] absolute rounded-full text-5xl">&bull;</span>
+              <li class="list-none pb-3 pt-3">{language.language} - {language.fluency} <span class="text-foreground opacity-50 italic">{language.title && `(${language.title})`}</span></li>
+            
+          ))}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
