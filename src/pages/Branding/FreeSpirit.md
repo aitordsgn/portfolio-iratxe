@@ -1,16 +1,17 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Free Spirit – Fragancias unisex – Iratxe Conde'
+title: "Free Spirit – Fragancias unisex – Iratxe Conde"
 pubDate: 2022-07-22
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Free Spirit – Fragancias unisex'
+titulo: "Free Spirit – Fragancias unisex"
 ---
 
 # Free Spirit – Fragancias unisex – Iratxe Conde
+
 [![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/portada.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/portada.png)
 
 Marca joven y moderna, que se adapta a las necesidades cambiantes del público y a las nuevas tendencias; siempre con el objetivo de romper con lo establecido.
@@ -21,7 +22,7 @@ La versatilidad es lo que hace a las fragancias cítricas una opción perfecta p
 
 [![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/fotito-fs-1.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/fotito-fs-1.png)
 
-****Bolsa de Free Spirit.****
+\***\*Bolsa de Free Spirit.\*\***
 
 ##### Diseño de logotipo
 
@@ -54,7 +55,7 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
 
 [![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos2.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos2.png)
 
-**Packaging **_Cosmos_.****
+**Packaging **_Cosmos_.\*\*\*\*
 
 [![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos3.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos3.png)
 
@@ -68,5 +69,4 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
 
 ![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/blue-universe-star-explosion.jpg)![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/prueba-naranja2.png)
 
-Navegación de entradas
-----------------------
+## Navegación de entradas

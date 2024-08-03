@@ -3,15 +3,10 @@ import VerticalSection from '@/components/VerticalSection.astro';
 import Layout from '../layouts/Layout.astro';
 import Galeria from '@/components/Galeria.astro';
 
-
+//Json de imagenes
 import images from '@/images.json';
-import { Image } from 'astro:assets';
 
-//Imagenes
-import Titulos from '@/images/Titulos.webp';
-import Frontal from '@/images/Frontal.jpg';
-import AtardecerPuente from "@/images/AtardecerPuente.jpg";
-
+//Array de valores que controlan el posicionamiento
 const GaleriaPrincipal = [57,207,18,62,227,168,239,230,63,144,96,107];
 const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id));
 
@@ -30,7 +25,8 @@ const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id
   </section>
     
   <VerticalSection>
-    <Image src={Frontal} alt="Primer plano de iratxe" class="w-full h-auto object-cover" slot="leftContent" format="webp" width={1000} quality="high" loading="eager"/>
+    <img src="/imgs/Frontal.webp" alt="Primer plano de iratxe" class="w-full h-auto object-cover" slot="leftContent">
+
     <section class="px-10 flex flex-col items-center justify-center" slot="rightContent">
         <h5 class="font-bold pb-4 mx-auto items-center text-2xl">¡Bienvenidos/as a mi web personal!</h5>
         <p>Soy Iratxe Conde Turón, publicista y diseñadora gráfica. He creado este espacio para hacer llegar mis proyectos a todas aquellas personas interesadas. Por tanto, esta web funcionará como mi <a href="/portfolio/" class="font-bold text-primary hover:underline">portfolio digital</a>.</p>
@@ -45,16 +41,12 @@ const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id
   
       <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/about/"> Saber más</a> 
     </section>
-    <Image src={AtardecerPuente} alt="Imagen con atardecer en un puente de fondo" class="w-full h-auto object-cover" slot="rightContent" format="webp" width={1000} quality="high"/>      
+    <img src="/imgs/AtardecerPuente.webp" alt="Imagen con atardecer en un puente de fondo" class="w-full h-auto object-cover" slot="rightContent">
+
   </VerticalSection>
 
-  <Image 
-    src={Titulos} 
-    alt="Listado de cosas que puedo hacer" 
-    class="w-full h-auto max-h-14 object-cover lg:max-h-60 md:h-" 
-    format="webp" 
-    quality="high"
-  />
+  
+  <img src="/imgs/Titulos.webp" alt="Listado de cosas que puedo hacer" class="w-full h-auto object-cover max-h-96">
 
   <section class="flex flex-col items-center justify-center">
     <h2> Galería de proyectos</h2>

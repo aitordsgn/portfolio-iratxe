@@ -1,16 +1,17 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Golf In One - Aplicación – Iratxe Conde'
+title: "Golf In One - Aplicación – Iratxe Conde"
 pubDate: 2022-09-19
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Golf In One - Aplicación'
+titulo: "Golf In One - Aplicación"
 ---
 
 # Golf In One – Aplicación – Iratxe Conde
+
 _Juego de golf arcade para dispositivos móviles (disponible en [**Google Play**](https://play.google.com/store/apps/details?id=com.aitordsgn.GolfInOne))_.
 
 ##### Construcción del logotipo
@@ -27,5 +28,4 @@ Ello junto con la tipografía Luckiest Guy con cierto relieve, hace que la ident
 
 _\*Aplicación creada por [**Aitor Rey Ortega**](https://www.instagram.com/aitordsgn/)\*_
 
-Navegación de entradas
-----------------------
+## Navegación de entradas

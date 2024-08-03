@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Tierra Madre (Oxfam Intermón) – Iratxe Conde'
+title: "Tierra Madre (Oxfam Intermón) – Iratxe Conde"
 pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Tierra Madre (Oxfam Intermón)'
+titulo: "Tierra Madre (Oxfam Intermón)"
 ---
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")]()
@@ -22,6 +22,7 @@ titulo: 'Tierra Madre (Oxfam Intermón)'
   <div class="flex-item">
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-202.webp "Nuevo logo de Charlotter Tilbury")]()
+
   </div>
   <div class="flex-item">
 
@@ -50,7 +51,6 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
 
   </div>
 </div>
-
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")]()
 
@@ -109,5 +109,4 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
   
 </div>
 
-Navegación de entradas
-----------------------
+## Navegación de entradas

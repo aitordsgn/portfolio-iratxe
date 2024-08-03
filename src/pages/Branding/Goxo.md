@@ -1,16 +1,17 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Goxo – Izozki naturalak – Iratxe Conde'
+title: "Goxo – Izozki naturalak – Iratxe Conde"
 pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Goxo – Izozki naturalak'
+titulo: "Goxo – Izozki naturalak"
 ---
 
 # Goxo – Izozki naturalak – Iratxe Conde
+
 _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 
 [![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/izozki-naturalak-morado.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/izozki-naturalak-morado.png)
@@ -65,5 +66,4 @@ En cuanto a los colores corporativos, hemos optado por tonos pastel que aporten 
 
 ![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/cartel.png?w=1024)
 
-Navegación de entradas
-----------------------
+## Navegación de entradas

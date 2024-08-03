@@ -1,21 +1,22 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Dirdira – Cosmética natural – Iratxe Conde'
+title: "Dirdira – Cosmética natural – Iratxe Conde"
 pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The Astro logo with the word One."
-titulo: 'Dirdira – Cosmética natural'
+titulo: "Dirdira – Cosmética natural"
 ---
+
 <div class="centered-container">
 
 _«Dirdira»: brillo, destello o resplandeciente en euskera._
 
 </div>
 
-  [![Logotipo de Dirdira](/imgs/img-81.webp "Logotipo de Dirdira")](/imgs/img-81.webp)
+[![Logotipo de Dirdira](/imgs/img-81.webp "Logotipo de Dirdira")](/imgs/img-81.webp)
 
 <div class="centered-container">
 
@@ -34,7 +35,7 @@ _«Dirdira»: brillo, destello o resplandeciente en euskera._
   </div>
   <div class="flex-item">
 
- **Valores:** compromiso, confianza, cercanía, respeto, innovación, accesibilidad.
+**Valores:** compromiso, confianza, cercanía, respeto, innovación, accesibilidad.
 
 **Posicionamiento actual:** se posiciona como una marca que desafía cánones y estereotipos, que desmonta la imagen de «perfección ideal», apoyando la expresión individual e inspirando a cada cual a definir su propia belleza resplandeciente.
 
@@ -43,17 +44,13 @@ _«Dirdira»: brillo, destello o resplandeciente en euskera._
   </div>
 </div>
 
-
-
-
-
 [![Look & Feel de Dirdira](/imgs/img-67.webp "Look & Feel de Dirdira")](/imgs/img-67.webp)
 
 <div class="centered-container">
 
 **Look & feel de Dirdira.**
-</div>
 
+</div>
 
 ## Manifiesto de marca
 
@@ -70,7 +67,7 @@ Nos gusta el maquillaje sutil, así como el llamativo. Nos encanta mimar nuestra
   </div>
   <div class="flex-item">
 
- Mediante este diseño se reflejan perfectamente las características diferenciales de la marca, ya que la identidad visual se basa en la elegancia, la diversidad, la calidad y la accesibilidad de Dirdira.
+Mediante este diseño se reflejan perfectamente las características diferenciales de la marca, ya que la identidad visual se basa en la elegancia, la diversidad, la calidad y la accesibilidad de Dirdira.
 
 La combinación entre el rosa pálido y el tono burdeos aporta pasión y sensibilidad, lo cual hace que la marca destaque frente a sus competidores. El emblema lleva implícitos una serie de símbolos que transmiten sus atributos diferenciales. Cabe destacar que tanto el símbolo como la tipografía (Aperto) están en armonía con la marca, otorgándole mayor elegancia y belleza.
 
@@ -80,7 +77,7 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 </div>
 
 <div class="parent">
-<div class="div1"> 
+<div class="div1">
 
 ![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-packaging-1.png)
 
@@ -88,6 +85,7 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 <div class="div2">
 
 ![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-packaging-2-1.png)
+
  </div>
 <div class="div3">
 
@@ -99,7 +97,7 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 ![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-shop-1-1.png)
 
 </div>
-<div class="div5"> 
+<div class="div5">
 
 ![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-shop-2-1.png)
 
@@ -110,7 +108,6 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 
 [![Look & Feel de Dirdira](/imgs/img-79.webp "Look & Feel de Dirdira")](/imgs/img-79.webp)
 
-
 [![Look & Feel de Dirdira](/imgs/img-243.webp "Look & Feel de Dirdira")](/imgs/img-243.webp)
 
 [![Look & Feel de Dirdira](/imgs/img-179.webp "Look & Feel de Dirdira")](/imgs/img-179.webp)
@@ -119,7 +116,4 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 
 [![Look & Feel de Dirdira](/imgs/img-156.webp "Look & Feel de Dirdira")](/imgs/img-156.webp)
 
-
-
-Navegación de entradas
-----------------------
+## Navegación de entradas
