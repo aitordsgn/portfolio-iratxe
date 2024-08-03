@@ -23,7 +23,8 @@ const { images, columns = 4 } = Astro.props as Props;
        target="_blank"
        data-pswp-width={image.width} 
        data-pswp-height={image.height} 
-       class="relative rounded-xl overflow-hidden hover:scale-105 transition-transform aspect-square">
+       class="relative rounded-xl overflow-hidden hover:scale-105 transition-transform aspect-square"
+       aria-label={image.alt}>
       <img 
         src={`/imgs/${image.src}`} 
         alt={image.alt}

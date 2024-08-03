@@ -1,10 +1,10 @@
-import fs from 'fs-extra';
-import path from 'path';
-import sharp from 'sharp';
+import fs from "fs-extra";
+import path from "path";
+import sharp from "sharp";
 
 // Ruta de la carpeta con las imágenes y el archivo JSON de salida
-const imagesDir = '.'; // El directorio actual
-const outputJson = path.join(imagesDir, 'images.json');
+const imagesDir = "."; // El directorio actual
+const outputJson = path.join(imagesDir, "images.json");
 
 // Función para obtener las dimensiones de una imagen
 const getImageDimensions = async (filePath) => {
@@ -32,18 +32,19 @@ const generateJson = async () => {
   // Procesar cada archivo
   for (const file of files) {
     const ext = path.extname(file).toLowerCase();
-    if (['.webp', '.jpg', '.png'].includes(ext)) {
+    if ([".webp", ".jpg", ".png"].includes(ext)) {
       const filePath = path.join(imagesDir, file);
       const { width, height } = await getImageDimensions(filePath);
-      
+
       // Extraer el ID del nombre del archivo
       const id = extractIdFromFilename(file);
-      
-      if (id !== null) { // Solo añadir si el ID se extrajo correctamente
+
+      if (id !== null) {
+        // Solo añadir si el ID se extrajo correctamente
         images.push({
           id: id, // Asigna el ID extraído
           src: filePath,
-          alt: '', // Puedes modificar esto si tienes descripciones específicas
+          alt: "", // Puedes modificar esto si tienes descripciones específicas
           width: width,
           height: height,
         });
@@ -60,6 +61,6 @@ const generateJson = async () => {
 };
 
 // Ejecutar la función
-generateJson().catch(err => {
-  console.error('Error generando el JSON:', err);
+generateJson().catch((err) => {
+  console.error("Error generando el JSON:", err);
 });
