@@ -10,10 +10,18 @@ import images from '@/images.json';
 const GaleriaPrincipal = [57,207,18,62,227,168,239,230,63,144,96,107];
 const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id));
 
+const pageTitle = "Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica";
+const pageDescription = "Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas.";
+const pageKeywords = "Publicista y diseñadora gráfica en Bilbao, Especialista en branding y diseño de marca en Bilbao, Servicios de diseño gráfico en Bilbao, Portfolio de diseño gráfico en Bilbao, Branding profesional en Bilbao, Iratxe Conde Turon, publicista en Bilbao, Diseño de identidad visual en Bilbao, Consultoría de branding en Bilbao, Servicios de publicidad en Bilbao, Diseñadora gráfica freelance en Bilbao";
+const ogImage =""
 ---
 
-<Layout title="Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica" description ="Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas.">
-  <!-- Contenedor con el fondo fijo -->
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+  keywords={pageKeywords}
+>
+<!-- Contenedor con el fondo fijo -->
   <section class="relative h-screen max-h-[600px] overflow-hidden">
     <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={`background-image: url(/atardecer.webp); background-position: center top 20%;`}>
     </div>

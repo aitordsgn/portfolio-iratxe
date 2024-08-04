@@ -1,0 +1,65 @@
+---
+// Head.astro
+export interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  author?: string;
+  ogType?: string;
+  ogImage?: string;
+  twitterCard?: string;
+  twitterSite?: string;
+  twitterCreator?: string;
+  canonicalUrl?: string;
+  ogUrl?: string;
+}
+
+const {
+  title,
+  description,
+  keywords,
+  author ="Iratxe Conde Turon",
+  ogType = "website",
+  ogImage = "https://tu-dominio.com/default-image.jpg",
+  twitterCard = "summary_large_image",
+  twitterSite = "@iratxeconde07",
+  twitterCreator = "@iratxeconde07",
+} = Astro.props;
+
+// Usar la URL actual de la página como valor por defecto
+const currentUrl = new URL(Astro.url.pathname, Astro.url.origin);
+const canonicalUrl = Astro.props.canonicalUrl || currentUrl.toString();
+const ogUrl = Astro.props.ogUrl || currentUrl.toString();
+---
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/x-icon" href="/favicon.svg">
+  {keywords && <meta name="keywords" content={keywords} />}
+  {author && <meta name="author" content={author} />}
+  <link rel="canonical" href={canonicalUrl} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:url" content={ogUrl} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  {twitterCard && <meta name="twitter:card" content={twitterCard} />}
+  {twitterSite && <meta name="twitter:site" content={twitterSite} />}
+  {twitterCreator && <meta name="twitter:creator" content={twitterCreator} />}
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+  <meta name="DC.title" content={title} />
+  <meta name="DC.creator" content={author} />
+  <meta name="DC.subject" content={keywords} />
+  <meta name="DC.description" content={description} />
+  <meta name="DC.publisher" content="Editor" />
+  <meta name="DC.date" content={new Date().toISOString()} />
+  <meta name="DC.type" content="Text" />
+  <meta name="DC.format" content="text/html" />
+  <meta name="DC.identifier" content={canonicalUrl} />
+  <meta name="DC.language" content="es" />
+</head>

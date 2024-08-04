@@ -1,68 +1,90 @@
 ---
-// Supports weights 100-900
+// layout.astro
 import '@fontsource-variable/onest';
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-
-
-
-
+import Head from '../components/Head.astro';
 
 interface Props {
-	title: string;
-	description: string;
+  title: string;
+  description: string;
+  keywords?: string;
+  author?: string;
+  ogType?: string;
+  ogImage?: string;
+  twitterCard?: string;
+  twitterSite?: string;
+  twitterCreator?: string;
+  canonicalUrl?: string;
+  ogUrl?: string;
 }
 
-const { title , description } = Astro.props;
+const {
+  title,
+  description,
+  keywords,
+  author,
+  ogType,
+  ogImage,
+  twitterCard,
+  twitterSite,
+  twitterCreator,
+  canonicalUrl,
+  ogUrl,
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name={description} content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body class="bg-white min-h-screen">
-		<Header/>
-		<main>
-			<slot />
-		</main>
-		<Footer/>
-	</body>
+<html lang="es">
+  <Head 
+    title={title} 
+    description={description}
+    keywords={keywords}
+    author={author}
+    ogType={ogType}
+    ogImage={ogImage}
+    twitterCard={twitterCard}
+    twitterSite={twitterSite}
+    twitterCreator={twitterCreator}
+    canonicalUrl={canonicalUrl}
+    ogUrl={ogUrl}
+  />
+  <body class="bg-white min-h-screen">
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
 </html>
 
-
 <style is:global>
-	:root {
-		
-	}
-	html {
-		font-family: 'Onest Variable',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-		background: #13151a;
-		background-size: 224px;
-	}
+  :root {
+    --primary-color: #876c9d;
+  }
+  html {
+    font-family: 'Onest Variable', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #13151a;
+    background-size: 224px;
+  }
 
-	p {
-        color: #303030;
-        line-height: 1.4;
-        margin-bottom: 2em;
-        font-weight: medium;
-        font-size: 1rem;
-      }
-	h2 {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-		color: var(--primary-color);
-		font-weight: bold;
-		font-size: 2.25rem;
-		line-height: 2.5rem;
-		text-align: center;
-		position: relative;
-		color: #876c9d;
-	}
+  p {
+    color: #303030;
+    line-height: 1.4;
+    margin-bottom: 2em;
+    font-weight: medium;
+    font-size: 1rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    position: relative;
+    color: var(--primary-color);
+  }
 </style>
