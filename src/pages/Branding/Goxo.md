@@ -10,13 +10,23 @@ image:
 titulo: "Goxo – Izozki naturalak"
 ---
 
-# Goxo – Izozki naturalak – Iratxe Conde
+
+<div class="centered-container">
 
 _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/izozki-naturalak-morado.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/izozki-naturalak-morado.png)
+</div>
+
+[![Mockup de cafetería de Goxo](/imgs/img-50.webp "Mockup de cafetería de Goxo")](/imgs/img-50.webp)
+
+<div class="centered-container">
 
 **Logotipo de Goxo.**
+
+</div>
+
+<div class="flex-container-start">
+  <div class="flex-item">
 
 **Marca:** heladería situada junto a la playa de Arrigunaga (Getxo, Bizkaia). Es accesible para todos aquellos que acuden tanto a la zona natural como urbana del lugar. El local cuenta con espacio en su interior y con una pequeña terraza, desde donde los clientes pueden saborear sus productos con unas increíbles vistas de la costa vizcaína.
 
@@ -25,6 +35,8 @@ _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 **Público objetivo:** se dirige a todas aquellas personas que se acercan a Arrigunaga para desconectar y disfrutar de las sensaciones de calma que transmite el lugar. Son personas que buscan que los sorprendan y que se preocupan por el origen y la calidad de los productos.
 
 **Misión:** ofrecer productos de origen natural, respetuosos y de gran calidad, priorizando los materiales locales y con sabores inigualables para los paladares más exigentes.
+  </div>
+  <div class="flex-item">
 
 **Visión:** convertirse en la marca de referencia en Arrigunaga, gracias a su compromiso por transmitir las emociones del lugar y a su posicionamiento, gran calidad y sabores exquisitos.
 
@@ -34,36 +46,48 @@ _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 
 **Unique selling proposition (USP):** dulces de origen natural que dan respuesta a la creciente demanda de productos novedosos y refrescantes en Arrigunaga, creados a partir de procesos responsables. Todo ello, mediante sabores inigualables y sorprendentes que provocan sensaciones únicas, llevando a los usuarios a una absoluta relajación.
 
-##### Construcción del logotipo
+
+  </div>
+</div>
+
+
+
+
+
+## Construcción del logotipo
 
 <div style="display: flex; width: 100%;">
   <div style="flex: 1; padding: 10px;">
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/goxo-logo-1.png?w=1005)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/goxo-logo-1.png)
+[![Logotipo de Goxo](/imgs/img-35.webp "Logotipo de Goxo")](/imgs/img-35.webp)
+
 
   </div>
   <div style="flex: 1; padding: 10px;">
-    <!-- Contenido de la segunda sección -->
-    <h2>Sección 2</h2>
-    <p>Contenido de la segunda sección.</p>
-  </div>
-</div>
+    
 El logo se basa en el naming Goxo (dulce y sabroso en euskera) y en «izozki naturalak» (helados naturales). Hemos empleado fuentes de aspecto elegante (New York y Butler) y, para que el logo se viera más radiante hemos aumentado el grosor de los trazos del naming.
 
 Para darle mayor dinamismo hemos incluido gotas en la «g» y en la «x», simulando la forma en la que se derriten los helados, con el objetivo de llamar la atención del público y darle una apariencia deliciosa.
 
 En cuanto a los colores corporativos, hemos optado por tonos pastel que aporten frescura y sabor; el azul y el verde aluden al lugar en el que se encuentra la heladería (Arrigunaga) y a la naturalidad de los productos de Goxo, y el morado indica su dulzura y sabor.
+  </div>
+</div>
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/3.png?w=1024)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/3.png)
+[![Identidad visual de Goxo](/imgs/img-3.webp "Identidad visual de Goxo")](/imgs/img-3.webp)
 
-##### Packaging y publicidad exterior
+## Packaging y publicidad exterior
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/packaging-1.png?w=1024)
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/packaging-2.png?w=1024)
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/tarrinas2.png?w=1024)
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/09/cartel.png?w=1024)
-
-## Navegación de entradas
+<div class="grid-2-container">
+  <div class="grid-item">
+    <img src="/imgs/img-87.webp" alt="Imagen 1">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-86.webp" alt="Imagen 2">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-148.webp" alt="Imagen 4">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-211.webp" alt="Imagen 3">
+  </div>
+</div>

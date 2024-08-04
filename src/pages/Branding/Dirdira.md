@@ -75,33 +75,32 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 
   </div>
 </div>
-
 <div class="parent">
-<div class="div1">
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-packaging-1.png)
-
-</div>
-<div class="div2">
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-packaging-2-1.png)
-
- </div>
-<div class="div3">
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-bolsa-5.png)
-
- </div>
-<div class="div4">
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-shop-1-1.png)
-
-</div>
-<div class="div5">
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/dirdira-shop-2-1.png)
-
-</div>
+  <div class="child">
+    <a href="/imgs/img-241.webp">
+      <img src="/imgs/img-241.webp" alt="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" title="Mockup de una crema y fragancía crema de la marca imaginaría dirdira">
+    </a>
+  </div>
+  <div class="child">
+    <a href="/imgs/img-242.webp">
+      <img src="/imgs/img-242.webp" alt="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" title="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira">
+    </a>
+  </div>
+  <div class="child">
+    <a href="/imgs/img-238.webp">
+      <img src="/imgs/img-238.webp" alt="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" title="Mockup de una bolsa de papel para una marca imaginaría de Dirdira">
+    </a>
+  </div>
+  <div class="child">
+    <a href="/imgs/img-11.webp">
+      <img src="/imgs/img-11.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira">
+    </a>
+  </div>
+  <div class="child">
+    <a href="/imgs/img-13.webp">
+      <img src="/imgs/img-13.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira">
+    </a>
+  </div>
 </div>
 
 [![Look & Feel de Dirdira](/imgs/img-78.webp "Look & Feel de Dirdira")](/imgs/img-78.webp)
@@ -109,8 +108,6 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 [![Look & Feel de Dirdira](/imgs/img-79.webp "Look & Feel de Dirdira")](/imgs/img-79.webp)
 
 [![Look & Feel de Dirdira](/imgs/img-243.webp "Look & Feel de Dirdira")](/imgs/img-243.webp)
-
-[![Look & Feel de Dirdira](/imgs/img-179.webp "Look & Feel de Dirdira")](/imgs/img-179.webp)
 
 [![Look & Feel de Dirdira](/imgs/img-220.webp "Look & Feel de Dirdira")](/imgs/img-220.webp)
 

@@ -10,7 +10,7 @@ image:
 titulo: "Tierra Madre (Oxfam Intermón)"
 ---
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")]()
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-88.webp)
 
 **Contexto:** entidad que comercializa productos derivados del cacao, del café y del azúcar, acreditando un cultivo, una recogida y una manipulación sostenible y acorde con unas condiciones de trabajo dignas. Actualmente, está interesada en crear una línea de chocolates gourmet, honestos y de calidad, para lo cual requiere de una nueva identidad visual bajo el mismo _naming_.
 
@@ -21,7 +21,7 @@ titulo: "Tierra Madre (Oxfam Intermón)"
 <div class="flex-container">
   <div class="flex-item">
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-202.webp "Nuevo logo de Charlotter Tilbury")]()
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-202.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-202.webp)
 
   </div>
   <div class="flex-item">
@@ -47,12 +47,12 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
   </div>
   <div class="flex-item">
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-223.webp "Nuevo logo de Charlotter Tilbury")]()
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-223.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-223.webp)
 
   </div>
 </div>
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")]()
+[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-89.webp)
 
 ## Diseño de packaging
 

@@ -10,9 +10,10 @@ image:
 titulo: "Free Spirit – Fragancias unisex"
 ---
 
-# Free Spirit – Fragancias unisex – Iratxe Conde
+[![Logotipo de la fraganciía Free Spirit sobre un fondo estrellado](/imgs/img-109.webp "Logotipo de fragancias Free Spirit")](/imgs/img-109.webp)
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/portada.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/portada.png)
+
+
 
 Marca joven y moderna, que se adapta a las necesidades cambiantes del público y a las nuevas tendencias; siempre con el objetivo de romper con lo establecido.
 
@@ -20,53 +21,122 @@ Las fragancias dicen mucho de uno/a mismo/a, por eso son tan especiales y las se
 
 La versatilidad es lo que hace a las fragancias cítricas una opción perfecta para cualquier ocasión, razón por la cual la marca se basa en estos maravillosos olores; siendo, además, capaces de adaptarse con facilidad a todo tipo de piel y brindando unos aromas increíbles de larga duración.
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/fotito-fs-1.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/fotito-fs-1.png)
+[![Una bolsa verde con el logotipo de la fragancía Free Spirit](/imgs/img-23.webp "Mockup de una bolsa con el logotipo Free Spirit")](/imgs/img-23.webp)
 
-\***\*Bolsa de Free Spirit.\*\***
+<div class="centered-container">
 
-##### Diseño de logotipo
+**Bolsa de Free Spirit.**
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/tarjetas-free-spirit-1.png?w=750)
+</div>
+
+## Diseño de logotipo
+
+
+<div class="flex-container">
+  <div class="flex-item">
+
+[![Variantes de tarjetas de la fragancía Free spirit](/imgs/img-147.webp "Variantes de tarjetas de la fragancía Free spirit")](/imgs/img-147.webp)
+
+
+  </div>
+  <div class="flex-item">
 
 El logo se basa en la libertad, la elegancia, el poder y el éxito. Por ello, hemos empleado un tono dorado sobre fondo verde, de tal forma que ese contraste hace que el perfume se vea moderno, glamuroso, impactante y muy atractivo. Esto se debe a que el color dorado siempre ha estado asociado al lujo, la riqueza, la belleza, la libertad, la luminosidad y la juventud; atributos con los que se identifica la marca.
 
 El dorado en contraste con el fondo el verde o negro, hace que la identidad visual de Free Spirit se vea moderna, glamurosa, impactante y muy atractiva.
+
+  </div>
+</div>
+
+
+<div class="flex-container">
+  <div class="flex-item">
 
 El eje central del logotipo está compuesto por un símbolo, que lleva implícito el sol y la luna. Así, logramos que se adquiera un estilo místico, ya que Free Spirit se posiciona como una marca que va más allá de lo convencional, al ofrecer sensaciones mágicas y exclusivas a través de sus inigualables combinaciones de colores.
 
 Cabe mencionar que la tipografía empleada es  
 New York en su versión regular, al ser una fuente original, llamativa y moderna, que aporta a la marca un toque especial y elegante.
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/thp_animacion_iratxecondeturon-1.gif?w=1024)
+  </div>
+  <div class="flex-item">
+    <img src="/imgs/img-245.webp" alt="Gif decreación del logo"/>
+  </div>
+</div>
 
-**Versiones alternativas del logo**
+## Versiones alternativas del logo
 
-##### Diseño de packaging
+<div class="grid-3-container">
+  <div class="grid-item">
+    <img src="/imgs/img-63.webp" alt="Imagen 1">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-65.webp" alt="Imagen 2">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-66.webp" alt="Imagen 3">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-59.webp" alt="Imagen 4">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-60.webp" alt="Imagen 5">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-61.webp" alt="Imagen 6">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-55.webp" alt="Imagen 1">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-56.webp" alt="Imagen 2">
+  </div>
+  <div class="grid-item">
+    <img src="/imgs/img-244.webp" alt="Imagen 3">
+  </div>
+</div>
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/3-colonias-1.png?w=750)
+
+## Diseño de packaging
+<div class="flex-container">
+  <div class="flex-item">
+
+[![Variantes de fragancias de la marca de la fragancía Free spirit](/imgs/img-4.webp "Variantes de fragancias de la marca de la fragancía Free spirit")](/imgs/img-4.webp)
+
+  </div>
+  <div class="flex-item">
 
 Para el packaging hemos querido conseguir una propuesta diferencial y atrevida, con el propósito de destacar entre la amplia gama de productos del sector. La idea principal ha sido crear una apariencia mágica para seguir con el estilo místico de Free Spirit y evocar en el público las sensaciones exclusivas de las fragancias.
 
 Por otro lado, al haber empleado fondos muy coloridos y llamativos para los envases, hemos optado por incluir la etiqueta del logotipo en su versión negativa, puesto que se adapta mejor al packaging de Free Spirit.
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos.png)
+
+  </div>
+</div>
+
+
+[![Variantes de fragancias de la marca de la fragancía Free spirit](/imgs/img-28.webp "Variantes de fragancias de la marca de la fragancía Free spirit")](/imgs/img-28.webp)
+
+<div class="centered-container">
 
 **Packaging _Stellar_.**
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos2.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos2.png)
+</div>
 
-**Packaging **_Cosmos_.\*\*\*\*
+[![Variantes de fragancias de la marca de la fragancía Free spirit](/imgs/img-29.webp "Variantes de fragancias de la marca de la fragancía Free spirit")](/imgs/img-29.webp)
+<div class="centered-container">
 
-[![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos3.png)](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/frascos3.png)
+**Packaging _Cosmos_.**
+
+</div>
+
+[![Variantes de fragancias de la marca de la fragancía Free spirit](/imgs/img-30.webp "Variantes de fragancias de la marca de la fragancía Free spirit")](/imgs/img-30.webp)
+
+<div class="centered-container">
 
 **Packaging _Eclipse_.**
 
-**El antes y el después de los fondos de las fragancias**
+</div>
 
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/28.jpg)![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/prueba.png)
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/5438849.jpg)![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/prueba-azul-nuevo.png)
-
-![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/blue-universe-star-explosion.jpg)![](https://iratxeconde.wordpress.com/wp-content/uploads/2022/08/prueba-naranja2.png)
+## El antes y el después de los fondos de las fragancias
 
 ## Navegación de entradas
