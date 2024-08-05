@@ -5,8 +5,8 @@ pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The Astro logo with the word One."
+  url: "/imgs/img-81.webp"
+  alt: "Logotipo de Dirdira"
 titulo: "Dirdira – Cosmética natural"
 ---
 
@@ -75,30 +75,31 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 
   </div>
 </div>
-<div class="parent">
+<div class="parent" id="gallery">
   <div class="child">
-    <a href="/imgs/img-241.webp">
-      <img src="/imgs/img-241.webp" alt="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" title="Mockup de una crema y fragancía crema de la marca imaginaría dirdira">
+    <a href="/imgs/img-241.webp" data-pswp-width=2000
+       data-pswp-height=1333  class="child-image">
+      <img src="/imgs/img-241.webp" alt="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" title="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" class="child-image"/>
     </a>
   </div>
   <div class="child">
-    <a href="/imgs/img-242.webp">
-      <img src="/imgs/img-242.webp" alt="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" title="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira">
+    <a href="/imgs/img-242.webp" data-pswp-width=2000 data-pswp-height=1600 class="child-image">
+      <img src="/imgs/img-242.webp" alt="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" title="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" class="child-image"/>
     </a>
   </div>
   <div class="child">
-    <a href="/imgs/img-238.webp">
-      <img src="/imgs/img-238.webp" alt="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" title="Mockup de una bolsa de papel para una marca imaginaría de Dirdira">
+    <a href="/imgs/img-238.webp" data-pswp-width=2000 data-pswp-height=1714 class="child-image">
+      <img src="/imgs/img-238.webp" alt="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" title="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" class="child-image"/>
     </a>
   </div>
   <div class="child">
-    <a href="/imgs/img-11.webp">
-      <img src="/imgs/img-11.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira">
+    <a href="/imgs/img-11.webp" data-pswp-width=2000 data-pswp-height=1333 class="child-image">
+      <img src="/imgs/img-11.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira" class="child-image"/>
     </a>
   </div>
   <div class="child">
-    <a href="/imgs/img-13.webp">
-      <img src="/imgs/img-13.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira">
+    <a href="/imgs/img-13.webp" data-pswp-width=2000 data-pswp-height=1333 class="child-image">
+      <img src="/imgs/img-13.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira" class="child-image"/>
     </a>
   </div>
 </div>
@@ -113,4 +114,3 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 
 [![Look & Feel de Dirdira](/imgs/img-156.webp "Look & Feel de Dirdira")](/imgs/img-156.webp)
 
-## Navegación de entradas

@@ -5,8 +5,8 @@ pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The Astro logo with the word One."
+  url: "/imgs/img-50.webp"
+  alt: "Mockup de cafetería de Goxo"
 titulo: "Goxo – Izozki naturalak"
 ---
 
@@ -54,40 +54,53 @@ _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 
 
 
+
+
 ## Construcción del logotipo
 
-<div style="display: flex; width: 100%;">
-  <div style="flex: 1; padding: 10px;">
+
+<div class="flex-container">
+  <div class="flex-item">
 
 [![Logotipo de Goxo](/imgs/img-35.webp "Logotipo de Goxo")](/imgs/img-35.webp)
 
 
   </div>
-  <div style="flex: 1; padding: 10px;">
-    
+  <div class="flex-item">
+
 El logo se basa en el naming Goxo (dulce y sabroso en euskera) y en «izozki naturalak» (helados naturales). Hemos empleado fuentes de aspecto elegante (New York y Butler) y, para que el logo se viera más radiante hemos aumentado el grosor de los trazos del naming.
 
 Para darle mayor dinamismo hemos incluido gotas en la «g» y en la «x», simulando la forma en la que se derriten los helados, con el objetivo de llamar la atención del público y darle una apariencia deliciosa.
 
 En cuanto a los colores corporativos, hemos optado por tonos pastel que aporten frescura y sabor; el azul y el verde aluden al lugar en el que se encuentra la heladería (Arrigunaga) y a la naturalidad de los productos de Goxo, y el morado indica su dulzura y sabor.
+
   </div>
 </div>
+
 
 [![Identidad visual de Goxo](/imgs/img-3.webp "Identidad visual de Goxo")](/imgs/img-3.webp)
 
 ## Packaging y publicidad exterior
 
-<div class="grid-2-container">
-  <div class="grid-item">
-    <img src="/imgs/img-87.webp" alt="Imagen 1">
+<div class="grid-2-container" id="gallery">
+  <div class="grid-item-auto">
+    <a href="/imgs/img-87.webp" data-pswp-width="2000" data-pswp-height="1278">
+      <img src="/imgs/img-87.webp" alt="Imagen 1"/>
+    </a>
   </div>
-  <div class="grid-item">
-    <img src="/imgs/img-86.webp" alt="Imagen 2">
+  <div class="grid-item-auto">
+    <a href="/imgs/img-86.webp" data-pswp-width="2000" data-pswp-height="1278">
+      <img src="/imgs/img-86.webp" alt="Imagen 2"/>
+    </a>
   </div>
-  <div class="grid-item">
-    <img src="/imgs/img-148.webp" alt="Imagen 4">
+  <div class="grid-item-auto">
+    <a href="/imgs/img-148.webp" data-pswp-width="2000" data-pswp-height="1335">
+      <img src="/imgs/img-148.webp" alt="Imagen 4"/>
+    </a>
   </div>
-  <div class="grid-item">
-    <img src="/imgs/img-211.webp" alt="Imagen 3">
+  <div class="grid-item-auto">
+    <a href="/imgs/img-211.webp" data-pswp-width="2000" data-pswp-height="1333">
+      <img src="/imgs/img-211.webp" alt="Imagen 3"/>
+    </a>
   </div>
 </div>

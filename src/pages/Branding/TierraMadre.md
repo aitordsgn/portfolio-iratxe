@@ -5,9 +5,10 @@ pubDate: 2022-07-01
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The Astro logo with the word One."
+  url: "/imgs/img-88.webp"
+  alt: "Nuevo logo de Charlotter Tilbury"
 titulo: "Tierra Madre (Oxfam Intermón)"
+
 ---
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-88.webp)
@@ -55,58 +56,87 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-89.webp)
 
 ## Diseño de packaging
-
-<div class="grid-4-container">
+<div class="grid-4-container" id="gallery">
   <div class="grid-item">
-    <img src="/imgs/img-190.webp" alt="Imagen 1">
+    <a href="/imgs/img-190.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-190.webp" alt="Imagen 1"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-191.webp" alt="Imagen 2">
+    <a href="/imgs/img-191.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-191.webp" alt="Imagen 2"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-192.webp" alt="Imagen 3">
+    <a href="/imgs/img-192.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-192.webp" alt="Imagen 3"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-193.webp" alt="Imagen 4">
+    <a href="/imgs/img-193.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-193.webp" alt="Imagen 4"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-194.webp" alt="Imagen 5">
+    <a href="/imgs/img-194.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-194.webp" alt="Imagen 5"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-195.webp" alt="Imagen 6">
-  </div>
-
-  <div class="grid-item">
-    <img src="/imgs/img-196.webp" alt="Imagen 5">
+    <a href="/imgs/img-195.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-195.webp" alt="Imagen 6"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-197.webp" alt="Imagen 6">
+    <a href="/imgs/img-196.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-196.webp" alt="Imagen 7"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-198.webp" alt="Imagen 5">
+    <a href="/imgs/img-197.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-197.webp" alt="Imagen 8"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-199.webp" alt="Imagen 6">
+    <a href="/imgs/img-198.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-198.webp" alt="Imagen 9"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-200.webp" alt="Imagen 6">
+    <a href="/imgs/img-199.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-199.webp" alt="Imagen 10"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-201.webp" alt="Imagen 6">
+    <a href="/imgs/img-200.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-200.webp" alt="Imagen 11"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-90.webp" alt="Imagen 6">
+    <a href="/imgs/img-201.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-201.webp" alt="Imagen 12"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-129.webp" alt="Imagen 6">
+    <a href="/imgs/img-90.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-90.webp" alt="Imagen 13"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-128.webp" alt="Imagen 6">
+    <a href="/imgs/img-129.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-129.webp" alt="Imagen 14"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-91.webp" alt="Imagen 6">
+    <a href="/imgs/img-128.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-128.webp" alt="Imagen 15"/>
+    </a>
   </div>
-  
+  <div class="grid-item">
+    <a href="/imgs/img-91.webp" data-pswp-width="2000" data-pswp-height="2000">
+      <img src="/imgs/img-91.webp" alt="Imagen 16"/>
+    </a>
+  </div>
 </div>
 
-## Navegación de entradas
+

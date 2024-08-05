@@ -5,10 +5,12 @@ pubDate: 2022-07-22
 description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
 author: "Iratxe Conde Turón"
 image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The Astro logo with the word One."
+  url: "/imgs/img-109.webp"
+  alt: "Logotipo de fragancias Free Spirit"
 titulo: "Free Spirit – Fragancias unisex"
 ---
+<script type="module" src="https://unpkg.com/two-up-element"></script>
+
 
 [![Logotipo de la fraganciía Free Spirit sobre un fondo estrellado](/imgs/img-109.webp "Logotipo de fragancias Free Spirit")](/imgs/img-109.webp)
 
@@ -65,35 +67,54 @@ New York en su versión regular, al ser una fuente original, llamativa y moderna
 
 ## Versiones alternativas del logo
 
-<div class="grid-3-container">
-  <div class="grid-item">
-    <img src="/imgs/img-63.webp" alt="Imagen 1">
+<div class="grid-3-container" id="gallery">
+  <div class="grid-item" >
+    <a href="/imgs/img-63.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-63.webp" alt="Imagen 1"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-65.webp" alt="Imagen 2">
+    <a href="/imgs/img-65.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-65.webp" alt="Imagen 2"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-66.webp" alt="Imagen 3">
+    <a href="/imgs/img-66.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-66.webp" alt="Imagen 3"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-59.webp" alt="Imagen 4">
+    <a href="/imgs/img-59.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-59.webp" alt="Imagen 4"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-60.webp" alt="Imagen 5">
+    <a href="/imgs/img-60.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-60.webp" alt="Imagen 5"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-61.webp" alt="Imagen 6">
+    <a href="/imgs/img-61.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-61.webp" alt="Imagen 6"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-55.webp" alt="Imagen 1">
+    <a href="/imgs/img-55.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-55.webp" alt="Imagen 7"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-56.webp" alt="Imagen 2">
+    <a href="/imgs/img-56.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-56.webp" alt="Imagen 8"/>
+    </a>
   </div>
   <div class="grid-item">
-    <img src="/imgs/img-244.webp" alt="Imagen 3">
+    <a href="/imgs/img-244.webp" data-pswp-width=2000 data-pswp-height=2000>
+      <img src="/imgs/img-244.webp" alt="Imagen 9"/>
+    </a>
   </div>
 </div>
+
 
 
 ## Diseño de packaging
@@ -138,5 +159,18 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
 </div>
 
 ## El antes y el después de los fondos de las fragancias
+<two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
+            <img src="/imgs/img-26.webp" alt="Fondo estrallado rosado y azulado pero desaturado" class="flex-1 w-full h-full object-cover">
+            <img src="/imgs/img-121.webp" alt="Fondo estrallado rosado y morado con colores vivos" class="flex-1 w-full h-full object-cover">
+</two-up>
 
-## Navegación de entradas
+<two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
+            <img src="/imgs/img-36.webp" alt="Fondo estrallado rosado y azulado en forma de espiral" class="flex-1 w-full h-full object-cover">
+            <img src="/imgs/img-122.webp" alt="Fondo estrallado rosado y azulado en forma de espiral pro tratamiento de la iamgen" class="flex-1 w-full h-full object-cover">
+</two-up>
+
+<two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
+            <img src="/imgs/img-182.webp" alt="Explosión de una estrella azul" class="flex-1 w-full h-full object-cover">
+            <img src="/imgs/img-123.webp" alt="Explosión de una estrella naranja" class="flex-1 w-full h-full object-cover">
+</two-up>
+
