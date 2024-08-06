@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Free Spirit – Fragancias unisex – Iratxe Conde"
 pubDate: 2022-07-22
-description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
+description: "Free Spirit es una marca joven y moderna que ofrece fragancias unisex cítricas, adaptadas a las nuevas tendencias, con un diseño de logotipo y packaging que destacan por su libertad, elegancia y poder."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-109.webp"

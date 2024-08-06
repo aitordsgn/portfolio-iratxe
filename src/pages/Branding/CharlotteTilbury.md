@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Charlotte Tilbury – Maquillaje de lujo – Iratxe Conde"
 pubDate: 2022-07-01
-description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
+description: "Charlotte Tilbury se transforma hacia una marca de cosmética de alta gama más sostenible y responsable. Descubre el rebranding que refleja sus nuevos valores y principios."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-77.webp"
@@ -41,7 +41,7 @@ titulo: "Charlotte Tilbury - Maquillaje de lujo"
 
 <div class="flex-container">
   <div class="flex-item">
-    <img src="/imgs/img-2.webp"/>
+    <img src="/imgs/img-2.webp" loading="lazy"/>
   </div>
   <div class="flex-item">
 
@@ -59,32 +59,32 @@ Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logr
 <div class="grid-3-container" id="gallery">
   <div class="grid-item">
     <a href="/imgs/img-9.webp" data-pswp-width=2000 data-pswp-height=1126>
-      <img src="/imgs/img-9.webp" alt="Imagen 1"/>
+      <img src="/imgs/img-9_opt.webp" alt="Mockup de una crema de Charlotte Tilbury con una vista isometrica frontal." loading="lazy" width=1000 height=563/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-10.webp" data-pswp-width=2000 data-pswp-height=1126>
-      <img src="/imgs/img-10.webp" alt="Imagen 2"/>
+      <img src="/imgs/img-10_opt.webp" alt="Mockup de una crema de Charlotte Tilbury con una vista isometrica cenital." loading="lazy" width=1000 height=563/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-69.webp" data-pswp-width=1920 data-pswp-height=1080>
-      <img src="/imgs/img-69.webp" alt="Imagen 3"/>
+      <img src="/imgs/img-69_opt.webp" alt="Mockup de packaging de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." loading="lazy" width=1000 height=563/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-70.webp" data-pswp-width=1920 data-pswp-height=1080>
-      <img src="/imgs/img-70.webp" alt="Imagen 4"/>
+      <img src="/imgs/img-70_opt.webp" alt="Mockup de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." loading="lazy"/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-116.webp" data-pswp-width=2000 data-pswp-height=1500>
-      <img src="/imgs/img-116.webp" alt="Imagen 5"/>
+      <img src="/imgs/img-116_opt.webp" alt="Mockup de cuentagotas con liquido parecido a maquillaje." loading="lazy" width=1000 height=750/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-126.webp" data-pswp-width=2000 data-pswp-height=1500>
-      <img src="/imgs/img-126.webp" alt="Imagen 6"/>
+      <img src="/imgs/img-126_opt.webp" alt="Mockup de cuentagotas con liquido parecido a maquillaje y packaging." loading="lazy" width=1000 height=750/>
     </a>
   </div>
 </div>

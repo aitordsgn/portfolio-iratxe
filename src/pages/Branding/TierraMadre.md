@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Tierra Madre (Oxfam Intermón) – Iratxe Conde"
 pubDate: 2022-07-01
-description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
+description: "Goxo es una heladería situada en Arrigunaga, Getxo, que ofrece helados y dulces de origen natural y respetuosos con el medio ambiente. Con una misión de calidad y compromiso, Goxo se dirige a quienes buscan productos innovadores y sabores sorprendentes, brindando una experiencia única en un entorno costero idílico."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-88.webp"

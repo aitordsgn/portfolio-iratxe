@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Goxo – Izozki naturalak – Iratxe Conde"
 pubDate: 2022-07-01
-description: "La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores."
+description: "Goxo es una heladería en Arrigunaga, Bizkaia, que ofrece helados y dulces naturales con sabores increíbles. Disfruta de productos respetuosos con el medio ambiente y elaborados con materiales locales mientras contemplas las vistas de la costa. Perfecto para aquellos que buscan calidad, sabor y una experiencia sensitiva única."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-50.webp"
