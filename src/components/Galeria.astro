@@ -19,17 +19,19 @@ const { images, columns = 4 } = Astro.props as Props;
 <!-- Usa Grid para las columnas -->
 <div class={`grid grid-cols-${columns} gap-2 mx-auto max-w-6xl pb-10 px-2`} id="gallery">
   {images.map((image, i: number) => (
-    <a href={`/imgs/${image.src}`}
+    <a href={`/imgs/${image.src}.webp`}
        target="_blank"
        data-pswp-width={image.width} 
        data-pswp-height={image.height} 
        class="relative rounded-xl overflow-hidden hover:scale-105 transition-transform aspect-square"
        aria-label={image.alt}>
       <img 
-        src={`/imgs/${image.src}`} 
+        src={`/imgs/${image.src}_opt.webp`} 
         alt={image.alt}
         class="object-cover w-full h-full"
-        loading="lazy" />
+        loading="lazy"
+        width={image.width} 
+        height={image.height}/>
     </a>
   ))}
 </div>

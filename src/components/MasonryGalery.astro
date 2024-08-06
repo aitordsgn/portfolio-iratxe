@@ -88,13 +88,13 @@ const { images, columns = 4 } = Astro.props as Props;
     
 <div id="gallery" class="masonry mx-auto max-w-6xl pb-10 px-2">
     {images.map((image, i: number) => (
-        <a href={`/imgs/${image.src}`}
+        <a href={`/imgs/${image.src}.webp`}
            target="_blank"
            data-pswp-width={image.width} 
            data-pswp-height={image.height} 
            class="item">
           <img 
-            src={`/imgs/${image.src}`} 
+            src={`/imgs/${image.src}_opt.webp`} 
             alt={image.alt}
             class="item"
             loading="lazy" />
