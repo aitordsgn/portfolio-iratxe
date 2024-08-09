@@ -5,17 +5,14 @@ pubDate: 2022-07-22
 description: "Free Spirit es una marca joven y moderna que ofrece fragancias unisex cítricas, adaptadas a las nuevas tendencias, con un diseño de logotipo y packaging que destacan por su libertad, elegancia y poder."
 author: "Iratxe Conde Turón"
 image:
-  url: "/imgs/img-109.webp"
+  url: "/imgs/img-109_opt.webp"
   alt: "Logotipo de fragancias Free Spirit"
 titulo: "Free Spirit – Fragancias unisex"
 ---
+
 <script type="module" src="https://unpkg.com/two-up-element"></script>
 
-
 [![Logotipo de la fraganciía Free Spirit sobre un fondo estrellado](/imgs/img-109.webp "Logotipo de fragancias Free Spirit")](/imgs/img-109.webp)
-
-
-
 
 Marca joven y moderna, que se adapta a las necesidades cambiantes del público y a las nuevas tendencias; siempre con el objetivo de romper con lo establecido.
 
@@ -33,12 +30,10 @@ La versatilidad es lo que hace a las fragancias cítricas una opción perfecta p
 
 ## Diseño de logotipo
 
-
 <div class="flex-container">
   <div class="flex-item">
 
 [![Variantes de tarjetas de la fragancía Free spirit](/imgs/img-147.webp "Variantes de tarjetas de la fragancía Free spirit")](/imgs/img-147.webp)
-
 
   </div>
   <div class="flex-item">
@@ -49,7 +44,6 @@ El dorado en contraste con el fondo el verde o negro, hace que la identidad visu
 
   </div>
 </div>
-
 
 <div class="flex-container">
   <div class="flex-item">
@@ -115,9 +109,8 @@ New York en su versión regular, al ser una fuente original, llamativa y moderna
   </div>
 </div>
 
-
-
 ## Diseño de packaging
+
 <div class="flex-container">
   <div class="flex-item">
 
@@ -130,10 +123,8 @@ Para el packaging hemos querido conseguir una propuesta diferencial y atrevida, 
 
 Por otro lado, al haber empleado fondos muy coloridos y llamativos para los envases, hemos optado por incluir la etiqueta del logotipo en su versión negativa, puesto que se adapta mejor al packaging de Free Spirit.
 
-
   </div>
 </div>
-
 
 [![Variantes de fragancias de la marca de la fragancía Free spirit](/imgs/img-28.webp "Variantes de fragancias de la marca de la fragancía Free spirit")](/imgs/img-28.webp)
 
@@ -144,6 +135,7 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
 </div>
 
 [![Variantes de fragancias de la marca de la fragancía Free spirit](/imgs/img-29.webp "Variantes de fragancias de la marca de la fragancía Free spirit")](/imgs/img-29.webp)
+
 <div class="centered-container">
 
 **Packaging _Cosmos_.**
@@ -159,6 +151,7 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
 </div>
 
 ## El antes y el después de los fondos de las fragancias
+
 <two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
             <img src="/imgs/img-26.webp" alt="Fondo estrallado rosado y azulado pero desaturado" class="flex-1 w-full h-full object-cover">
             <img src="/imgs/img-121.webp" alt="Fondo estrallado rosado y morado con colores vivos" class="flex-1 w-full h-full object-cover">
@@ -173,4 +166,3 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
             <img src="/imgs/img-182.webp" alt="Explosión de una estrella azul" class="flex-1 w-full h-full object-cover">
             <img src="/imgs/img-123.webp" alt="Explosión de una estrella naranja" class="flex-1 w-full h-full object-cover">
 </two-up>
-

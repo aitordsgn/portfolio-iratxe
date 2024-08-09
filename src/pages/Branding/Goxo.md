@@ -5,11 +5,10 @@ pubDate: 2022-07-01
 description: "Goxo es una heladería en Arrigunaga, Bizkaia, que ofrece helados y dulces naturales con sabores increíbles. Disfruta de productos respetuosos con el medio ambiente y elaborados con materiales locales mientras contemplas las vistas de la costa. Perfecto para aquellos que buscan calidad, sabor y una experiencia sensitiva única."
 author: "Iratxe Conde Turón"
 image:
-  url: "/imgs/img-50.webp"
+  url: "/imgs/img-50_opt.webp"
   alt: "Mockup de cafetería de Goxo"
 titulo: "Goxo – Izozki naturalak"
 ---
-
 
 <div class="centered-container">
 
@@ -35,6 +34,7 @@ _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 **Público objetivo:** se dirige a todas aquellas personas que se acercan a Arrigunaga para desconectar y disfrutar de las sensaciones de calma que transmite el lugar. Son personas que buscan que los sorprendan y que se preocupan por el origen y la calidad de los productos.
 
 **Misión:** ofrecer productos de origen natural, respetuosos y de gran calidad, priorizando los materiales locales y con sabores inigualables para los paladares más exigentes.
+
   </div>
   <div class="flex-item">
 
@@ -46,24 +46,15 @@ _«Goxo»: rico, delicioso, dulce._ / _«Izozki naturalak»: helados naturales._
 
 **Unique selling proposition (USP):** dulces de origen natural que dan respuesta a la creciente demanda de productos novedosos y refrescantes en Arrigunaga, creados a partir de procesos responsables. Todo ello, mediante sabores inigualables y sorprendentes que provocan sensaciones únicas, llevando a los usuarios a una absoluta relajación.
 
-
   </div>
 </div>
 
-
-
-
-
-
-
 ## Construcción del logotipo
-
 
 <div class="flex-container">
   <div class="flex-item">
 
 [![Logotipo de Goxo](/imgs/img-35.webp "Logotipo de Goxo")](/imgs/img-35.webp)
-
 
   </div>
   <div class="flex-item">
@@ -76,7 +67,6 @@ En cuanto a los colores corporativos, hemos optado por tonos pastel que aporten 
 
   </div>
 </div>
-
 
 [![Identidad visual de Goxo](/imgs/img-3.webp "Identidad visual de Goxo")](/imgs/img-3.webp)
 

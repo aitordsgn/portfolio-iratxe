@@ -4,6 +4,8 @@ import Layout from '@/layouts/Layout.astro';
 import Heading from '@/components/Heading.astro';
 import User from '@/components/icons/User.astro';
 import Calendar from '@/components/icons/Calendar.astro';
+import RelatedPosts from '@/components/RelatedPosts.astro';
+
 
 
 import { formatDate }  from "../js/utils";
@@ -16,6 +18,29 @@ const {frontmatter} = Astro.props;
 console.log(frontmatter);
 
 const {title,description,pubDate,category,author,image,titulo} = frontmatter;
+
+import { formatBlogPosts } from "../js/utils";
+
+const allPosts = await Astro.glob("../pages/Branding/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {
+  sortByDate: false,
+});
+
+
+const relatedPosts = formattedPosts
+  .filter((post) => post.frontmatter.title !== title)
+  .slice(0, 3);
+
+console.log('Related Posts without Category Filter:', relatedPosts);
+
+
+  console.log('Formatted Posts:', formattedPosts);
+
+
+
+  console.log('Related Posts:', relatedPosts);
+
+
 ---
 
   
@@ -39,6 +64,16 @@ const {title,description,pubDate,category,author,image,titulo} = frontmatter;
 
     <Calendar class="size-9 px-2"/>
     {formatDate(pubDate)}
+  </div>
+  <div class="post-content max-w-5xl mx-auto w-[80%]">
+    {
+      relatedPosts.length > 0 && (
+        <section class="container" aria-label="Related posts">
+          <h2 class="h3">Related Posts</h2>
+          <RelatedPosts {relatedPosts} />
+        </section>
+      )
+    }
   </div>
 </Layout>
 

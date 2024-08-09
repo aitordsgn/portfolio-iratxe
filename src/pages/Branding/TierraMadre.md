@@ -5,10 +5,9 @@ pubDate: 2022-07-01
 description: "Goxo es una heladería situada en Arrigunaga, Getxo, que ofrece helados y dulces de origen natural y respetuosos con el medio ambiente. Con una misión de calidad y compromiso, Goxo se dirige a quienes buscan productos innovadores y sabores sorprendentes, brindando una experiencia única en un entorno costero idílico."
 author: "Iratxe Conde Turón"
 image:
-  url: "/imgs/img-88.webp"
+  url: "/imgs/img-88_opt.webp"
   alt: "Nuevo logo de Charlotter Tilbury"
 titulo: "Tierra Madre (Oxfam Intermón)"
-
 ---
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-88.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-88.webp)
@@ -56,6 +55,7 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-89.webp "Nuevo logo de Charlotter Tilbury")](/imgs/img-89.webp)
 
 ## Diseño de packaging
+
 <div class="grid-4-container" id="gallery">
   <div class="grid-item">
     <a href="/imgs/img-190.webp" data-pswp-width="2000" data-pswp-height="2000">
@@ -138,5 +138,3 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
     </a>
   </div>
 </div>
-
-

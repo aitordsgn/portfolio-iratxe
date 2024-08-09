@@ -5,14 +5,14 @@ pubDate: 2022-07-01
 description: "Charlotte Tilbury se transforma hacia una marca de cosmética de alta gama más sostenible y responsable. Descubre el rebranding que refleja sus nuevos valores y principios."
 author: "Iratxe Conde Turón"
 image:
-  url: "/imgs/img-77.webp"
+  url: "/imgs/img-77_opt.webp"
   alt: "Nuevo logo de Charlotter Tilbury"
 titulo: "Charlotte Tilbury - Maquillaje de lujo"
 ---
 
 <div class="centered-container">
 
-  _La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores._
+_La conocida marca de cosmética de alta gama está en plena transformación digital y quiere poner su foco en crear productos más **sostenibles y responsables.** Para proyectar este cambio y alinearse con su nueva estrategia de marca, Charlotte Tilbury busca un **rebranding** acorde a sus principios y valores._
 
 </div>
 
@@ -89,7 +89,6 @@ Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logr
   </div>
 </div>
 
-
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-5.webp "Nuevo logo de Charlotter Tilbury")]()
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-6.webp "Nuevo logo de Charlotter Tilbury")]()
@@ -97,4 +96,3 @@ Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logr
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-250.webp "Nuevo logo de Charlotter Tilbury")]()
 
 [![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-22.webp "Nuevo logo de Charlotter Tilbury")]()
-

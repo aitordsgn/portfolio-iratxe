@@ -5,7 +5,7 @@ pubDate: 2022-07-01
 description: "Explora el proyecto de branding y diseño de marca para 'Dirdira' por Iratxe Conde Turon, una marca de cosmética cruelty-free enfocada en la inclusividad, diversidad y belleza real."
 author: "Iratxe Conde Turón"
 image:
-  url: "/imgs/img-81.webp"
+  url: "/imgs/img-81_opt.webp"
   alt: "Logotipo de Dirdira"
 titulo: "Dirdira – Cosmética natural"
 ---
@@ -113,4 +113,3 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
 [![Look & Feel de Dirdira](/imgs/img-220.webp "Look & Feel de Dirdira")](/imgs/img-220.webp)
 
 [![Look & Feel de Dirdira](/imgs/img-156.webp "Look & Feel de Dirdira")](/imgs/img-156.webp)
-
