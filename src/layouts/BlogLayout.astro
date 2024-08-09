@@ -5,7 +5,8 @@ import Heading from '@/components/Heading.astro';
 import User from '@/components/icons/User.astro';
 import Calendar from '@/components/icons/Calendar.astro';
 import RelatedPosts from '@/components/RelatedPosts.astro';
-
+import PostComponents from '@/components/PostComponents.astro';
+import SectionContainer from '@/components/SectionContainer.astro';
 
 
 import { formatDate }  from "../js/utils";
@@ -75,6 +76,10 @@ console.log('Related Posts without Category Filter:', relatedPosts);
       )
     }
   </div>
+  <SectionContainer>
+    <h2>Deja tus comentarios</h2>
+    <PostComponents/>
+  </SectionContainer>
 </Layout>
 
 
