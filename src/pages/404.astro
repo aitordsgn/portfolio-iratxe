@@ -1,10 +1,21 @@
 ---
 // component imports
-import LinkinLine from "@/components/LinkinLine.astro";
 import Layout from "@/layouts/Layout.astro";
+
+
+const pageTitle = "Página no encontrada - Iratxe Conde - Publicista y Diseñadora Gráfica";
+const pageDescription = "Lo sentimos, la página que buscas no existe. Regresa al inicio para explorar el portafolio y los proyectos de Iratxe Conde, publicista y diseñadora gráfica en Bilbao.";
+const pageKeywords = "Página no encontrada, Error 404, Iratxe Conde, Publicista y diseñadora gráfica en Bilbao, Portafolio de diseño gráfico, Branding en Bilbao, Diseño gráfico en Bilbao, Vuelve al inicio, Proyectos de diseño gráfico, Servicios de branding";
+const ogImage = "/Portafolio.webp";
+
 ---
 
-<Layout title="Página no encontrada - Iratxe Conde - Publicista y Diseñadora Gráfica" description="Lo sentimos, la página que buscas no existe. Vuelve al inicio para explorar el portafolio de Iratxe Conde, publicista y diseñadora gráfica.">
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+  keywords={pageKeywords}
+  ogImage={ogImage}
+>
   <div
     class="container"
     style={{

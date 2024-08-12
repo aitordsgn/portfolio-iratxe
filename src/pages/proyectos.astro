@@ -2,10 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Heading from '../components/Heading.astro';
 
-
 import Galeria from '@/components/Galeria.astro';
 import MasonryGalery from '@/components/MasonryGalery.astro';
 import images from '@/images.json';
+
+
 
 const Galeria1 =  [93, 94, 96];
 const Galeria2 = [167, 168, 169];
@@ -55,10 +56,20 @@ const Branding = [
         "link": "Goxo",
     },
 ]
+
+const pageTitle = "Proyectos de Iratxe Conde - Publicista y Diseñadora Gráfica";
+const pageDescription = "Explora los proyectos realizados por Iratxe Conde, publicista y diseñadora gráfica en Bilbao. Conoce su trabajo en branding, diseño gráfico, ilustración y publicidad.";
+const pageKeywords = "Proyectos de diseño gráfico en Bilbao, Branding y diseño de marca, Ilustraciones personalizadas, Publicidad creativa en Bilbao, Portafolio de Iratxe Conde, Diseñadora gráfica y publicista en Bilbao, Servicios de ilustración y branding, Desarrollo de identidad visual en Bilbao, Diseño gráfico para empresas en Bilbao, Iratxe Conde Turon, diseñadora y publicista freelance";
+const ogImage = "/Proyectos.webp";
+
 ---
 
-
-<Layout title="Proyectos - Iratxe Conde - Publicista y Diseñadora Gráfica" description='Explora los proyectos creativos de Iratxe Conde, publicista y diseñadora gráfica. Descubre trabajos destacados en publicidad, diseño gráfico y multimedia.'>
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+  keywords={pageKeywords}
+  ogImage={ogImage}
+>
     <Heading title="Proyectos"/>
     <h2>Branding</h2>
     <div class={`grid grid-cols-3 gap-2 mx-auto max-w-6xl pb-10 px-2`}>
