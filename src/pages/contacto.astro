@@ -9,6 +9,14 @@ const pageDescription = "Ponte en contacto con Iratxe Conde, publicista y diseñ
 const pageKeywords = "Contacto Iratxe Conde, Publicista y diseñadora gráfica en Bilbao, Consultas de diseño gráfico, Colaboraciones creativas en Bilbao, Servicios de branding y publicidad, Freelance de diseño gráfico en Bilbao, Proyectos de diseño gráfico, Consultoría de branding, Iratxe Conde Turon, diseñadora gráfica en Bilbao";
 const ogImage = "/Contacto.webp";
 
+
+const jsonLdOverrides = {
+  "@type": "ContactPage",
+  "headline": {pageTitle},
+  "description": {pageDescription},
+  "image":  `${ogImage}`,
+
+};
 ---
 
 
@@ -18,6 +26,7 @@ const ogImage = "/Contacto.webp";
   description={pageDescription}
   keywords={pageKeywords}
   ogImage={ogImage}
+  jsonLdOverrides={jsonLdOverrides}
 >
     <Heading title="Contacto"/>
     <Contact/>

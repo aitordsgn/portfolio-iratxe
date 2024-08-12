@@ -8,6 +8,15 @@ const pageDescription = "Lo sentimos, la página que buscas no existe. Regresa a
 const pageKeywords = "Página no encontrada, Error 404, Iratxe Conde, Publicista y diseñadora gráfica en Bilbao, Portafolio de diseño gráfico, Branding en Bilbao, Diseño gráfico en Bilbao, Vuelve al inicio, Proyectos de diseño gráfico, Servicios de branding";
 const ogImage = "/Portafolio.webp";
 
+
+const jsonLdOverrides = {
+  "@type": "ErrorPage",
+  "headline": {pageTitle},
+  "description": {pageDescription},
+  "image":  `${ogImage}`,
+
+};
+
 ---
 
 <Layout 
@@ -15,6 +24,7 @@ const ogImage = "/Portafolio.webp";
   description={pageDescription}
   keywords={pageKeywords}
   ogImage={ogImage}
+  jsonLdOverrides={jsonLdOverrides}
 >
   <div
     class="container"

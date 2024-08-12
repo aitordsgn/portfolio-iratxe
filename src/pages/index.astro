@@ -15,6 +15,15 @@ const pageDescription = "Descubre el portafolio de Iratxe Conde, publicista y di
 const pageKeywords = "Publicista y diseñadora gráfica en Bilbao, Especialista en branding y diseño de marca en Bilbao, Servicios de diseño gráfico en Bilbao, Portfolio de diseño gráfico en Bilbao, Branding profesional en Bilbao, Iratxe Conde Turon, publicista en Bilbao, Diseño de identidad visual en Bilbao, Consultoría de branding en Bilbao, Servicios de publicidad en Bilbao, Diseñadora gráfica freelance en Bilbao";
 const ogImage ="/Portafolio.webp";
 
+
+const jsonLdOverrides = {
+  "@type": "WebPage",
+  "headline": {pageTitle},
+  "description": {pageDescription},
+  "image":  `${ogImage}`,
+
+};
+
 ---
 
 <Layout 
@@ -22,6 +31,7 @@ const ogImage ="/Portafolio.webp";
   description={pageDescription}
   keywords={pageKeywords}
   ogImage={ogImage}
+  jsonLdOverrides={jsonLdOverrides}
 >
 <!-- Contenedor con el fondo fijo -->
   <section class="relative h-screen max-h-[600px] overflow-hidden">

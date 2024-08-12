@@ -12,6 +12,7 @@ export interface Props {
   twitterCreator?: string;
   canonicalUrl?: string;
   ogUrl?: string;
+  jsonLdOverrides?: any;
 }
 
 const {
@@ -24,12 +25,50 @@ const {
   twitterCard = "summary_large_image",
   twitterSite = "@iratxeconde07",
   twitterCreator = "@iratxeconde07",
+  jsonLdOverrides = {},
 } = Astro.props;
 
 // Usar la URL actual de la página como valor por defecto
 const currentUrl = new URL(Astro.url.pathname, Astro.url.origin);
 const canonicalUrl = Astro.props.canonicalUrl || currentUrl.toString();
 const ogUrl = Astro.props.ogUrl || currentUrl.toString();
+
+
+const jsonLdBase = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Iratxe Conde Turon",
+  "jobTitle": "Publicista y Diseñadora Gráfica",
+  "url": "https://www.ejemplo.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/iratxeconde/",
+    "https://www.instagram.com/iratxeconde/",
+    "https://www.twitter.com/iratxeconde/"
+  ],
+  "image": "https://www.ejemplo.com/Portafolio.webp",
+  "description": "Publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce mis proyectos y habilidades creativas.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": ["Tiempo Completo",
+      "Freelance"
+    ]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bilbao",
+    "addressRegion": "Bizkaia",
+    "addressCountry": "España"
+  }
+};
+
+// Merge entre la base y las propiedades que llegan desde la página
+const jsonLd = {
+  ...jsonLdBase,
+  ...jsonLdOverrides,
+};
+
+
+
 ---
 
 <head>
@@ -62,4 +101,7 @@ const ogUrl = Astro.props.ogUrl || currentUrl.toString();
   <meta name="DC.format" content="text/html" />
   <meta name="DC.identifier" content={canonicalUrl} />
   <meta name="DC.language" content="es" />
+  <script type="application/ld+json">
+    {JSON.stringify(jsonLd)}
+  </script>
 </head>
