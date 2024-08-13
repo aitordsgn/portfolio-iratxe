@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Free Spirit – Fragancias unisex – Iratxe Conde"
 pubDate: 2022-07-22
-description: "Free Spirit es una marca joven y moderna que ofrece fragancias unisex cítricas, adaptadas a las nuevas tendencias, con un diseño de logotipo y packaging que destacan por su libertad, elegancia y poder."
+description: "Descubre el proyecto de branding de Free Spirit: fragancias unisex cítricas con un diseño de logotipo y packaging que reflejan libertad y elegancia."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-109_opt.webp"

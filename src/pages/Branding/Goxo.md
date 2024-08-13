@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Goxo – Izozki naturalak – Iratxe Conde"
 pubDate: 2022-07-01
-description: "Goxo es una heladería en Arrigunaga, Bizkaia, que ofrece helados y dulces naturales con sabores increíbles. Disfruta de productos respetuosos con el medio ambiente y elaborados con materiales locales mientras contemplas las vistas de la costa. Perfecto para aquellos que buscan calidad, sabor y una experiencia sensitiva única."
+description: "Goxo, heladería en Arrigunaga, Bizkaia, ofrece helados naturales con sabores increíbles. Disfruta de productos locales y vistas de la costa. Calidad, sabor y experiencia única."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-50_opt.webp"

@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Dirdira – Cosmética natural – Iratxe Conde"
 pubDate: 2022-07-01
-description: "Explora el proyecto de branding y diseño de marca para 'Dirdira' por Iratxe Conde Turon, una marca de cosmética cruelty-free enfocada en la inclusividad, diversidad y belleza real."
+description: "Explora el branding de ‘Dirdira’ por Iratxe Conde Turon, una marca de cosmética cruelty-free centrada en inclusividad, diversidad y belleza real."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-81_opt.webp"

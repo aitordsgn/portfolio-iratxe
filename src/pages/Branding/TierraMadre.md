@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogLayout.astro
 title: "Tierra Madre (Oxfam Intermón) – Iratxe Conde"
 pubDate: 2022-07-01
-description: "Goxo es una heladería situada en Arrigunaga, Getxo, que ofrece helados y dulces de origen natural y respetuosos con el medio ambiente. Con una misión de calidad y compromiso, Goxo se dirige a quienes buscan productos innovadores y sabores sorprendentes, brindando una experiencia única en un entorno costero idílico."
+description: "Rebranding de Tierra Madre: chocolates veganos gourmet con nueva identidad visual. Descubre calidad excepcional y sostenibilidad."
 author: "Iratxe Conde Turón"
 image:
   url: "/imgs/img-88_opt.webp"

@@ -16,7 +16,7 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
 
 </div>
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-77.webp "Nuevo logo de Charlotter Tilbury")]()
+<img src="/imgs/img-77.webp" alt="Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera" title="Nuevo logo de Charlotter Tilbury" loading="lazy" width="1920" height="1080">
 
 <div class="flex-container-start">
   <div class="flex-item">
@@ -41,7 +41,7 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
 
 <div class="flex-container">
   <div class="flex-item">
-    <img src="/imgs/img-2.webp" loading="lazy"/>
+    <img src="/imgs/img-2.webp" loading="lazy" width="1663" height="2000" alt ="Transformación de logo de Charlotte Tilbury" title="Transformación de logo de Charlotte Tilbury"/>
   </div>
   <div class="flex-item">
 
@@ -59,40 +59,41 @@ Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logr
 <div class="grid-3-container" id="gallery">
   <div class="grid-item">
     <a href="/imgs/img-9.webp" data-pswp-width=2000 data-pswp-height=1126>
-      <img src="/imgs/img-9_opt.webp" alt="Mockup de una crema de Charlotte Tilbury con una vista isometrica frontal." loading="lazy" width=1000 height=563/>
+      <img src="/imgs/img-9_opt.webp" alt="Mockup de una crema de Charlotte Tilbury con una vista isometrica frontal." loading="lazy" width=1000 height=563 title="Mockup de una crema de Charlotte Tilbury con una vista isometrica frontal."/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-10.webp" data-pswp-width=2000 data-pswp-height=1126>
-      <img src="/imgs/img-10_opt.webp" alt="Mockup de una crema de Charlotte Tilbury con una vista isometrica cenital." loading="lazy" width=1000 height=563/>
+      <img src="/imgs/img-10_opt.webp" alt="Mockup de una crema de Charlotte Tilbury con una vista isometrica cenital." loading="lazy" width=1000 height=563 title="Mockup de una crema de Charlotte Tilbury con una vista isometrica cenital."/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-69.webp" data-pswp-width=1920 data-pswp-height=1080>
-      <img src="/imgs/img-69_opt.webp" alt="Mockup de packaging de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." loading="lazy" width=1000 height=563/>
+      <img src="/imgs/img-69_opt.webp" alt="Mockup de packaging de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." loading="lazy" width=1000 height=563 title="Mockup de packaging de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury."/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-70.webp" data-pswp-width=1920 data-pswp-height=1080>
-      <img src="/imgs/img-70_opt.webp" alt="Mockup de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." loading="lazy"/>
+      <img src="/imgs/img-70_opt.webp" alt="Mockup de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." loading="lazy"  title="Mockup de lapiz labial, maquillaje en polvo y pincel de la marca Charlotte Tilbury." width=1000 height=563 />
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-116.webp" data-pswp-width=2000 data-pswp-height=1500>
-      <img src="/imgs/img-116_opt.webp" alt="Mockup de cuentagotas con liquido parecido a maquillaje." loading="lazy" width=1000 height=750/>
+      <img src="/imgs/img-116_opt.webp" alt="Mockup de cuentagotas con liquido parecido a maquillaje." loading="lazy" width=1000 height=750 title="Mockup de cuentagotas con liquido parecido a maquillaje."/>
     </a>
   </div>
   <div class="grid-item">
     <a href="/imgs/img-126.webp" data-pswp-width=2000 data-pswp-height=1500>
-      <img src="/imgs/img-126_opt.webp" alt="Mockup de cuentagotas con liquido parecido a maquillaje y packaging." loading="lazy" width=1000 height=750/>
+      <img src="/imgs/img-126_opt.webp" alt="Mockup de cuentagotas con liquido parecido a maquillaje y packaging." loading="lazy" width=1000 height=750 title="Mockup de cuentagotas con liquido parecido a maquillaje y packaging."/>
     </a>
   </div>
 </div>
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-5.webp "Nuevo logo de Charlotter Tilbury")]()
+<img src="/imgs/img-5.webp" alt="Versiones alternativas de logo de Charlotte Tilbury, diferentes opciones de logo con colores blanco y negro" title="Versiones de logo de Charlotte Tilbury" loading="lazy" width=2000 height=1125/>
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-6.webp "Nuevo logo de Charlotter Tilbury")]()
+<img src="/imgs/img-6.webp" alt="Diferentes cuadros de colores y fuentes de texto que se utilizan en el branding de Charlotte Tilbury" title="Elementos principales y secundarios del branding de CHarlotte Tilbury" loading="lazy" width=2000 height=1125/>
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-250.webp "Nuevo logo de Charlotter Tilbury")]()
+<img src="/imgs/img-250.webp" alt="Versiones alternativas  de Charlotte Tilburry simplificado y empequeñecido. Versiones circulares en blanco y negro." title="Versiones alternativas  de Charlotte Tilburry simplificado y empequeñecido. Versiones circulares en blanco y negro." loading="lazy" width=2000 height=1125/>
 
-[![Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera](/imgs/img-22.webp "Nuevo logo de Charlotter Tilbury")]()
+<img src="/imgs/img-22.webp" alt="Patron de hojas para packaging de Charlotte Tilbury." title="Patron de hojas para packaging de Charlotte Tilbury." loading="lazy" width=2000 height=1123/>
+
