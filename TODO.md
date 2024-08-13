@@ -1,0 +1,10 @@
+- [ ] No hay aire en el sobre mi
+- [ ] Las aptitudes y todos los demas titulillos del sobre mi deberian tener el icono.
+    - [ ] Aptitudes
+    - [ ] Herramientas
+    - [ ] Certificados
+    - [ ] Idiomas
+- [ ] Lo de publicista y diseñadora grafica casi ni se lee
+- [ ] Habra que cambiar el Masonry
+- [ ] Segun la experiencia que me pones siempre empiezo y acabo el 1 de cada mes
+- [ ] El diseño en movil se ve raro
