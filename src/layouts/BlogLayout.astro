@@ -1,5 +1,4 @@
 ---
-// Supports weights 100-900
 import Layout from '@/layouts/Layout.astro';
 import Heading from '@/components/Heading.astro';
 import User from '@/components/icons/User.astro';
@@ -8,56 +7,62 @@ import RelatedPosts from '@/components/RelatedPosts.astro';
 import PostComponents from '@/components/PostComponents.astro';
 import SectionContainer from '@/components/SectionContainer.astro';
 
-
-import { formatDate }  from "../js/utils";
+import { formatDate } from "../js/utils";
+import { formatBlogPosts } from "../js/utils";
 
 import 'photoswipe/style.css';
 
+const { frontmatter } = Astro.props;
+const { title, description, pubDate, author, image, titulo } = frontmatter;
 
-
-const {frontmatter} = Astro.props;
-console.log(frontmatter);
-
-const {title,description,pubDate,category,author,image,titulo} = frontmatter;
-
-import { formatBlogPosts } from "../js/utils";
+const imageUrl = image?.url || "/imgs/default-image.webp";
+const imageAlt = image?.alt || "Default Alt Text";
 
 const allPosts = await Astro.glob("../pages/Branding/*.md");
 const formattedPosts = formatBlogPosts(allPosts, {
   sortByDate: false,
 });
 
-
 const relatedPosts = formattedPosts
   .filter((post) => post.frontmatter.title !== title)
   .slice(0, 3);
 
-console.log('Related Posts without Category Filter:', relatedPosts);
-
-
-  console.log('Formatted Posts:', formattedPosts);
-
-
-
-  console.log('Related Posts:', relatedPosts);
-
-
+// Creating the jsonLdOverrides object based on frontmatter
+const jsonLdOverrides = {
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description,
+  "author": {
+    "@type": "Person",
+    "name": author
+  },
+  "datePublished": new Date(pubDate).toISOString(),
+  "image": {
+    "@type": "ImageObject",
+    "url": new URL(imageUrl, Astro.url.origin).toString(),
+    "description": imageAlt
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": Astro.url.toString()
+  }
+};
 ---
 
+<Layout
+  title={title}
+  description={description}
+  jsonLdOverrides={jsonLdOverrides}
+>
+  <header class="flex flex-col gap-1 justify-center">
+    <Heading title={titulo} />
+  </header>
   
-
-
-<Layout {title} {description}>
-	
-	<header class="flex flex-col gap-1 justify-center">
-		<Heading title={titulo}>
-	</header>
-  
-	<div class="post-content max-w-5xl mx-auto w-[80%]">
-		<div class="content">
-			<slot/>
-		</div>
-	</div>
+  <div class="post-content max-w-5xl mx-auto w-[80%]">
+    <div class="content">
+      <slot />
+    </div>
+  </div>
 
   <div class="post-content max-w-5xl mx-auto w-full flex flex-row items-center text-foregroundLowContrast justify-center">
     <User class="size-9 px-2"/>
@@ -66,23 +71,21 @@ console.log('Related Posts without Category Filter:', relatedPosts);
     <Calendar class="size-9 px-2"/>
     {formatDate(pubDate)}
   </div>
+
   <div class="post-content max-w-5xl mx-auto w-[80%]">
-    {
-      relatedPosts.length > 0 && (
-        <section class="container" aria-label="Related posts">
-          <h2 class="h3">Related Posts</h2>
-          <RelatedPosts {relatedPosts} />
-        </section>
-      )
-    }
+    {relatedPosts.length > 0 && (
+      <section class="container" aria-label="Related posts">
+        <h2 class="h3">Related Posts</h2>
+        <RelatedPosts {relatedPosts} />
+      </section>
+    )}
   </div>
+
   <SectionContainer>
     <h2>Deja tus comentarios</h2>
     <PostComponents/>
   </SectionContainer>
 </Layout>
-
-
 
 
 <style is:global>
@@ -224,13 +227,13 @@ console.log('Related Posts without Category Filter:', relatedPosts);
   
   </style>
   
-  <script>
-    import PhotoSwipeLightbox from 'photoswipe/lightbox';
-  
-    const lightbox = new PhotoSwipeLightbox({
-      gallery: '#gallery',
-      children: 'a',
-      pswpModule: () => import('photoswipe')
-    });
-    lightbox.init();
-  </script>
+<script>
+  import PhotoSwipeLightbox from 'photoswipe/lightbox';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('photoswipe')
+  });
+  lightbox.init();
+</script>

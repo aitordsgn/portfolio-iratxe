@@ -1,5 +1,4 @@
 ---
-// Head.astro
 export interface Props {
   title: string;
   description: string;
@@ -19,7 +18,7 @@ const {
   title,
   description,
   keywords,
-  author ="Iratxe Conde Turon",
+  author = "Iratxe Conde Turon",
   ogType = "website",
   ogImage = "https://tu-dominio.com/default-image.jpg",
   twitterCard = "summary_large_image",
@@ -28,11 +27,10 @@ const {
   jsonLdOverrides = {},
 } = Astro.props;
 
-// Usar la URL actual de la página como valor por defecto
+// Use the current page URL as the default value
 const currentUrl = new URL(Astro.url.pathname, Astro.url.origin);
 const canonicalUrl = Astro.props.canonicalUrl || currentUrl.toString();
 const ogUrl = Astro.props.ogUrl || currentUrl.toString();
-
 
 const jsonLdBase = {
   "@context": "https://schema.org",
@@ -49,9 +47,7 @@ const jsonLdBase = {
   "description": "Publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce mis proyectos y habilidades creativas.",
   "worksFor": {
     "@type": "Organization",
-    "name": ["Tiempo Completo",
-      "Freelance"
-    ]
+    "name": ["Tiempo Completo", "Freelance"]
   },
   "address": {
     "@type": "PostalAddress",
@@ -61,14 +57,11 @@ const jsonLdBase = {
   }
 };
 
-// Merge entre la base y las propiedades que llegan desde la página
+// Merge the base JSON-LD with overrides from the page
 const jsonLd = {
   ...jsonLdBase,
   ...jsonLdOverrides,
 };
-
-
-
 ---
 
 <head>

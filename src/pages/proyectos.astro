@@ -26,34 +26,46 @@ const filteredGalery7 = images.filter(image => Galeria7.includes(image.id));
 
 const Branding = [
     {
-        "image": "img-57.webp",
+        "src": "img-57",
         "alt": "Logo Charlotte Tilbury",
         "link": "CharlotteTilbury",
+        "width": 1000,
+        "height": 1000
     },
     {
-        "image": "img-62.webp",
+        "src": "img-62",
         "alt": "Logo Tierra Madre",
         "link": "TierraMadre",
+        "width": 1000,
+        "height": 1000
     },
     {
-        "image": "img-239.webp",
+        "src": "img-239",
         "alt": "Logo Dirdira",
         "link": "Dirdira",
+        "width": 1000,
+        "height": 1000
     },
     {
-        "image": "img-63.webp",
+        "src": "img-63",
         "alt": "Logo Free Spirit",
         "link": "FreeSpirit",
+        "width": 1000,
+        "height": 1000
     },
     {
-        "image": "img-33.webp",
+        "src": "img-33",
         "alt": "Logo Golf in One",
         "link": "GolfInOne",
+        "width": 1000,
+        "height": 1000
     },
     {
-        "image": "img-51.webp",
+        "src": "img-51",
         "alt": "Logo Goxo",
         "link": "Goxo",
+        "width": 1000,
+        "height": 1000
     },
 ]
 
@@ -85,10 +97,13 @@ const jsonLdOverrides = {
           <a href={`/Branding/${image.link}`}
              class="relative rounded-xl overflow-hidden hover:scale-105 transition-transform aspect-square">
             <img 
-              src={`/imgs/${image.image}`} 
-              alt={image.alt}
-              class="object-cover w-full h-full"
-              loading="eager" />
+                src={`/imgs/${image.src}_opt.webp`} 
+                alt={image.alt}
+                class="object-cover w-full h-full"
+                loading="eager"
+                width={image.width} 
+                height={image.height}
+                title={image.alt}/>
           </a>
         ))}
     </div>
@@ -115,10 +130,12 @@ const jsonLdOverrides = {
     
     <two-up class="max-w-[80%] w-[500px] mx-auto px-2">
         <div class="flex-1 h-full">
-            <img src="/imgs/img-207.webp" alt="Camuflaje ilustración" class="w-full h-full object-cover">
+            <img src="/imgs/img-207.webp" alt="Camuflaje ilustración" class="w-full h-full object-cover" width="1703" height="2000" loading="lazy"
+            title="Camuflaje ilustración" >
         </div>
         <div class="flex-1 h-full">
-            <img src="/imgs/img-208.webp" alt="Camuflaje inspiración" class="w-full h-full object-cover">
+            <img src="/imgs/img-208.webp" alt="Camuflaje inspiración" class="w-full h-full object-cover" width="564" height="676" loading="lazy"
+            title="Camuflaje inspiración">
         </div>
     </two-up>
 

@@ -31,7 +31,8 @@ const { images, columns = 4 } = Astro.props as Props;
         class="object-cover w-full h-full"
         loading="lazy"
         width={image.width} 
-        height={image.height}/>
+        height={image.height}
+        title={image.alt}/>
     </a>
   ))}
 </div>
