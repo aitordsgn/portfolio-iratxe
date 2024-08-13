@@ -24,10 +24,9 @@ const formattedPosts = formatBlogPosts(allPosts, {
 });
 
 const relatedPosts = formattedPosts
-  .filter((post) => post.frontmatter.title !== title)
+  .filter((post : any) => post.frontmatter.title !== title)
   .slice(0, 3);
 
-// Creating the jsonLdOverrides object based on frontmatter
 const jsonLdOverrides = {
   "@type": "BlogPosting",
   "headline": title,
