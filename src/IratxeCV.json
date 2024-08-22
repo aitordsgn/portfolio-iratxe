@@ -10,7 +10,7 @@
     {
       "company": "Grupo Albor Cohs (GAC)",
       "position": "Ayudante de oficios varios",
-      "startDate": "2023-05-01",
+      "startDate": "Mayo de 2023",
       "description": [
         "Área de servicios y actividades auxiliares: ejecución de campañas de comunicación, diseño, atención a clientes y proveedores, maquetación, asistencia a profesionales…"
       ],
@@ -19,7 +19,7 @@
     {
       "company": "Ercisa y Athletic Club",
       "position": "Azafata de eventos",
-      "startDate": "2023-04-01",
+      "startDate": "Abril de 2023",
       "description": [
         "Azafata en la zona VIP de San Mamés, asesorando, ayudando e informando a los asistentes."
       ]
@@ -27,8 +27,8 @@
     {
       "company": "NorayBio (Histocell)",
       "position": "Creadora de contenidos digitales (prácticas)",
-      "startDate": "2020-02-01",
-      "endDate": "2020-05-01",
+      "startDate": "Febrero de 2020",
+      "endDate": "Mayo de 2020",
       "description": [
         "Diseñar y redactar contenidos digitales para web y redes sociales",
         "Mejorar el posicionamiento en los buscadores (SEO)."
@@ -37,8 +37,8 @@
     {
       "company": "Servyrest (Kirikiño Ikastola)",
       "position": "Profesora de baile moderno",
-      "startDate": "2015-09-01",
-      "endDate": "2017-06-01",
+      "startDate": "Septiembre de 2015",
+      "endDate": "Junio de 2017",
       "description": [
         "Crear y enseñar coreografías a niños/as de Educación Primaria en Kirikiño Ikastola.",
         "Acompañar a los/as alumnos/as en las exhibiciones de baile."
@@ -50,8 +50,8 @@
       "institution": "Universitat Oberta de Catalunya (UOC)",
       "area": "Diseño, Identidad Visual y Construcción de Marca",
       "degree": "Máster",
-      "startDate": "2021-01-01",
-      "endDate": "2023-12-31",
+      "startDate": "Enero de 2021",
+      "endDate": "Diciembre de 2023",
       "courses": [
         "Diseño gráfico y branding: identidad visual, packaging, diseño publicitario, animación, branding sonoro, diseño ux/ui, estrategia y conceptualización de marcas…"
       ]
@@ -60,8 +60,8 @@
       "institution": "Universidad del País Vasco (UPV/EHU)",
       "area": "Publicidad y Relaciones Públicas",
       "degree": "Grado",
-      "startDate": "2016-01-01",
-      "endDate": "2020-12-31",
+      "startDate": "Enero de 2016",
+      "endDate": "Diciembre de 2020",
       "courses": [
         "Mención en Realización Multimedia en Publicidad",
         "TFG: Plan de Comunicación de Dukier (marca de accesorios para mascotas)"
@@ -83,32 +83,32 @@
     {
       "name": "Creación de Campañas de Publicidad en RRSS",
       "issuer": "Formación Al Cuadrado",
-      "date": "2023-01-01"
+      "date": "Enero de 2023"
     },
     {
       "name": "Email Marketing con Mailchimp",
       "issuer": "Fundación EDE",
-      "date": "2022-01-01"
+      "date": "Enero de 2022"
     },
     {
       "name": "Introducción al Community Management",
       "issuer": "Domestika",
-      "date": "2022-01-01"
+      "date": "Enero de 2022"
     },
     {
       "name": "Marketing de Contenidos para Redes Sociales",
       "issuer": "Domestika",
-      "date": "2021-01-01"
+      "date": "Enero de 2021"
     },
     {
       "name": "Fundamentos de Marketing Digital",
       "issuer": "Google Actívate",
-      "date": "2021-01-01"
+      "date": "Enero de 2021"
     },
     {
       "name": "Marketing Cultural",
       "issuer": "Formación Al Cuadrado",
-      "date": "2020-01-01"
+      "date": "Enero de 2020"
     }
   ],
   "languages": [
