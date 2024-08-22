@@ -13,7 +13,7 @@ const { experience } = resume
         company={experiencie.company}
         description={experiencie.description}
         link={experiencie.link}
-        date={`${new Date(experiencie.startDate).toLocaleDateString()} - ${experiencie.endDate ? new Date(experiencie.endDate).toLocaleDateString() : 'Actualidad'}`}
+        date = {`${experiencie.startDate} - ${experiencie.endDate ? experiencie.endDate : 'Actualidad'}`}
       />
     </li>
   ))}
