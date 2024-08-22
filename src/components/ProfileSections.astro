@@ -1,12 +1,18 @@
 ---
 import profileData from "@/IratxeCV.json"
+import Cerebro from "./icons/Cerebro.astro"
+import Herramientas from "./icons/Herramientas.astro"
+import Certificado from "./icons/Certificado.astro"
+import Idioma from "./icons/Idioma.astro"
 
 const { skills, tools, certificates, languages } = profileData
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-4">
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Aptitudes y Habilidades</h3>
+    <h2 class="flex items-center gap-x-3 justify-center  py-0 pb-2 text-primary"> 
+      <Cerebro class="size-9" />
+      Aptitudes y Habilidades</h2>
     <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
       <div class="relative pb-2">
         <div class="sticky top-0">
@@ -19,7 +25,9 @@ const { skills, tools, certificates, languages } = profileData
     </div>
   </div>
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Herramientas</h3>
+    <h2 class="flex items-center gap-x-3 justify-center  py-0 pb-2 "> 
+      <Herramientas class="size-9" />
+      Herramientas</h2>
     <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
       <div class="relative pb-2">
         <div class="sticky top-0">
@@ -33,7 +41,9 @@ const { skills, tools, certificates, languages } = profileData
   </div>
   
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Certificados</h3>
+    <h2 class="flex items-center gap-x-3 justify-center  py-0 pb-2 "> 
+      <Certificado class="size-9" />
+      Certificados</h2>
     <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
       <div class="relative pb-2">
         <div class="sticky top-0">
@@ -49,7 +59,9 @@ const { skills, tools, certificates, languages } = profileData
   </div>
   
   <div class="p-4 flex flex-col items-center">
-    <h3 class="text-xl font-bold mb-2 mx-auto text-primary">Idiomas</h3>
+    <h2 class="flex items-center gap-x-3 justify-center  py-0 pb-2 "> 
+      <Idioma class="size-9" />
+      Idiomas</h2>
     <div class="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 before:content-[''] md:grid-cols-1 md:gap-10 md:space-x-4">
       <div class="relative pb-2">
         <div class="sticky top-0">
