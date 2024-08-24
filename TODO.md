@@ -1,12 +1,12 @@
-- [ ] No hay aire en el sobre mi
-- [ ] Las aptitudes y todos los demas titulillos del sobre mi deberian tener el icono.
-    - [ ] Aptitudes
-    - [ ] Herramientas
-    - [ ] Certificados
-    - [ ] Idiomas
-- [ ] Lo de publicista y diseñadora grafica casi ni se lee -> Header
+- [x] No hay aire en el sobre mi
+- [x] Las aptitudes y todos los demas titulillos del sobre mi deberian tener el icono.
+    - [x] Aptitudes
+    - [x] Herramientas
+    - [x] Certificados
+    - [x] Idiomas
+- [x] Lo de publicista y diseñadora grafica casi ni se lee -> Header
 - [ ] Habra que cambiar el Masonry
-- [ ] Segun la experiencia que me pones siempre empiezo y acabo el 1 de cada mes
+- [x] Segun la experiencia que me pones siempre empiezo y acabo el 1 de cada mes
 - [ ] El diseño en movil se ve raro
 - [ ] El header en el movil tiene que tener el nombre y el cargo centrados con la pantalla.
 - [ ] Cambiar la edad
@@ -16,6 +16,6 @@
 - [ ] Espaciado entre las cosas en el layout del blog no es constante.
 - [ ] El slider llega mas lejos de lo que debería hacia la derecha
 # Sobre Mi
-- [ ] Falta espacio en disponible para trabajar
+- [x] Falta espacio en disponible para trabajar
 - [ ] Los iconos no mantienen el tamaño y son muy grandes.
 - [ ] Añadir "Anteriormente disponible en google play" a "golf in One"
