@@ -94,7 +94,18 @@ const {
     position: relative;
     color: var(--primary-color);
   }
-
+  @media (max-width: 768px) {
+  h2 {
+    font-size: 1.75rem; /* Tamaño de fuente para dispositivos móviles */
+    line-height: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem; /* Tamaño de fuente para pantallas aún más pequeñas */
+    line-height: 1.75rem;
+  }
+}
   
 body {
   --sb-track-color: #232e33;
