@@ -4,11 +4,11 @@
 Este es un proyecto de página web para el portafolio personal de **Iratxe Conde Turon**. El objetivo de este proyecto es proporcionar una plataforma donde Iratxe pueda mostrar sus trabajos, habilidades y experiencia de una manera atractiva y fácil de navegar.
 
 
+
 ## Características principales
 
-- **Detalles del evento**: Obtén información detallada sobre la fecha, hora, ubicación y artistas participantes.
-- **Compra de boletos**: Permite a los usuarios dirigirlos a la compra de boletos fácilmente.
-- **Redes sociales**: Conoce las redes oficiales donde podrás informarte sobre el evento.
+- **Presentación de proyectos:** Presentación de los proyectos mas importantes que ha creado y en los que ha formado parte Iratxe.
+- **Información adicional:** Información adicional sobre la experiencía de la que dispone y los estudios que ha realizado Iratxe.
 
 
 ### Capturas de pantalla de la web de La Velada IV
@@ -142,13 +142,7 @@ Por favor, consulta nuestra [guía de contribución](https://github.com/aitordsg
    ```sh
    pnpm run start
    ```
-
-4. Autenticación mediante twitch (opcional)
-   - Accede a la [consola de twitch](https://dev.twitch.tv/), crea un proyecto y obtén tu client id y client secret
-   - Genera un hash aleatorio, puedes usar el siguiente comando ```openssl rand -hex 32```
-   - Crea un archivo llamado ```.env.local``` y copia el contenido de [.env.demo](.env.demo) en él
-   - Reemplaza el texto copiado de demo en ```.env.local``` con tu id, secreto y hash
-
+   
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
 ## Autores
