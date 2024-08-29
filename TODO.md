@@ -7,15 +7,15 @@
 - [x] Lo de publicista y diseñadora grafica casi ni se lee -> Header
 - [ ] Habra que cambiar el Masonry
 - [x] Segun la experiencia que me pones siempre empiezo y acabo el 1 de cada mes
-- [ ] El diseño en movil se ve raro
+- [x] El diseño en movil se ve raro
 - [x] El header en el movil tiene que tener el nombre y el cargo centrados con la pantalla.
 - [x] Cambiar la edad
 - [ ] Cambiar la sección de banner publicidad, branding, otros..
 - [x] h2 está super grande para vista mobile 
 - [ ] Massonry Cambiar a que acabe cuadrado
-- [ ] Espaciado entre las cosas en el layout del blog no es constante.
-- [ ] El slider llega mas lejos de lo que debería hacia la derecha
+- [x] Espaciado entre las cosas en el layout del blog no es constante.
+- [x] El slider llega mas lejos de lo que debería hacia la derecha
 # Sobre Mi
 - [x] Falta espacio en disponible para trabajar
-- [ ] Los iconos no mantienen el tamaño y son muy grandes.
+- [x] Los iconos no mantienen el tamaño y son muy grandes.
 - [x] Añadir "Anteriormente disponible en google play" a "golf in One"
