@@ -152,17 +152,17 @@ Por otro lado, al haber empleado fondos muy coloridos y llamativos para los enva
 
 ## El antes y el después de los fondos de las fragancias
 
-<two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
+<two-up class="max-w-[80%] w-[1000px] mx-auto pb-5">
             <img src="/imgs/img-26.webp" alt="Fondo estrallado rosado y azulado pero desaturado" class="flex-1 w-full h-full object-cover">
             <img src="/imgs/img-121.webp" alt="Fondo estrallado rosado y morado con colores vivos" class="flex-1 w-full h-full object-cover">
 </two-up>
 
-<two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
+<two-up class="max-w-[80%] w-[1000px] mx-auto pb-5">
             <img src="/imgs/img-36.webp" alt="Fondo estrallado rosado y azulado en forma de espiral" class="flex-1 w-full h-full object-cover">
             <img src="/imgs/img-122.webp" alt="Fondo estrallado rosado y azulado en forma de espiral pro tratamiento de la iamgen" class="flex-1 w-full h-full object-cover">
 </two-up>
 
-<two-up class="max-w-[80%] w-[1000px] mx-auto px-2 pb-5">
+<two-up class="max-w-[80%] w-[1000px] mx-auto pb-5">
             <img src="/imgs/img-182.webp" alt="Explosión de una estrella azul" class="flex-1 w-full h-full object-cover">
             <img src="/imgs/img-123.webp" alt="Explosión de una estrella naranja" class="flex-1 w-full h-full object-cover">
 </two-up>
