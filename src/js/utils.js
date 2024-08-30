@@ -78,3 +78,19 @@ export const jsonLd = {
     "addressCountry": "España"
   }
 };
+
+export function sendMail(event) {
+  event.preventDefault(); // Evita el comportamiento por defecto del formulario
+
+  let params = {
+    nombre: document.getElementById("nombre").value,
+    email: document.getElementById("email").value,
+    asunto: document.getElementById("asunto").value,
+    mensaje: document.getElementById("mensaje").value,
+    telefono: document.getElementById("telefono").value,
+  };
+
+  emailjs.send("service_mgmiqb8", "template_3e73ttc", params)
+    .then(() => alert("Mensaje enviado correctamente"))
+    .catch(error => alert("Error al enviar el mensaje: " + error));
+}

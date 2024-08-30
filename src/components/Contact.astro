@@ -8,16 +8,41 @@ import SocialPills from './SocialPills.astro'
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        
     }
 </style>
- 
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        emailjs.init("kdBWQ9INoPFg0jjh6");
+
+        function sendMail(event) {
+            event.preventDefault(); // Evita el comportamiento por defecto del formulario
+
+            let params = {
+                nombre: document.getElementById("nombre").value,
+                email: document.getElementById("email").value,
+                asunto: document.getElementById("asunto").value,
+                mensaje: document.getElementById("mensaje").value,
+                telefono: document.getElementById("telefono").value,
+            };
+
+            emailjs.send("service_mgmiqb8", "template_3e73ttc", params)
+                .then(() => alert("Mensaje enviado correctamente"))
+                .catch(error => alert("Error al enviar el mensaje: " + error));
+        }
+
+        const form = document.querySelector("form");
+        form.addEventListener("submit", sendMail);
+    });
+</script>
+
+
 <section class="relative bg-custom-image py-8">
-    <!-- Superposición oscura -->
     <div class="absolute inset-0 bg-black opacity-40"></div>
     
     <div class="relative container mx-auto flex flex-col md:flex-row justify-between items-start px-4 md:px-0 max-w-2xl lg:max-w-5xl">
-        <!-- Lado Izquierdo -->
         <div class="md:w-1/2 pr-4 text-center md:text-left">
             <div class="text-lg font-semibold text-white mb-4">
                 ¿Hablamos?
@@ -27,7 +52,7 @@ import SocialPills from './SocialPills.astro'
             </p>
             <SocialPills/>
         </div>
-        <!-- Lado Derecho -->
+        
         <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center w-full">
             <form class="space-y-4 w-full max-w-md">
                 <div>
@@ -37,23 +62,23 @@ import SocialPills from './SocialPills.astro'
                 <div>
                     <label for="email" class="block text-white font-bold">Email <span class="font-thin">(obligatorio)</span></label>
                     <input type="email" id="email" name="email" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce tu email" required>
-                </div>
-                <div>
-                    <label for="telefono" class="block text-white font-bold">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce tu teléfono">
-                </div>
-                <div>
-                    <label for="asunto" class="block text-white font-bold">Asunto <span class="font-thin">(obligatorio)</span></label>
-                    <input type="text" id="asunto" name="asunto" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce el asunto" required>
-                </div>
-                <div>
-                    <label for="mensaje" class="block text-white font-bold">Mensaje <span class="font-thin">(obligatorio)</span></label>
-                    <textarea id="mensaje" name="mensaje" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" rows="5" placeholder="Introduce tu mensaje" required></textarea>
-                </div>
-                <div>
-                    <button type="submit" class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover">Enviar</button>
-                </div>
-            </form>
-        </div>
+            </div>
+            <div>
+                <label for="telefono" class="block text-white font-bold">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce tu teléfono">
+            </div>
+            <div>
+                <label for="asunto" class="block text-white font-bold">Asunto <span class="font-thin">(obligatorio)</span></label>
+                <input type="text" id="asunto" name="asunto" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" placeholder="Introduce el asunto" required>
+            </div>
+            <div>
+                <label for="mensaje" class="block text-white font-bold">Mensaje <span class="font-thin">(obligatorio)</span></label>
+                <textarea id="mensaje" name="mensaje" class="mt-1 w-full border border-gray-300 p-2 rounded placeholder-gray bg-background" rows="5" placeholder="Introduce tu mensaje" required></textarea>
+            </div>
+            <div>
+                <button type="submit" class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover">Enviar</button>
+            </div>
+        </form>
     </div>
-</section>
+</div>
+ </section>
