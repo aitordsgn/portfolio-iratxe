@@ -10,19 +10,31 @@ import images from '@/images.json';
 
 const Galeria1 =  [93, 94, 96];
 const Galeria2 = [167, 168, 169];
-const Galeria3 = [224, 225, 226, 227];
+const Galeria3 = [ 227, 224, 225, 226];
 const Galeria4 = [17, 18, 19, 20];
 const Galeria5 = [207,218,219,107,143,130,189,139];
 const Galeria6 = [213,8,215,135,85,136,161,7,21];
 const Galeria7 = [14,160,49,178,164,153,132,133,134,142,15]
 
-const filteredGalery1 = images.filter(image => Galeria1.includes(image.id));
-const filteredGalery2 = images.filter(image => Galeria2.includes(image.id));
-const filteredGalery3 = images.filter(image => Galeria3.includes(image.id));
-const filteredGalery4 = images.filter(image => Galeria4.includes(image.id));
-const filteredGalery5 = images.filter(image => Galeria5.includes(image.id));
-const filteredGalery6 = images.filter(image => Galeria6.includes(image.id));
-const filteredGalery7 = images.filter(image => Galeria7.includes(image.id));
+
+
+// Función que filtra y ordena las imágenes según el orden de una galería específica
+const filterAndSortGallery = (images: any[], gallery: number[]) => {
+    return images
+        .filter((image: any) => gallery.includes(image.id))
+        .sort((a: any, b: any) => gallery.indexOf(a.id) - gallery.indexOf(b.id));
+};
+
+// Aplicamos la función a cada galería
+const filteredGalery1 = filterAndSortGallery(images, Galeria1);
+const filteredGalery2 = filterAndSortGallery(images, Galeria2);
+const filteredGalery3 = filterAndSortGallery(images, Galeria3);
+const filteredGalery4 = filterAndSortGallery(images, Galeria4);
+const filteredGalery5 = filterAndSortGallery(images, Galeria5);
+const filteredGalery6 = filterAndSortGallery(images, Galeria6);
+const filteredGalery7 = filterAndSortGallery(images, Galeria7);
+
+
 
 const Branding = [
     {
