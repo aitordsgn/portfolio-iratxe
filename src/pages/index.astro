@@ -8,7 +8,16 @@ import images from '@/images.json';
 
 //Array de valores que controlan el posicionamiento
 const GaleriaPrincipal = [57,207,18,62,227,168,239,230,63,144,96,107];
-const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id));
+// Función que filtra y ordena las imágenes según el orden de una galería específica
+const filterAndSortGallery = (images: any[], gallery: number[]) => {
+    return images
+        .filter((image: any) => gallery.includes(image.id))
+        .sort((a: any, b: any) => gallery.indexOf(a.id) - gallery.indexOf(b.id));
+};
+
+
+// Aplicamos la función a cada galería
+const filteredGalery1 = filterAndSortGallery(images, GaleriaPrincipal);
 
 const pageTitle = "Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica";
 const pageDescription = "Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas.";
@@ -23,6 +32,7 @@ const jsonLdOverrides = {
   "image":  `${ogImage}`,
 
 };
+
 
 ---
 
@@ -70,7 +80,7 @@ const jsonLdOverrides = {
 
   <section class="flex flex-col items-center justify-center">
     <h2> Galería de proyectos</h2>
-    <Galeria images={filteredImages} columns={4}/>
+    <Galeria images={filteredGalery1} columns={4}/>
     <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/proyectos/">Ver portfolio</a> 
   </section>
 </Layout>
