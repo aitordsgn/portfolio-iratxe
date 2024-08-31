@@ -79,27 +79,27 @@ Con todo ello, tenemos como resultado una identidad visual sencilla a la par que
   <div class="child">
     <a href="/imgs/img-241.webp" data-pswp-width=2000
        data-pswp-height=1333  class="child-image">
-      <img src="/imgs/img-241_opt.webp" alt="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" title="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" class="child-image" width=2000 height=1333/>
+      <img src="/imgs/img-241_opt.webp" alt="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" title="Mockup de una crema y fragancía crema de la marca imaginaría dirdira" class="child-image" width=2000 height=1333 loading="lazy"/>
     </a>
   </div>
   <div class="child">
     <a href="/imgs/img-242.webp" data-pswp-width=2000 data-pswp-height=1600 class="child-image">
-      <img src="/imgs/img-242_opt.webp" alt="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" title="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" class="child-image" width=2000 height=1600/>
+      <img src="/imgs/img-242_opt.webp" alt="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" title="Mockup de un Rimmel para las pestañas de la marca imaginaría Dirdira" class="child-image" width=2000 height=1600 loading="lazy"/>
     </a>
   </div>
   <div class="child">
     <a href="/imgs/img-238.webp" data-pswp-width=2000 data-pswp-height=1714 class="child-image">
-      <img src="/imgs/img-238_opt.webp" alt="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" title="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" class="child-image" width=2000 height=1714/>
+      <img src="/imgs/img-238_opt.webp" alt="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" title="Mockup de una bolsa de papel para una marca imaginaría de Dirdira" class="child-image" width=2000 height=1714 loading="lazy"/>
     </a>
   </div>
   <div class="child">
     <a href="/imgs/img-11.webp" data-pswp-width=2000 data-pswp-height=1333 class="child-image">
-      <img src="/imgs/img-11_opt.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira" class="child-image" width=2000 height=1333 />
+      <img src="/imgs/img-11_opt.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira" class="child-image" width=2000 height=1333 loading="lazy"/>
     </a>
   </div>
   <div class="child">
     <a href="/imgs/img-13.webp" data-pswp-width=2000 data-pswp-height=1333 class="child-image">
-      <img src="/imgs/img-13_opt.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira" class="child-image"  width=2000 height=1333/>
+      <img src="/imgs/img-13_opt.webp" alt="Mockup de un cartel de calle con el logo de Dirdira" title="Mockup de un cartel de calle con el logo de Dirdira" class="child-image"  width=2000 height=1333 loading="lazy"/>
     </a>
   </div>
 </div>
