@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://iratxeconde.es
+Host: https://www.iratxeconde.es
 
 # Sitemaps
-Sitemap: https://iratxeconde.es/sitemap-index.xml
+Sitemap: https://www.iratxeconde.es/sitemap-index.xml
