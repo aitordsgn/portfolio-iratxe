@@ -8,30 +8,22 @@ import images from '@/images.json';
 
 //Array de valores que controlan el posicionamiento
 const GaleriaPrincipal = [57,207,18,62,227,168,239,230,63,144,96,107];
-const filteredImages = images.filter(image => GaleriaPrincipal.includes(image.id));
-
-const pageTitle = "Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica";
-const pageDescription = "Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas.";
-const pageKeywords = "Publicista y diseñadora gráfica en Bilbao, Especialista en branding y diseño de marca en Bilbao, Servicios de diseño gráfico en Bilbao, Portfolio de diseño gráfico en Bilbao, Branding profesional en Bilbao, Iratxe Conde Turon, publicista en Bilbao, Diseño de identidad visual en Bilbao, Consultoría de branding en Bilbao, Servicios de publicidad en Bilbao, Diseñadora gráfica freelance en Bilbao";
-const ogImage ="/Portafolio.webp";
-
-
-const jsonLdOverrides = {
-  "@type": "WebPage",
-  "headline": {pageTitle},
-  "description": {pageDescription},
-  "image":  `${ogImage}`,
-
+// Función que filtra y ordena las imágenes según el orden de una galería específica
+const filterAndSortGallery = (images: any[], gallery: number[]) => {
+    return images
+        .filter((image: any) => gallery.includes(image.id))
+        .sort((a: any, b: any) => gallery.indexOf(a.id) - gallery.indexOf(b.id));
 };
 
+
+// Aplicamos la función a cada galería
+const filteredGalery1 = filterAndSortGallery(images, GaleriaPrincipal);
 ---
 
 <Layout 
-  title={pageTitle}
-  description={pageDescription}
-  keywords={pageKeywords}
-  ogImage={ogImage}
-  jsonLdOverrides={jsonLdOverrides}
+  title="Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica"
+  description="Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas."
+  canonical='https://www.iratxeconde.es/'
 >
 <!-- Contenedor con el fondo fijo -->
   <section class="relative h-screen max-h-[600px] overflow-hidden">
@@ -70,7 +62,7 @@ const jsonLdOverrides = {
 
   <section class="flex flex-col items-center justify-center">
     <h2> Galería de proyectos</h2>
-    <Galeria images={filteredImages} columns={4}/>
+    <Galeria images={filteredGalery1} columns={4}/>
     <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/proyectos/">Ver portfolio</a> 
   </section>
 </Layout>

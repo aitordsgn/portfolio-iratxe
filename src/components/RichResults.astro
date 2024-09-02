@@ -1,0 +1,60 @@
+---
+const personSchema = {
+	"@context": "https://schema.org",
+	"@type": "Person",
+	"url": "https://www.iratxeconde.es",
+	"image": "https://www.iratxeconde.es/imgs/img-41.webp", // Cambia a la URL de tu imagen de perfil
+	"sameAs": [
+		"https://www.linkedin.com/in/iratxeconde",
+		"https://www.behance.net/iratxeconde",
+		"https://x.com/iratxeconde07", // Cambia con tus perfiles sociales
+	],
+	"name": "Iratxe Conde Turon",
+	"alternateName": "Iratxe Conde",
+	"description": "Publicista y diseñadora gráfica especializada en branding e identidad de marca afincada en Bilbao.",
+	"jobTitle": "Diseñadora Gráfica y Publicista",
+	"worksFor": {
+		"@type": "Organization",
+		"name": "Freelance",
+		"url": "https://www.iratxeconde.es",
+	},
+}
+
+/** https://developers.google.com/search/docs/appearance/structured-data/faqpage */
+const FAQs = [
+	{
+		question: "¿Cuál es tu experiencia en diseño gráfico y publicidad?",
+		answer:
+			"Tengo experiencia en proyectos de branding, diseño gráfico y publicidad, con un enfoque en la creación de identidades de marca únicas.",
+	},
+	{
+		question: "¿Cómo puedo contactarte para un proyecto?",
+		answer:
+			"Puedes contactarme a través del formulario de contacto en mi sitio web o enviando un correo electrónico a iratxe1219@gmail.com.",
+	},
+	{
+		question: "¿Estás disponible para trabajar con mi empresa?",
+		answer:
+			"Ahora mismo estoy trabajando en una empresa. Pero si tienes un proyecto interesante, estaré encantada de escucharlo. Contactame para más información.",
+	},
+]
+
+const FAQSchema = {
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": [
+		FAQs.map(({ answer, question }) => ({
+			"@type": "Question",
+			"name": question,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": answer,
+			},
+		})),
+	],
+}
+
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(FAQSchema)} />

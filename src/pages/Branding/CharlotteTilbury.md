@@ -16,7 +16,7 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
 
 </div>
 
-<img src="/imgs/img-77.webp" alt="Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera" title="Nuevo logo de Charlotter Tilbury" loading="lazy" width="1920" height="1080">
+<img src="/imgs/img-77.webp" alt="Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera" title="Nuevo logo de Charlotter Tilbury" loading="lazy" width="1920" height="1080"/>
 
 <div class="flex-container-start">
   <div class="flex-item">

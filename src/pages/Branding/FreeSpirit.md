@@ -64,7 +64,7 @@ New York en su versión regular, al ser una fuente original, llamativa y moderna
 <div class="grid-3-container" id="gallery">
   <div class="grid-item" >
     <a href="/imgs/img-63.webp" data-pswp-width=2000 data-pswp-height=2000>
-      <img src="/imgs/img-63.webp" alt="Imagen 1"/>
+      <img src="/imgs/img-63_opt.webp" alt="Imagen 1"/>
     </a>
   </div>
   <div class="grid-item">
