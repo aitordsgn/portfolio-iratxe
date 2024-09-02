@@ -23,12 +23,6 @@ importers:
       '@fontsource-variable/onest':
         specifier: ^5.0.5
         version: 5.0.5
-      '@fontsource/pt-sans':
-        specifier: ^5.0.14
-        version: 5.0.14
-      '@fontsource/source-sans-pro':
-        specifier: ^5.0.8
-        version: 5.0.8
       '@vercel/speed-insights':
         specifier: ^1.0.12
         version: 1.0.12
@@ -416,12 +410,6 @@ packages:
 
   '@fontsource-variable/onest@5.0.5':
     resolution: {integrity: sha512-uI85/JuJ/ywLhIg6KiWdK8Jto6b7nV5nXzIc8tN15Q+DTAR8MsryUntSnLIhcK9wcKCggMfq8Ug68V8NCazrMg==}
-
-  '@fontsource/pt-sans@5.0.14':
-    resolution: {integrity: sha512-/W/W0UOBV7xZJ93e58qG3Gsw0k5uzmNZEHZGB9ze20jlUS89doMG4pgTzz7Ajpf37JDA9tB5X/fo+wUAu95nXQ==}
-
-  '@fontsource/source-sans-pro@5.0.8':
-    resolution: {integrity: sha512-5U2UvIYRkCMozZ388gCE73PEpa2MFgN/0t9O4a1FF7bGT/MIneQWSL1XpWZ8iMVYdh6ntxRf3iFA6slCIuFgkg==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -3545,10 +3533,6 @@ snapshots:
   '@eslint/js@8.57.0': {}
 
   '@fontsource-variable/onest@5.0.5': {}
-
-  '@fontsource/pt-sans@5.0.14': {}
-
-  '@fontsource/source-sans-pro@5.0.8': {}
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:

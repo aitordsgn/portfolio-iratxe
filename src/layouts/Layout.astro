@@ -18,7 +18,13 @@ interface Props {
 	image?: string
 }
 
-const { title, description, preload, canonical, image } = Astro.props
+const {
+	title,
+	description,
+	preload,
+	canonical,
+	image ,
+} = Astro.props
 
 
 ---
@@ -27,11 +33,11 @@ const { title, description, preload, canonical, image } = Astro.props
 <html lang="es">
   <head>
     <SEO
-			canonical={canonical}
+      title={title}
 			description={description}
 			image={image}
+			canonical={canonical}
 			preload={preload}
-			title={title}
 		/>
   </head>
 

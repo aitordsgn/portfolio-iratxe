@@ -1,5 +1,6 @@
 ---
 import onest from "@fontsource-variable/onest/files/onest-latin-wght-normal.woff2"
+import siteData from "../data/siteData.json";
 
 import RichResults from "@/components/RichResults.astro"
 import type { Preload } from "@/types/Preload"
@@ -16,13 +17,15 @@ const {
 	title,
 	description,
 	preload,
-	canonical ="https://www.iratxeconde.es",
-	image = "https://www.iratxeconde.es/og.jpg",
+	canonical,
+	image,
 } = Astro.props as Props
 
+// Si no se proporciona una imagen, usar la predeterminada
+const imageUrl ="https://www.iratxeconde.es/images/og-image.jpg"
 
-
-const canonicalURL = new URL(canonical, Astro.site)
+// Genera la URL canónica correcta
+const canonicalURL = canonical ? new URL(canonical, Astro.site) : Astro.url
 ---
 
 <title>{title}</title>
@@ -31,12 +34,11 @@ const canonicalURL = new URL(canonical, Astro.site)
 <meta name="description" content={description} />
 <meta name="author" content="Iratxe Conde" />
 
-
 <link rel="preload" href={onest} as="font" type="font/woff2" crossorigin />
 
 {
 	preload?.map(({ href, as, type, rel = "preload", crossorigin }) => (
-		<link {rel} {href} {as} {type} {crossorigin} />
+		<link rel={rel} href={href} as={as} type={type} crossorigin={crossorigin} />
 	))
 }
 
@@ -46,18 +48,19 @@ const canonicalURL = new URL(canonical, Astro.site)
 
 <meta name="keywords" content="Diseñadora Gráfica Bilbao, Iratxe Conde Turon, Publicista especializada en branding, Identidad de marca y diseño gráfico, Portafolio de diseño y publicidad, Master en branding e identidad de marca" />
 
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@iratxeconde07" />
 <meta name="twitter:creator" content="@iratxeconde07" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={new URL(image, Astro.url)} />
+<meta name="twitter:image" content={imageUrl} />
 
-
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<!-- Open Graph -->
+<meta property="og:image" content={imageUrl} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:site_name" content="Iratxe Conde - Publicista y Diseñadora Gráfica" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="es_ES" />
@@ -68,9 +71,7 @@ const canonicalURL = new URL(canonical, Astro.site)
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="apple-touch-icon" href="/imgs/icons/apple-touch-icon.png" />
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="msapplication-config" content="/browserconfig.xml" />
-
-<script is:inline src="/registerSW.js"></script>
 <link rel="manifest" href="/manifest.webmanifest" />
+
 <RichResults />
