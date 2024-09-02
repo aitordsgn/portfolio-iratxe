@@ -19,3 +19,13 @@
 - [x] Falta espacio en disponible para trabajar
 - [x] Los iconos no mantienen el tamaño y son muy grandes.
 - [x] Añadir "Anteriormente disponible en google play" a "golf in One"
+
+
+---
+
+
+-[x] Optimizar SEO
+-[x] Añadir SEO
+-[ ] Utilizar SEO.astro
+-[ ] Cambiar RichResults.astro
+-[ ] Añadir articulo de laztana

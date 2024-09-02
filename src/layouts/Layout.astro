@@ -4,60 +4,36 @@ import '@fontsource-variable/onest';
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Head from '../components/Head.astro';
 import  SpeedInsights  from "@vercel/speed-insights/astro"
+
+import SEO from "@/components/SEO.astro"
+import type { Preload } from "@/types/Preload"
 
 
 interface Props {
-  title: string;
-  description: string;
-  keywords?: string;
-  author?: string;
-  ogType?: string;
-  ogImage?: string;
-  twitterCard?: string;
-  twitterSite?: string;
-  twitterCreator?: string;
-  canonicalUrl?: string;
-  ogUrl?: string;
-  jsonLdOverrides?: any;
-  
+	title: string
+	description: string
+	preload?: Array<Preload>
+	canonical?: string
+	image?: string
 }
 
-const {
-  title,
-  description,
-  keywords,
-  author,
-  ogType,
-  ogImage,
-  twitterCard,
-  twitterSite,
-  twitterCreator,
-  canonicalUrl,
-  ogUrl,
-  jsonLdOverrides
-} = Astro.props;
+const { title, description, preload, canonical, image } = Astro.props
 
 
 ---
 
 <!doctype html>
 <html lang="es">
-  <Head 
-    title={title} 
-    description={description}
-    keywords={keywords}
-    author={author}
-    ogType={ogType}
-    ogImage={ogImage}
-    twitterCard={twitterCard}
-    twitterSite={twitterSite}
-    twitterCreator={twitterCreator}
-    canonicalUrl={canonicalUrl}
-    ogUrl={ogUrl}
-    jsonLdOverrides={jsonLdOverrides}
-  />
+  <head>
+    <SEO
+			canonical={canonical}
+			description={description}
+			image={image}
+			preload={preload}
+			title={title}
+		/>
+  </head>
 
   <body class="bg-white min-h-screen">
     <Header />
@@ -113,7 +89,7 @@ const {
 body {
   --sb-track-color: #232e33;
   --sb-thumb-color: #876c9d;
-  --sb-size: 7px;
+  --sb-size: 10px;
 }
 
 body::-webkit-scrollbar {

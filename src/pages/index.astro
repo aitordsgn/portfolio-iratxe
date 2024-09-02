@@ -18,30 +18,12 @@ const filterAndSortGallery = (images: any[], gallery: number[]) => {
 
 // Aplicamos la función a cada galería
 const filteredGalery1 = filterAndSortGallery(images, GaleriaPrincipal);
-
-const pageTitle = "Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica";
-const pageDescription = "Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas.";
-const pageKeywords = "Publicista y diseñadora gráfica en Bilbao, Especialista en branding y diseño de marca en Bilbao, Servicios de diseño gráfico en Bilbao, Portfolio de diseño gráfico en Bilbao, Branding profesional en Bilbao, Iratxe Conde Turon, publicista en Bilbao, Diseño de identidad visual en Bilbao, Consultoría de branding en Bilbao, Servicios de publicidad en Bilbao, Diseñadora gráfica freelance en Bilbao";
-const ogImage ="/Portafolio.webp";
-
-
-const jsonLdOverrides = {
-  "@type": "WebPage",
-  "headline": {pageTitle},
-  "description": {pageDescription},
-  "image":  `${ogImage}`,
-
-};
-
-
 ---
 
 <Layout 
-  title={pageTitle}
-  description={pageDescription}
-  keywords={pageKeywords}
-  ogImage={ogImage}
-  jsonLdOverrides={jsonLdOverrides}
+  title="Portafolio de Iratxe Conde - Publicista y Diseñadora Gráfica"
+  description="Descubre el portafolio de Iratxe Conde, publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce sus proyectos y habilidades creativas."
+  canonical='https://www.iratxeconde.es/'
 >
 <!-- Contenedor con el fondo fijo -->
   <section class="relative h-screen max-h-[600px] overflow-hidden">

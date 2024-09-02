@@ -15,9 +15,6 @@ import 'photoswipe/style.css';
 const { frontmatter } = Astro.props;
 const { title, description, pubDate, author, image, titulo } = frontmatter;
 
-const imageUrl = image?.url || "/imgs/default-image.webp";
-const imageAlt = image?.alt || "Default Alt Text";
-
 const allPosts = await Astro.glob("../pages/Branding/*.md");
 const formattedPosts = formatBlogPosts(allPosts, {
   sortByDate: false,
@@ -26,39 +23,18 @@ const formattedPosts = formatBlogPosts(allPosts, {
 const relatedPosts = formattedPosts
   .filter((post : any) => post.frontmatter.title !== title)
   .slice(0, 3);
-
-const jsonLdOverrides = {
-  "@type": "BlogPosting",
-  "headline": title,
-  "description": description,
-  "author": {
-    "@type": "Person",
-    "name": author
-  },
-  "datePublished": new Date(pubDate).toISOString(),
-  "image": {
-    "@type": "ImageObject",
-    "url": new URL(imageUrl, Astro.url.origin).toString(),
-    "description": imageAlt
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": Astro.url.toString()
-  }
-};
 ---
 
 <Layout
   title={title}
   description={description}
-  jsonLdOverrides={jsonLdOverrides}
 >
   <header class="flex flex-col gap-1 justify-center">
     <Heading title={titulo} />
   </header>
   
-  <div class="post-content max-w-5xl mx-auto w-[90%] ">
-    <div class="content">
+  <div class="post-content max-w-5xl mx-auto w-[90%]">
+    <div class="content flex gap-b-1 flex-col min-h-screen">
       <slot />
     </div>
   </div>

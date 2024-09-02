@@ -14,15 +14,6 @@ import School from "@/components/icons/School.astro";
 
 const pageTitle = "Sobre Mí - Iratxe Conde - Publicista y Diseñadora Gráfica";
 const pageDescription = "Iratxe Conde, publicista y diseñadora gráfica experta en Multimedia y Branding. Descubre su experiencia, formación y pasión por el diseño.";
-const pageKeywords = "Iratxe Conde biografía, Publicista y diseñadora gráfica en Bilbao, Experiencia en diseño gráfico, Estudios en realización multimedia, Branding y diseño de marca, Trayectoria profesional de Iratxe Conde, Perfil creativo, Diseñadora gráfica freelance en Bilbao, Especialista en publicidad y diseño, Curriculum Vitae Iratxe Conde, Servicios de branding en Bilbao";
-const ogImage = "/SobreMi.webp";
-
-const jsonLdOverrides = {
-  "@type": "AboutPage",
-  "headline": {pageTitle},
-  "description": {pageDescription},
-  "image":  `${ogImage}`,
-};
 
 
 
@@ -31,11 +22,8 @@ const jsonLdOverrides = {
 
 
 <Layout 
-  title={pageTitle}
-  description={pageDescription}
-  keywords={pageKeywords}
-  ogImage={ogImage}
-  jsonLdOverrides={jsonLdOverrides}
+  title="Sobre Mí - Iratxe Conde - Publicista y Diseñadora Gráfica"
+  description="Iratxe Conde, publicista y diseñadora gráfica experta en Multimedia y Branding. Descubre su experiencia, formación y pasión por el diseño."
 >
     <Heading title="Sobre mí" />
     <!-- Hero Section -->

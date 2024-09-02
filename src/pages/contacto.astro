@@ -2,31 +2,13 @@
 import Contact from '../components/Contact.astro'
 import Heading from '../components/Heading.astro';
 import Layout from '../layouts/Layout.astro';
-
-
-const pageTitle = "Contacto - Iratxe Conde - Publicista y Diseñadora Gráfica";
-const pageDescription = "Contacta con Iratxe Conde, publicista y diseñadora gráfica en Bilbao. Disponible para proyectos, colaboraciones creativas y consultas de diseño.";
-const pageKeywords = "Contacto Iratxe Conde, Publicista y diseñadora gráfica en Bilbao, Consultas de diseño gráfico, Colaboraciones creativas en Bilbao, Servicios de branding y publicidad, Freelance de diseño gráfico en Bilbao, Proyectos de diseño gráfico, Consultoría de branding, Iratxe Conde Turon, diseñadora gráfica en Bilbao";
-const ogImage = "/Contacto.webp";
-
-
-const jsonLdOverrides = {
-  "@type": "ContactPage",
-  "headline": {pageTitle},
-  "description": {pageDescription},
-  "image":  `${ogImage}`,
-
-};
 ---
 
 
 
 <Layout 
-  title={pageTitle}
-  description={pageDescription}
-  keywords={pageKeywords}
-  ogImage={ogImage}
-  jsonLdOverrides={jsonLdOverrides}
+  title="Contacto - Iratxe Conde - Publicista y Diseñadora Gráfica"
+  description="Contacta con Iratxe Conde, publicista y diseñadora gráfica en Bilbao. Disponible para proyectos, colaboraciones creativas y consultas de diseño."
 >
     <Heading title="Contacto"/>
     <Contact/>
