@@ -30,7 +30,7 @@ const filteredGalery1 = filterAndSortGallery(images, GaleriaPrincipal);
     <div class="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={`background-image: url(/atardecer.webp); background-position: center top 20%;`}>
     </div>
     <div class="flex items-center justify-center h-full relative z-10 bg-black bg-opacity-5 ">
-      <h1 class="text-white text-3xl lg:text-4xl font-bold text-center px-10 text-pretty max-w-xl">
+      <h1 class="text-white text-3xl lg:text-4xl font-bold text-center px-10 text-pretty max-w-xl prose">
         La pasión, la constancia y la dedicación como motores principales de mis trabajos
       </h1>
     </div>
@@ -39,17 +39,17 @@ const filteredGalery1 = filterAndSortGallery(images, GaleriaPrincipal);
   <VerticalSection>
     <img src="/imgs/Frontal.webp" alt="Primer plano de iratxe" class="w-full h-auto object-cover" slot="leftContent" width="1080" height="720" >
 
-    <section class="px-10 flex flex-col items-center justify-center" slot="rightContent">
+    <section class="px-10 flex flex-col items-center justify-center prose" slot="rightContent">
         <h2 class="font-bold pb-4 mx-auto items-center text-2xl">¡Bienvenidos/as a mi web personal!</h2>
-        <p>Soy Iratxe Conde Turón, publicista y diseñadora gráfica. He creado este espacio para hacer llegar mis proyectos a todas aquellas personas interesadas. Por tanto, esta web funcionará como mi <a href="/portfolio/" class="font-bold text-primary hover:underline">portfolio digital</a>.</p>
+        <p class="prose">Soy Iratxe Conde Turón, publicista y diseñadora gráfica. He creado este espacio para hacer llegar mis proyectos a todas aquellas personas interesadas. Por tanto, esta web funcionará como mi <a href="/portfolio/" class="font-bold text-primary hover:underline">portfolio digital</a>.</p>
     </section>
   </VerticalSection>
 
   <VerticalSection reverseOnSmall={true}>
-    <section class="px-10 flex flex-col items-center justify-center" slot="leftContent">
-      <p>Soy una bilbaína de 25 años a la que le apasiona la publicidad, el mundo digital y el diseño gráfico. Me caracterizo por mi proactividad, versatilidad, organización y entusiasmo, y me esfuerzo en todo momento por garantizar buenos trabajos. Me gusta trabajar en equipo y estar en constante aprendizaje.</p>
+    <section class="px-10 flex flex-col items-center justify-center prose" slot="leftContent">
+      <p class="prose">Soy una bilbaína de 25 años a la que le apasiona la publicidad, el mundo digital y el diseño gráfico. Me caracterizo por mi proactividad, versatilidad, organización y entusiasmo, y me esfuerzo en todo momento por garantizar buenos trabajos. Me gusta trabajar en equipo y estar en constante aprendizaje.</p>
   
-      <p>Gracias a mis estudios y habilidades, soy capaz de aportar soluciones creativas adaptadas a las necesidades de cada cliente. Igualmente, domino múltiples herramientas y plataformas digitales, aprendo con especial facilidad y tengo una visión estratégica y operativa.</p>
+      <p class="prose">Gracias a mis estudios y habilidades, soy capaz de aportar soluciones creativas adaptadas a las necesidades de cada cliente. Igualmente, domino múltiples herramientas y plataformas digitales, aprendo con especial facilidad y tengo una visión estratégica y operativa.</p>
   
       <a class="bg-primary px-4 py-2 rounded w-auto text-background hover:bg-primaryHover font-semibold" href="/about/"> Saber más</a> 
     </section>

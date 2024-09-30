@@ -33,5 +33,7 @@ export default {
     "grid-cols-10",
     // Añadir más si es necesario
   ],
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
