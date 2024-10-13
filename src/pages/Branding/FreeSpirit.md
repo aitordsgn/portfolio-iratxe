@@ -36,7 +36,6 @@ La versatilidad es lo que hace a las fragancias cítricas una opción perfecta p
 [![Variantes de tarjetas de la fragancía Free spirit](/imgs/img-147.webp "Variantes de tarjetas de la fragancía Free spirit")](/imgs/img-147.webp)
 
   </div>
-  
   <div class="flex-item">
 
 El logo se basa en la libertad, la elegancia, el poder y el éxito. Por ello, hemos empleado un tono dorado sobre fondo verde, de tal forma que ese contraste hace que el perfume se vea moderno, glamuroso, impactante y muy atractivo. Esto se debe a que el color dorado siempre ha estado asociado al lujo, la riqueza, la belleza, la libertad, la luminosidad y la juventud; atributos con los que se identifica la marca.
