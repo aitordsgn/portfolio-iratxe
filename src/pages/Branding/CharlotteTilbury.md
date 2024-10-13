@@ -19,14 +19,14 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
 <img src="/imgs/img-77.webp" alt="Nuevo logo de Charlotte Tilbury sobre hojas verdes de Montsera" title="Nuevo logo de Charlotter Tilbury" loading="lazy" width="1920" height="1080"/>
 
 <div class="flex-container-start">
-  <div class="flex-item prose">
+  <div class="flex-item">
 
 **Producto:** maquillaje y cosmética natural de alta gama que busca adaptarse a las necesidades emergentes, por lo que quiere ser una marca respetuosa con el medio ambiente. Ofrece una gran variedad de productos de consumo diario, maquillaje de diversos tonos y una gama de artículos para el cuidado de la piel. Busca utilizar nuevos envases que sean más sostenibles e incorporar procesos naturales en sus artículos.
 
 **Público objetivo:** usuarios de cosméticos y maquillaje de lujo que están al tanto de las nuevas tendencias, que se preocupan por el origen y la calidad de los productos, y que buscan cosméticos de uso diario que potencien su belleza y seguridad. Cada vez tienen más en cuenta el cuidado del planeta y no dudan en invertir más para adquirir productos de marcas concienciadas con el medio ambiente.
 
   </div>
-  <div class="flex-item prose">
+  <div class="flex-item">
 
 **Misión:** ofrecer cosméticos de gran calidad, responsables y sostenibles para todo tipo de pieles, gracias a su formulación, elaboración, estética y acabados inigualables.
 
@@ -43,7 +43,7 @@ _La conocida marca de cosmética de alta gama está en plena transformación dig
   <div class="flex-item">
     <img src="/imgs/img-2.webp" loading="lazy" width="1663" height="2000" alt ="Transformación de logo de Charlotte Tilbury" title="Transformación de logo de Charlotte Tilbury"/>
   </div>
-  <div class="flex-item prose">
+  <div class="flex-item">
 
 La identidad visual está compuesta por el nombre de la marca y por un símbolo creado a partir de líneas finas, comunicando su propósito ambiental. Era fundamental que el nuevo logotipo mantuviera el aspecto radiante y sofisticado con el que siempre se ha identificado la marca. De este modo, los consumidores la reconocerán fácilmente y percibirán que Charlotte Tilbury no solo ofrece maquillaje de alta gama, sino que también se preocupa por el medio ambiente.
 

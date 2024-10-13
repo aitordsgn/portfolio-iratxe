@@ -24,7 +24,7 @@ _«Dirdira»: brillo, destello o resplandeciente en euskera._
 
 </div>
 <div class="flex-container-start">
-  <div class="flex-item prose">
+  <div class="flex-item">
    
    **Producto:** marca creada en Bilbao de maquillaje y cosmética _cruelty free_, que quiere evolucionar a la par que su público. Ofrece una gran variedad de productos de consumo diario, una línea de maquillaje llamativa, amplia diversidad de tonos y artículos para el cuidado de la piel.
 
@@ -33,7 +33,7 @@ _«Dirdira»: brillo, destello o resplandeciente en euskera._
 **Reason why:** todos los productos son de gran calidad, al ser elaborados con fórmulas naturales y sin testar en animales, por lo que la marca es respetuosa con la piel, las personas y el medio ambiente.
 
   </div>
-  <div class="flex-item prose">
+  <div class="flex-item">
 
 **Valores:** compromiso, confianza, cercanía, respeto, innovación, accesibilidad.
 

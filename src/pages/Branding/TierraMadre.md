@@ -118,7 +118,7 @@ Se han empelado el negro y el blanco como colores principales, así como la tipo
     </a>
   </div>
   <div class="grid-item">
-    <a href="/imgs/img-90.webp" data-pswp-width="2000" data-pswp-height="1125">
+    <a href="/imgs/img-90.webp" data-pswp-width="2000" data-pswp-height="2000">
       <img src="/imgs/img-90.webp" alt="Imagen 13"/>
     </a>
   </div>
