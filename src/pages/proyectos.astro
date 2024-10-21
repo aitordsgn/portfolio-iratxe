@@ -89,7 +89,7 @@ const Branding = [
     <Heading title="Proyectos"/>
     <h2>Branding</h2>
     <div class={`grid grid-cols-3 gap-2 mx-auto max-w-6xl pb-10 px-2`}>
-        {Branding.map((image, i: number) => (
+        {Branding.map((image) => (
           <a href={`/Branding/${image.link}`}
              class="relative rounded-xl overflow-hidden hover:scale-105 transition-transform aspect-square">
             <img 
@@ -135,6 +135,6 @@ const Branding = [
     </div>
 </two-up>
 
-<script type="module" src="https://unpkg.com/two-up-element"></script>
+<script type="module" src="https://unpkg.com/two-up-element" is:inline></script>
 
 </Layout>

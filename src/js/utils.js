@@ -57,26 +57,27 @@ export function formatBlogPosts(
 export const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Iratxe Conde Turon",
-  "jobTitle": "Publicista y Diseñadora Gráfica",
-  "url": "http://localhost:4321/",
-  "sameAs": [
+  name: "Iratxe Conde Turon",
+  jobTitle: "Publicista y Diseñadora Gráfica",
+  url: "http://localhost:4321/",
+  sameAs: [
     "https://www.linkedin.com/in/iratxeconde/",
     "https://www.instagram.com/iratxe_design/",
-    "https://x.com/iratxeconde07/"
+    "https://x.com/iratxeconde07/",
   ],
-  "image": "http://localhost:4321/Portafolio.webp",
-  "description": "Publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce mis proyectos y habilidades creativas.",
-  "worksFor": {
+  image: "http://localhost:4321/Portafolio.webp",
+  description:
+    "Publicista y diseñadora gráfica con experiencia en multimedia y branding. Conoce mis proyectos y habilidades creativas.",
+  worksFor: {
     "@type": "Organization",
-    "name": "Freelance"
+    name: "Freelance",
   },
-  "address": {
+  address: {
     "@type": "PostalAddress",
-    "addressLocality": "Bilbao",
-    "addressRegion": "Bizkaia",
-    "addressCountry": "España"
-  }
+    addressLocality: "Bilbao",
+    addressRegion: "Bizkaia",
+    addressCountry: "España",
+  },
 };
 
 export function sendMail(event) {
@@ -90,7 +91,8 @@ export function sendMail(event) {
     telefono: document.getElementById("telefono").value,
   };
 
-  emailjs.send("service_mgmiqb8", "template_3e73ttc", params)
+  emailjs
+    .send("service_mgmiqb8", "template_3e73ttc", params)
     .then(() => alert("Mensaje enviado correctamente"))
-    .catch(error => alert("Error al enviar el mensaje: " + error));
+    .catch((error) => alert("Error al enviar el mensaje: " + error));
 }

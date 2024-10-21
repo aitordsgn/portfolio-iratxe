@@ -2,8 +2,7 @@
 
 Todo el código fuente en este repositorio está licenciado bajo la Licencia MIT:
 
-MIT License
------------
+## MIT License
 
 Copyright (c) - 2024 - Aitor Rey Ortega
 
@@ -18,4 +17,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 A menos que se indique lo contrario, todas las imágenes, gráficos y recursos visuales presentes en este repositorio son propiedad de [Tu Nombre o el Nombre de tu Organización]. Todos los derechos reservados.
 
 No se concede permiso para copiar, distribuir, modificar o usar las imágenes, gráficos y recursos visuales en este repositorio sin el consentimiento expreso y por escrito del propietario.
-

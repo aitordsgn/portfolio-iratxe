@@ -96,4 +96,3 @@ Gracias a los colores corporativos, a la tipografía y a su símbolo, se ha logr
 <img src="/imgs/img-250.webp" alt="Versiones alternativas  de Charlotte Tilburry simplificado y empequeñecido. Versiones circulares en blanco y negro." title="Versiones alternativas  de Charlotte Tilburry simplificado y empequeñecido. Versiones circulares en blanco y negro." loading="lazy" width=2000 height=1125/>
 
 <img src="/imgs/img-22.webp" alt="Patron de hojas para packaging de Charlotte Tilbury." title="Patron de hojas para packaging de Charlotte Tilbury." loading="lazy" width=2000 height=1123/>
-

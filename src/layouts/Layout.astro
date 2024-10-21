@@ -4,7 +4,6 @@ import '@fontsource-variable/onest';
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 import SEO from "@/components/SEO.astro"
 import type { Preload } from "@/types/Preload"
@@ -43,7 +42,6 @@ const {
 
   <body class="bg-white min-h-screen">
     <Header />
-    <SpeedInsights/>
     <main>
       <slot />
     </main>
@@ -53,70 +51,70 @@ const {
 
 <style is:global>
   :root {
-    --primary-color: #876c9d;
+    --primary-color: #876c9d !important;
   }
   html {
-    font-family: 'Onest Variable', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #13151a;
-    background-size: 224px;
+    font-family: 'Onest Variable', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    background: #13151a !important;
+    background-size: 224px !important;
   }
 
   p {
-    color: #303030;
-    line-height: 1.4;
-    margin-bottom: 2em;
-    font-weight: medium;
-    font-size: 1rem;
+    color: #303030 !important;
+    line-height: 1.4 !important;
+    margin-bottom: 1rem !important;
+    font-weight: medium !important;
+    font-size: 1rem !important;
   }
 
   h2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    text-align: center;
-    position: relative;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    font-weight: bold !important;
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+    text-align: center !important;
+    position: relative !important;
     color: var(--primary-color);
   }
   @media (max-width: 768px) {
   h2 {
-    font-size: 1.75rem; /* Tamaño de fuente para dispositivos móviles */
-    line-height: 2rem;
+    font-size: 1.75rem !important; /* Tamaño de fuente para dispositivos móviles */
+    line-height: 2rem !important;
   }
 }
 @media (max-width: 480px) {
   h2 {
-    font-size: 1.5rem; /* Tamaño de fuente para pantallas aún más pequeñas */
-    line-height: 1.75rem;
+    font-size: 1.5rem !important; /* Tamaño de fuente para pantallas aún más pequeñas */
+    line-height: 1.75rem !important;
   }
 }
   
 body {
-  --sb-track-color: #232e33;
-  --sb-thumb-color: #876c9d;
-  --sb-size: 10px;
+  --sb-track-color: #232e33 !important;
+  --sb-thumb-color: #876c9d !important;
+  --sb-size: 10px !important;
 }
 
 body::-webkit-scrollbar {
-  width: var(--sb-size)
+  width: var(--sb-size) !important;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
-  border-radius: 3px;
+  background: var(--sb-track-color) !important;
+  border-radius: 3px !important;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
-  border-radius: 3px;
+  background: var(--sb-thumb-color) !important;
+  border-radius: 3px !important;
   
 }
 
 @supports not selector(::-webkit-scrollbar) {
   body {
     scrollbar-color: var(--sb-thumb-color)
-                     var(--sb-track-color);
+                     var(--sb-track-color) !important;
   }
 }
 </style>

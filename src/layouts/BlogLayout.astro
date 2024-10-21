@@ -33,7 +33,7 @@ const relatedPosts = formattedPosts
     <Heading title={titulo} />
   </header>
   
-  <div class="post-content max-w-5xl mx-auto w-[90%]">
+  <div class="max-w-5xl mx-auto w-[90%]">
     <div class="content flex gap-b-1 flex-col min-h-screen">
       <slot />
     </div>
@@ -200,9 +200,14 @@ const relatedPosts = formattedPosts
     position: relative;
   }
   
+  p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin:10px;
+  }
   </style>
   
-<script>
+<script is:inline>
   import PhotoSwipeLightbox from 'photoswipe/lightbox';
 
   const lightbox = new PhotoSwipeLightbox({

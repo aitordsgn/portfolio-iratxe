@@ -1,15 +1,11 @@
-
 # Iratxe Conde Turon - Portfolio
 
 Este es un proyecto de página web para el portafolio personal de **Iratxe Conde Turon**. El objetivo de este proyecto es proporcionar una plataforma donde Iratxe pueda mostrar sus trabajos, habilidades y experiencia de una manera atractiva y fácil de navegar.
-
-
 
 ## Características principales
 
 - **Presentación de proyectos:** Presentación de los proyectos mas importantes que ha creado y en los que ha formado parte Iratxe.
 - **Información adicional:** Información adicional sobre la experiencía de la que dispone y los estudios que ha realizado Iratxe.
-
 
 ### Capturas de pantalla de la web de La Velada IV
 
@@ -17,8 +13,6 @@ Este es un proyecto de página web para el portafolio personal de **Iratxe Conde
 ![Captura de pantalla en móvil](https://github.com/aitordsgn/portfolio-iratxe/blob/88b38d994f623ab48683019ccdd4c743200f8843/public/Readme2.jpg)
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
-
-
 
 <details>
 <summary>Tabla de contenidos</summary>
@@ -36,7 +30,6 @@ Este es un proyecto de página web para el portafolio personal de **Iratxe Conde
 </details>
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
-
 
 ## Contribuir al proyecto
 
@@ -134,7 +127,7 @@ Por favor, consulta nuestra [guía de contribución](https://github.com/aitordsg
    ```
 
 3. Ejecuta el proyecto
-	 - Base de datos remota (necesario linkear con proyecto de Astro Studio)
+   - Base de datos remota (necesario linkear con proyecto de Astro Studio)
    ```sh
    pnpm run dev
    ```
@@ -142,7 +135,7 @@ Por favor, consulta nuestra [guía de contribución](https://github.com/aitordsg
    ```sh
    pnpm run start
    ```
-   
+
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
 ## Autores
@@ -151,7 +144,6 @@ Por favor, consulta nuestra [guía de contribución](https://github.com/aitordsg
 - [Iratxeconde](https://www.linkedin.com/in/iratxeconde/)
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
-
 
 ## 🛠️ Stack
 
